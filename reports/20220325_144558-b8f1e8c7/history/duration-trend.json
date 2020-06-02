@@ -1,0 +1,11 @@
+[ {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220325_144558-b8f1e8c7/",
+  "data" : {
+    "duration" : 7571000
+  }
+}, {
+  "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9/",
+  "data" : {
+    "duration" : 9318000
+  }
+} ]

@@ -1,0 +1,80 @@
+{
+  "uid" : "eaca216c8fd48d80",
+  "name" : "QA 1260",
+  "fullName" : "QA #1260 on fedora35-container",
+  "historyId" : "1260@fedora35-container",
+  "time" : {
+    "start" : 1648151024000,
+    "stop" : 1648151025000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 1260\n\nexercise pm{Get,Set}DerivedControl()\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1260</p>\n<p>exercise pm{Get,Set}DerivedControl()</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "derive"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/1260",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/1260.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6955e2f394871c8e",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/6955e2f394871c8e",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648151024000,
+          "stop" : 1648151025000,
+          "duration" : 1000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "eaca216c8fd48d80.json",
+  "parameterValues" : [ ]
+}

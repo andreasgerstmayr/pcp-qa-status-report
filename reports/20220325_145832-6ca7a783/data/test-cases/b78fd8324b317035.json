@@ -1,0 +1,84 @@
+{
+  "uid" : "b78fd8324b317035",
+  "name" : "QA 1352",
+  "fullName" : "QA #1352 on fedora35-container",
+  "historyId" : "1352@fedora35-container",
+  "time" : {
+    "start" : 1648151380000,
+    "stop" : 1648151380000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1346\n\ndpkg packaging botches for old conffiles\n\n\n\nCopyright (c) 2021 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1346</p>\n<p>dpkg packaging botches for old conffiles</p>\n<p>Copyright (c) 2021 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "no dpkg, probably not even Debian",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "other"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/6ca7a783aeaa1503c39f994568d8a0c6d5a0e57a/qa/1352",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/6ca7a783aeaa1503c39f994568d8a0c6d5a0e57a/qa/1352.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3cdd4ef50288b39d",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/3cdd4ef50288b39d",
+        "status" : "skipped",
+        "statusDetails" : "no dpkg, probably not even Debian",
+        "time" : {
+          "start" : 1648151380000,
+          "stop" : 1648151380000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b78fd8324b317035.json",
+  "parameterValues" : [ ]
+}

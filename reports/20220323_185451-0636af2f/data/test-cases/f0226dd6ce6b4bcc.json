@@ -1,0 +1,142 @@
+{
+  "uid" : "f0226dd6ce6b4bcc",
+  "name" : "QA 915",
+  "fullName" : "QA #915 on fedora35-container",
+  "historyId" : "915@fedora35-container",
+  "time" : {
+    "start" : 1647976569000,
+    "stop" : 1647976577000,
+    "duration" : 8000
+  },
+  "description" : "PCP QA Test No. 915\n\nTest local daemon access override settings in PCP_SYSCONFIG_DIR\n\n\n\nCopyright (c) 2015 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 915</p>\n<p>Test local daemon access override settings in PCP_SYSCONFIG_DIR</p>\n<p>Copyright (c) 2015 Red Hat.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmcd"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogger"
+  }, {
+    "name" : "epic",
+    "value" : "pmproxy"
+  }, {
+    "name" : "epic",
+    "value" : "libpcp"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmlc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/915",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/915.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "d03833a0237d6bf2",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/d03833a0237d6bf2",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976569000,
+          "stop" : 1647976577000,
+          "duration" : 8000
+        }
+      }, {
+        "uid" : "3cf46d6897c23d85",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/3cf46d6897c23d85",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976569000,
+          "stop" : 1647976577000,
+          "duration" : 8000
+        }
+      }, {
+        "uid" : "e07f45a6c414251",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/e07f45a6c414251",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976569000,
+          "stop" : 1647976577000,
+          "duration" : 8000
+        }
+      }, {
+        "uid" : "5165868243f3811d",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/5165868243f3811d",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976569000,
+          "stop" : 1647976577000,
+          "duration" : 8000
+        }
+      }, {
+        "uid" : "7f161decdc61193f",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/7f161decdc61193f",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976569000,
+          "stop" : 1647976577000,
+          "duration" : 8000
+        }
+      }, {
+        "uid" : "c751ea17f927fe3",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/c751ea17f927fe3",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976569000,
+          "stop" : 1647976577000,
+          "duration" : 8000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f0226dd6ce6b4bcc.json",
+  "parameterValues" : [ ]
+}

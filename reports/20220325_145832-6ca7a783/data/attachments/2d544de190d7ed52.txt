@@ -1,0 +1,25 @@
+QA output created by 1748
+General options (default)
+=== std out
+=== std err
+pcp-atop: Cannot open archive "/var/lib/pcp/testsuite/archives/pcp-atop-threads": Corrupted record in a PCP archive log
+=== done
+
+Disk option
+=== std out
+=== std err
+pcp-atop: Cannot open archive "/var/lib/pcp/testsuite/archives/pcp-atop-threads": Corrupted record in a PCP archive log
+=== done
+
+Memory option
+=== std out
+=== std err
+pcp-atop: Cannot open archive "/var/lib/pcp/testsuite/archives/pcp-atop-threads": Corrupted record in a PCP archive log
+=== done
+
+Threads option
+=== std out
+=== std err
+pcp-atop: Cannot open archive "/var/lib/pcp/testsuite/archives/pcp-atop-threads": Corrupted record in a PCP archive log
+=== done
+

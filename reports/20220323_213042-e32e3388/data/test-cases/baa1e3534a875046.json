@@ -1,0 +1,164 @@
+{
+  "uid" : "baa1e3534a875046",
+  "name" : "QA 117",
+  "fullName" : "QA #117 on fedora35-container",
+  "historyId" : "117@fedora35-container",
+  "time" : {
+    "start" : 1648058676000,
+    "stop" : 1648058676000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 117\n\nVerify network.ip statistics (Non-linux version, see 216 for Linux version)\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 117</p>\n<p>Verify network.ip statistics (Non-linux version, see 216 for Linux version)</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "network.ip checks for linux done in test 216",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/e32e3388f92d2db24e3cd601f92387be776eca40/qa/117",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/e32e3388f92d2db24e3cd601f92387be776eca40/qa/117.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 10,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "a8b43ee3ae809ebd",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_200426-618c7738//#testresult/a8b43ee3ae809ebd",
+        "status" : "skipped",
+        "statusDetails" : "network.ip checks for linux done in test 216",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b396ba4523d07cc1",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_195910-18d6ad8b//#testresult/b396ba4523d07cc1",
+        "status" : "skipped",
+        "statusDetails" : "network.ip checks for linux done in test 216",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "69b57d61ce0c5b2c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/69b57d61ce0c5b2c",
+        "status" : "skipped",
+        "statusDetails" : "network.ip checks for linux done in test 216",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c4b6bd1d660ce2ce",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/c4b6bd1d660ce2ce",
+        "status" : "skipped",
+        "statusDetails" : "network.ip checks for linux done in test 216",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d4b1d55f00026ee2",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/d4b1d55f00026ee2",
+        "status" : "skipped",
+        "statusDetails" : "network.ip checks for linux done in test 216",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ec7d0bb5e55c45a8",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/ec7d0bb5e55c45a8",
+        "status" : "skipped",
+        "statusDetails" : "network.ip checks for linux done in test 216",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "22b41cd53f339577",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/22b41cd53f339577",
+        "status" : "skipped",
+        "statusDetails" : "network.ip checks for linux done in test 216",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "84c0296371e4000a",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/84c0296371e4000a",
+        "status" : "skipped",
+        "statusDetails" : "network.ip checks for linux done in test 216",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bcc09d59480bad1a",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/bcc09d59480bad1a",
+        "status" : "skipped",
+        "statusDetails" : "network.ip checks for linux done in test 216",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "baa1e3534a875046.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,43 @@
+[ {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f/",
+  "data" : {
+    "run" : 1418,
+    "retry" : 0
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f/",
+  "data" : {
+    "run" : 1418,
+    "retry" : 0
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0/",
+  "data" : {
+    "run" : 1418,
+    "retry" : 0
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123/",
+  "data" : {
+    "run" : 1418,
+    "retry" : 0
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf/",
+  "data" : {
+    "run" : 1418,
+    "retry" : 0
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449/",
+  "data" : {
+    "run" : 1418,
+    "retry" : 0
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc/",
+  "data" : {
+    "run" : 1418,
+    "retry" : 0
+  }
+} ]

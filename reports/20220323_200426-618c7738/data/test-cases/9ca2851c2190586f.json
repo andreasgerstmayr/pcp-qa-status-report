@@ -1,0 +1,156 @@
+{
+  "uid" : "9ca2851c2190586f",
+  "name" : "QA 127",
+  "fullName" : "QA #127 on fedora35-container",
+  "historyId" : "127@fedora35-container",
+  "time" : {
+    "start" : 1647972479000,
+    "stop" : 1647972479000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 127\n\npmlogreduce basic metadata sanity\n\n\n\nCopyright (c) 2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 127</p>\n<p>pmlogreduce basic metadata sanity</p>\n<p>Copyright (c) 2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogreduce"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "sanity"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/618c773817aa233e30a53972096939d62aa00735/qa/127",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/618c773817aa233e30a53972096939d62aa00735/qa/127.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "1c077815246098dd",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_195910-18d6ad8b//#testresult/1c077815246098dd",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972479000,
+          "stop" : 1647972479000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "73b32088764066c4",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/73b32088764066c4",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972479000,
+          "stop" : 1647972479000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a7a355b046ee7361",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/a7a355b046ee7361",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972479000,
+          "stop" : 1647972479000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "40eeeae7f6034425",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/40eeeae7f6034425",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972479000,
+          "stop" : 1647972479000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7e0436f6f6e76d20",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/7e0436f6f6e76d20",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972479000,
+          "stop" : 1647972479000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "920bef51d57ff113",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/920bef51d57ff113",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972479000,
+          "stop" : 1647972479000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9004ccfb3431dafb",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/9004ccfb3431dafb",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972479000,
+          "stop" : 1647972479000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cf536a9bf994194",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/cf536a9bf994194",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972479000,
+          "stop" : 1647972479000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9ca2851c2190586f.json",
+  "parameterValues" : [ ]
+}

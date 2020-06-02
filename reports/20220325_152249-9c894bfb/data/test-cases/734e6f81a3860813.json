@@ -1,0 +1,80 @@
+{
+  "uid" : "734e6f81a3860813",
+  "name" : "QA 1268",
+  "fullName" : "QA #1268 on fedora35-container",
+  "historyId" : "1268@fedora35-container",
+  "time" : {
+    "start" : 1648151032000,
+    "stop" : 1648151032000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1268\n\nper-context derived metrics and metric name masking test\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1268</p>\n<p>per-context derived metrics and metric name masking test</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "derive"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/9c894bfb47d865f478f64268e923375831fc59a9/qa/1268",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/9c894bfb47d865f478f64268e923375831fc59a9/qa/1268.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e99c98e865528d",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/e99c98e865528d",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648151032000,
+          "stop" : 1648151032000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "734e6f81a3860813.json",
+  "parameterValues" : [ ]
+}

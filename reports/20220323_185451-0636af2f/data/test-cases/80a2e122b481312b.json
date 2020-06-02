@@ -1,0 +1,130 @@
+{
+  "uid" : "80a2e122b481312b",
+  "name" : "QA 439",
+  "fullName" : "QA #439 on fedora35-container",
+  "historyId" : "439@fedora35-container",
+  "time" : {
+    "start" : 1647974274000,
+    "stop" : 1647974284000,
+    "duration" : 10000
+  },
+  "description" : "PCP QA Test No. 439\n\nAdditional coverage for __pmConnectLogger\n\n\n\nCopyright (c) 2011 Ken McDonell.  All Rights Reserved.\n\n\n\ncheck-group-include: pmlc\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 439</p>\n<p>Additional coverage for __pmConnectLogger</p>\n<p>Copyright (c) 2011 Ken McDonell.  All Rights Reserved.</p>\n<p>check-group-include: pmlc</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlc"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/439",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/439.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "dcb2366399f4fdce",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/dcb2366399f4fdce",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974274000,
+          "stop" : 1647974284000,
+          "duration" : 10000
+        }
+      }, {
+        "uid" : "7e0534dfccb0c73f",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/7e0534dfccb0c73f",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974274000,
+          "stop" : 1647974284000,
+          "duration" : 10000
+        }
+      }, {
+        "uid" : "62d68f51b329e69a",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/62d68f51b329e69a",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974274000,
+          "stop" : 1647974284000,
+          "duration" : 10000
+        }
+      }, {
+        "uid" : "a83e11c389810a8b",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/a83e11c389810a8b",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974274000,
+          "stop" : 1647974284000,
+          "duration" : 10000
+        }
+      }, {
+        "uid" : "a8b82866666cf32a",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/a8b82866666cf32a",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974274000,
+          "stop" : 1647974284000,
+          "duration" : 10000
+        }
+      }, {
+        "uid" : "9c24198e03ca588",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/9c24198e03ca588",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974274000,
+          "stop" : 1647974284000,
+          "duration" : 10000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "80a2e122b481312b.json",
+  "parameterValues" : [ ]
+}

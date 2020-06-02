@@ -1,0 +1,84 @@
+{
+  "uid" : "55595a29d1fcd167",
+  "name" : "QA 1532",
+  "fullName" : "QA #1532 on fedora35-container",
+  "historyId" : "1532@fedora35-container",
+  "time" : {
+    "start" : 1648151667000,
+    "stop" : 1648151667000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1532\n\nTest Linux ZFS PMDA against a live ZFS pool - part A (older stats files)\n\nSee also qa/1309 for part B\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1532</p>\n<p>Test Linux ZFS PMDA against a live ZFS pool - part A (older stats files)</p>\n<p>See also qa/1309 for part B</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "ZFS filesystem unsupported by the running kernel",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.zfs"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/6ca7a783aeaa1503c39f994568d8a0c6d5a0e57a/qa/1532",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/6ca7a783aeaa1503c39f994568d8a0c6d5a0e57a/qa/1532.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "21f19754fb252975",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/21f19754fb252975",
+        "status" : "skipped",
+        "statusDetails" : "ZFS filesystem unsupported by the running kernel",
+        "time" : {
+          "start" : 1648151667000,
+          "stop" : 1648151667000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "55595a29d1fcd167.json",
+  "parameterValues" : [ ]
+}

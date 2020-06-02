@@ -1,0 +1,87 @@
+{
+  "uid" : "82c2e4d88695da8d",
+  "name" : "QA 1035",
+  "fullName" : "QA #1035 on fedora35-container",
+  "historyId" : "1035@fedora35-container",
+  "time" : {
+    "start" : 1647976927000,
+    "stop" : 1647976927000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1035\n\nExercise the Oracle PMDA, verifying values from an installation.\n\n\n\nCopyright (c) 2016 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1035</p>\n<p>Exercise the Oracle PMDA, verifying values from an installation.</p>\n<p>Copyright (c) 2016 Red Hat.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Oracle PMDA not configured",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.oracle"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmstore"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fe6154496663a46a1c02376aee18f278151277c0/qa/1035",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fe6154496663a46a1c02376aee18f278151277c0/qa/1035.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "102b0b74582c034a",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/102b0b74582c034a",
+        "status" : "skipped",
+        "statusDetails" : "Oracle PMDA not configured",
+        "time" : {
+          "start" : 1647976927000,
+          "stop" : 1647976927000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "82c2e4d88695da8d.json",
+  "parameterValues" : [ ]
+}

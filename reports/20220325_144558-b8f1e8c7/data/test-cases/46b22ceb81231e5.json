@@ -1,0 +1,83 @@
+{
+  "uid" : "46b22ceb81231e5",
+  "name" : "QA 1544",
+  "fullName" : "QA #1544 on fedora35-container",
+  "historyId" : "1544@fedora35-container",
+  "time" : {
+    "start" : 1648151678000,
+    "stop" : 1648151685000,
+    "duration" : 7000
+  },
+  "description" : "PCP QA Test No. 1544\n\nExercise pmproxy per-context state\n\n\n\nCopyright (c) 2019 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1544</p>\n<p>Exercise pmproxy per-context state</p>\n<p>Copyright (c) 2019 Red Hat.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmproxy"
+  }, {
+    "name" : "epic",
+    "value" : "python"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/b8f1e8c7c73c98f620ab340bb4d20435fd9589df/qa/1544",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/b8f1e8c7c73c98f620ab340bb4d20435fd9589df/qa/1544.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f1026ba4dade35d",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/f1026ba4dade35d",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648151678000,
+          "stop" : 1648151685000,
+          "duration" : 7000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "46b22ceb81231e5.json",
+  "parameterValues" : [ ]
+}

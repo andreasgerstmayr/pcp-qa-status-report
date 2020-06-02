@@ -1,0 +1,89 @@
+{
+  "uid" : "160681f605f4f215",
+  "name" : "QA 193",
+  "fullName" : "QA #193 on fedora35-container",
+  "historyId" : "193@fedora35-container",
+  "time" : {
+    "start" : 1648059102000,
+    "stop" : 1648059110000,
+    "duration" : 8000
+  },
+  "description" : "PCP QA Test No. 193\n\nbogus pdus attacking pmcd causing core dump or looping pmcd\n\npv 935490\n\n\n\nCopyright (c) 2005 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 193</p>\n<p>bogus pdus attacking pmcd causing core dump or looping pmcd</p>\n<p>pv 935490</p>\n<p>Copyright (c) 2005 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "libpcp"
+  }, {
+    "name" : "epic",
+    "value" : "pmcd"
+  }, {
+    "name" : "epic",
+    "value" : "#935490"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pdu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/d09dce6c2e17b68f04eb8474603c05c7c9613065/qa/193",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/d09dce6c2e17b68f04eb8474603c05c7c9613065/qa/193.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "95437e72074c0c4c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_213535-fbe3976a//#testresult/95437e72074c0c4c",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648059102000,
+          "stop" : 1648059110000,
+          "duration" : 8000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "160681f605f4f215.json",
+  "parameterValues" : [ ]
+}

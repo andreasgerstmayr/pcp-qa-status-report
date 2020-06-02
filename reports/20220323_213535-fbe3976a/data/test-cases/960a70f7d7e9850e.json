@@ -1,0 +1,59 @@
+{
+  "uid" : "960a70f7d7e9850e",
+  "name" : "QA 1763",
+  "fullName" : "QA #1763 on fedora35-container",
+  "historyId" : "1763@fedora35-container",
+  "time" : {
+    "start" : 1648065732000,
+    "stop" : 1648065736000,
+    "duration" : 4000
+  },
+  "description" : "PCP QA Test No. 1763\n\npmlogctl - LOCALHOSTNAME vs hostname confusion\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1763</p>\n<p>pmlogctl - LOCALHOSTNAME vs hostname confusion</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogctl"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/1763",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/1763.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "960a70f7d7e9850e.json",
+  "parameterValues" : [ ]
+}

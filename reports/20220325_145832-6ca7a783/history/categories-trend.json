@@ -1,0 +1,13 @@
+[ {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220325_145832-6ca7a783/",
+  "data" : {
+    "Failed tests" : 4,
+    "Skipped tests" : 120
+  }
+}, {
+  "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9/",
+  "data" : {
+    "Failed tests" : 47,
+    "Skipped tests" : 1854
+  }
+} ]

@@ -1,0 +1,83 @@
+{
+  "uid" : "f082722245cee857",
+  "name" : "QA 949",
+  "fullName" : "QA #949 on fedora35-container",
+  "historyId" : "949@fedora35-container",
+  "time" : {
+    "start" : 1647976734000,
+    "stop" : 1647976734000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 949\n\nExercise bug in creating timespec objects via pmapi.py.\n\n\n\nCopyright (c) 2016 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 949</p>\n<p>Exercise bug in creating timespec objects via pmapi.py.</p>\n<p>Copyright (c) 2016 Red Hat.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "python"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "timezone"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fe6154496663a46a1c02376aee18f278151277c0/qa/949",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fe6154496663a46a1c02376aee18f278151277c0/qa/949.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f32071adfa3bd405",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/f32071adfa3bd405",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976734000,
+          "stop" : 1647976734000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f082722245cee857.json",
+  "parameterValues" : [ ]
+}

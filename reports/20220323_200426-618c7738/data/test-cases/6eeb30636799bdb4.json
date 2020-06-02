@@ -1,0 +1,157 @@
+{
+  "uid" : "6eeb30636799bdb4",
+  "name" : "QA 1360",
+  "fullName" : "QA #1360 on fedora35-container",
+  "historyId" : "1360@fedora35-container",
+  "time" : {
+    "start" : 1647978273000,
+    "stop" : 1647978273000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1360\n\nbased on qa/1696 pmproxy REST API load testing ...\n\npmproxy should start w/out valgrind issues when it refuses to\n\nconnect to older versions of Redis\n\n\n\nCopyright (c) 2019 Red Hat.\n\nCopyright (c) 2021 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1360</p>\n<p>based on qa/1696 pmproxy REST API load testing ...</p>\n<p>pmproxy should start w/out valgrind issues when it refuses to</p>\n<p>connect to older versions of Redis</p>\n<p>Copyright (c) 2019 Red Hat.</p>\n<p>Copyright (c) 2021 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Redis version 6 not old enough",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmproxy"
+  }, {
+    "name" : "epic",
+    "value" : "valgrind"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/618c773817aa233e30a53972096939d62aa00735/qa/1360",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/618c773817aa233e30a53972096939d62aa00735/qa/1360.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 9,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "4be1b40039cd337f",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_195910-18d6ad8b//#testresult/4be1b40039cd337f",
+        "status" : "skipped",
+        "statusDetails" : "Redis version 6 not old enough",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e4141cf040ff5908",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/e4141cf040ff5908",
+        "status" : "skipped",
+        "statusDetails" : "Redis version 6 not old enough",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "224c918a1d194973",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/224c918a1d194973",
+        "status" : "skipped",
+        "statusDetails" : "Redis version 6 not old enough",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "70b1670dbbf778fb",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/70b1670dbbf778fb",
+        "status" : "skipped",
+        "statusDetails" : "Redis version 6 not old enough",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e6f36d84a2a2e0d5",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/e6f36d84a2a2e0d5",
+        "status" : "skipped",
+        "statusDetails" : "Redis version 6 not old enough",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9251ad1fd71b1294",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/9251ad1fd71b1294",
+        "status" : "skipped",
+        "statusDetails" : "Redis version 6 not old enough",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a5ff19296a0663fd",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/a5ff19296a0663fd",
+        "status" : "skipped",
+        "statusDetails" : "Redis version 6 not old enough",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "515163763003445",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/515163763003445",
+        "status" : "skipped",
+        "statusDetails" : "Redis version 6 not old enough",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6eeb30636799bdb4.json",
+  "parameterValues" : [ ]
+}

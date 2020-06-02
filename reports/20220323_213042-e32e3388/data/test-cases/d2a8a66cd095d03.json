@@ -1,0 +1,164 @@
+{
+  "uid" : "d2a8a66cd095d03",
+  "name" : "QA 130",
+  "fullName" : "QA #130 on fedora35-container",
+  "historyId" : "130@fedora35-container",
+  "time" : {
+    "start" : 1648058716000,
+    "stop" : 1648058716000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 130\n\nCompare rpc.server metrics with what nfsstat reports\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 130</p>\n<p>Compare rpc.server metrics with what nfsstat reports</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/e32e3388f92d2db24e3cd601f92387be776eca40/qa/130",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/e32e3388f92d2db24e3cd601f92387be776eca40/qa/130.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 10,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "942b4387612b23e1",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_200426-618c7738//#testresult/942b4387612b23e1",
+        "status" : "skipped",
+        "statusDetails" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+        "time" : {
+          "start" : 1647972485000,
+          "stop" : 1647972485000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b4f83e72e3525c24",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_195910-18d6ad8b//#testresult/b4f83e72e3525c24",
+        "status" : "skipped",
+        "statusDetails" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+        "time" : {
+          "start" : 1647972485000,
+          "stop" : 1647972485000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b9d54d75f0694bcf",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/b9d54d75f0694bcf",
+        "status" : "skipped",
+        "statusDetails" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+        "time" : {
+          "start" : 1647972485000,
+          "stop" : 1647972485000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "602bd2e7f2011d1c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/602bd2e7f2011d1c",
+        "status" : "skipped",
+        "statusDetails" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+        "time" : {
+          "start" : 1647972485000,
+          "stop" : 1647972485000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "20083b5681c76f6",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/20083b5681c76f6",
+        "status" : "skipped",
+        "statusDetails" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+        "time" : {
+          "start" : 1647972485000,
+          "stop" : 1647972485000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "71da186451df0ed4",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/71da186451df0ed4",
+        "status" : "skipped",
+        "statusDetails" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+        "time" : {
+          "start" : 1647972485000,
+          "stop" : 1647972485000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2e40cf9313f5d6fe",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/2e40cf9313f5d6fe",
+        "status" : "skipped",
+        "statusDetails" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+        "time" : {
+          "start" : 1647972485000,
+          "stop" : 1647972485000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "46e45f01b6926681",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/46e45f01b6926681",
+        "status" : "skipped",
+        "statusDetails" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+        "time" : {
+          "start" : 1647972485000,
+          "stop" : 1647972485000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ff903fa4540eb8ea",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/ff903fa4540eb8ea",
+        "status" : "skipped",
+        "statusDetails" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+        "time" : {
+          "start" : 1647972485000,
+          "stop" : 1647972485000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d2a8a66cd095d03.json",
+  "parameterValues" : [ ]
+}

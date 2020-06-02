@@ -1,0 +1,80 @@
+{
+  "uid" : "32a8f07dab6f8848",
+  "name" : "QA 1272",
+  "fullName" : "QA #1272 on fedora35-container",
+  "historyId" : "1272@fedora35-container",
+  "time" : {
+    "start" : 1648151033000,
+    "stop" : 1648151034000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 1272\n\npmlogmv with egrep and sh meta chars in file names\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1272</p>\n<p>pmlogmv with egrep and sh meta chars in file names</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogmv"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/9c894bfb47d865f478f64268e923375831fc59a9/qa/1272",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/9c894bfb47d865f478f64268e923375831fc59a9/qa/1272.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8f9d0232c1f9dba6",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/8f9d0232c1f9dba6",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648151033000,
+          "stop" : 1648151034000,
+          "duration" : 1000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "32a8f07dab6f8848.json",
+  "parameterValues" : [ ]
+}

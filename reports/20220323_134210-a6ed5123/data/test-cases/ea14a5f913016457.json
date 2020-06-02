@@ -1,0 +1,106 @@
+{
+  "uid" : "ea14a5f913016457",
+  "name" : "QA 527",
+  "fullName" : "QA #527 on fedora35-container",
+  "historyId" : "527@fedora35-container",
+  "time" : {
+    "start" : 1647974704000,
+    "stop" : 1647974705000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 527\n\nCheck that timestamps are monotonic increasing for archives\n\ncreated by libpcp_import.  Based on\n\nhttps://bugzilla.redhat.com/show_bug.cgi?id=958745\n\n\n\nCopyright (c) 2013 Red Hat, Inc. and Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 527</p>\n<p>Check that timestamps are monotonic increasing for archives</p>\n<p>created by libpcp_import.  Based on</p>\n<p>https://bugzilla.redhat.com/show_bug.cgi?id=958745</p>\n<p>Copyright (c) 2013 Red Hat, Inc. and Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "libpcp_import"
+  }, {
+    "name" : "epic",
+    "value" : "perl"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "timezone"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/a6ed51230998aacefb4efefbd857d3e63495b290/qa/527",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/a6ed51230998aacefb4efefbd857d3e63495b290/qa/527.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f55caf3a0ca7f69c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/f55caf3a0ca7f69c",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974704000,
+          "stop" : 1647974705000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "fd3096e2d57e3eda",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/fd3096e2d57e3eda",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974704000,
+          "stop" : 1647974705000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "2f366619f82143d5",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/2f366619f82143d5",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974704000,
+          "stop" : 1647974705000,
+          "duration" : 1000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ea14a5f913016457.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "2798326467c0e58b",
+  "name" : "QA 455",
+  "fullName" : "QA #455 on fedora35-container",
+  "historyId" : "455@fedora35-container",
+  "time" : {
+    "start" : 1648147544000,
+    "stop" : 1648147562000,
+    "duration" : 18000
+  },
+  "description" : "PCP QA Test No. 455\n\nSanity checks for rsyslog pmda\n\n\n\nCopyright (c) 2011 Aconex.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 455</p>\n<p>Sanity checks for rsyslog pmda</p>\n<p>Copyright (c) 2011 Aconex.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : true,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.rsyslog"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "flakey"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.install"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/b8f1e8c7c73c98f620ab340bb4d20435fd9589df/qa/455",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/b8f1e8c7c73c98f620ab340bb4d20435fd9589df/qa/455.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8063a03fd444094",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/8063a03fd444094",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648147544000,
+          "stop" : 1648147562000,
+          "duration" : 18000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2798326467c0e58b.json",
+  "parameterValues" : [ ]
+}

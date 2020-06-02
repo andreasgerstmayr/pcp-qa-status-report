@@ -1,0 +1,62 @@
+{
+  "uid" : "a3bab5baf4915771",
+  "name" : "QA 1244",
+  "fullName" : "QA #1244 on fedora35-container",
+  "historyId" : "1244@fedora35-container",
+  "time" : {
+    "start" : 1648064257000,
+    "stop" : 1648064257000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1244\n\npmlogextract emits TI records every 100,000 bytes of output?\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1244</p>\n<p>pmlogextract emits TI records every 100,000 bytes of output?</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogextract"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/1244",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/1244.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3bab5baf4915771.json",
+  "parameterValues" : [ ]
+}

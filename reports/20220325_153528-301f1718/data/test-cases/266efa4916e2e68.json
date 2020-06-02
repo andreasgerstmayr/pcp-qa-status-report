@@ -1,0 +1,80 @@
+{
+  "uid" : "266efa4916e2e68",
+  "name" : "QA 775",
+  "fullName" : "QA #775 on fedora35-container",
+  "historyId" : "775@fedora35-container",
+  "time" : {
+    "start" : 1648149149000,
+    "stop" : 1648149159000,
+    "duration" : 10000
+  },
+  "description" : "PCP QA Test No. 775\n\nTest using pmfind to discover pmcd servers with the avahi\n\nservice discovery mechanism (at least) available.\n\n\n\nCopyright (c) 2014 Red Hat.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 775</p>\n<p>Test using pmfind to discover pmcd servers with the avahi</p>\n<p>service discovery mechanism (at least) available.</p>\n<p>Copyright (c) 2014 Red Hat.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmfind"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/775",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/775.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "56c06444c4491843",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/56c06444c4491843",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648149149000,
+          "stop" : 1648149159000,
+          "duration" : 10000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "266efa4916e2e68.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "f12211dae9e2fac9",
+  "name" : "QA 968",
+  "fullName" : "QA #968 on fedora35-container",
+  "historyId" : "968@fedora35-container",
+  "time" : {
+    "start" : 1648063231000,
+    "stop" : 1648063231000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 968\n\nExercise several corner cases in the Python PMAPI wrappers.\n\n\n\nCopyright (c) 2015,2017 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 968</p>\n<p>Exercise several corner cases in the Python PMAPI wrappers.</p>\n<p>Copyright (c) 2015,2017 Red Hat.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "python"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "derive"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/968",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/968.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f12211dae9e2fac9.json",
+  "parameterValues" : [ ]
+}

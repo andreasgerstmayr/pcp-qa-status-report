@@ -1,0 +1,157 @@
+{
+  "uid" : "5a5ad1809346dd18",
+  "name" : "QA 1067",
+  "fullName" : "QA #1067 on fedora35-container",
+  "historyId" : "1067@fedora35-container",
+  "time" : {
+    "start" : 1647976992000,
+    "stop" : 1647976992000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1067\n\nExercise the zbxpcp Zabbix integration module.\n\n\n\nCopyright (c) 2015 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1067</p>\n<p>Exercise the zbxpcp Zabbix integration module.</p>\n<p>Copyright (c) 2015 Red Hat.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "No configuration for the Zabbix agent daemon",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "zbxpcp"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/618c773817aa233e30a53972096939d62aa00735/qa/1067",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/618c773817aa233e30a53972096939d62aa00735/qa/1067.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 9,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "174c489d4bab1384",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_195910-18d6ad8b//#testresult/174c489d4bab1384",
+        "status" : "skipped",
+        "statusDetails" : "No configuration for the Zabbix agent daemon",
+        "time" : {
+          "start" : 1647976992000,
+          "stop" : 1647976992000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "76454575fd874370",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/76454575fd874370",
+        "status" : "skipped",
+        "statusDetails" : "No configuration for the Zabbix agent daemon",
+        "time" : {
+          "start" : 1647976992000,
+          "stop" : 1647976992000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "18aaa6b303c89da0",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/18aaa6b303c89da0",
+        "status" : "skipped",
+        "statusDetails" : "No configuration for the Zabbix agent daemon",
+        "time" : {
+          "start" : 1647976992000,
+          "stop" : 1647976992000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ceea148803d1bd72",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/ceea148803d1bd72",
+        "status" : "skipped",
+        "statusDetails" : "No configuration for the Zabbix agent daemon",
+        "time" : {
+          "start" : 1647976992000,
+          "stop" : 1647976992000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "197d1c61c8f399cf",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/197d1c61c8f399cf",
+        "status" : "skipped",
+        "statusDetails" : "No configuration for the Zabbix agent daemon",
+        "time" : {
+          "start" : 1647976992000,
+          "stop" : 1647976992000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4ceee0988ef8f803",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/4ceee0988ef8f803",
+        "status" : "skipped",
+        "statusDetails" : "No configuration for the Zabbix agent daemon",
+        "time" : {
+          "start" : 1647976992000,
+          "stop" : 1647976992000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5907ad7f98edbdcb",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/5907ad7f98edbdcb",
+        "status" : "skipped",
+        "statusDetails" : "No configuration for the Zabbix agent daemon",
+        "time" : {
+          "start" : 1647976992000,
+          "stop" : 1647976992000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1fd006c8c9629b31",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/1fd006c8c9629b31",
+        "status" : "skipped",
+        "statusDetails" : "No configuration for the Zabbix agent daemon",
+        "time" : {
+          "start" : 1647976992000,
+          "stop" : 1647976992000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5a5ad1809346dd18.json",
+  "parameterValues" : [ ]
+}

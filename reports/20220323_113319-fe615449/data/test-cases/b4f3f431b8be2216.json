@@ -1,0 +1,83 @@
+{
+  "uid" : "b4f3f431b8be2216",
+  "name" : "QA 097",
+  "fullName" : "QA #097 on fedora35-container",
+  "historyId" : "097@fedora35-container",
+  "time" : {
+    "start" : 1647972141000,
+    "stop" : 1647972141000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 097\n\ncheck time updates after EOL/SOL in interpolate mode\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 097</p>\n<p>check time updates after EOL/SOL in interpolate mode</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "archive"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "ostest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fe6154496663a46a1c02376aee18f278151277c0/qa/097",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fe6154496663a46a1c02376aee18f278151277c0/qa/097.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c99ed803fd829e7e",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/c99ed803fd829e7e",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972141000,
+          "stop" : 1647972141000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b4f3f431b8be2216.json",
+  "parameterValues" : [ ]
+}

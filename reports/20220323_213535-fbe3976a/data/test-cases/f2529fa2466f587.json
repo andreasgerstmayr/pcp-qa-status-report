@@ -1,0 +1,59 @@
+{
+  "uid" : "f2529fa2466f587",
+  "name" : "QA 996",
+  "fullName" : "QA #996 on fedora35-container",
+  "historyId" : "996@fedora35-container",
+  "time" : {
+    "start" : 1648063291000,
+    "stop" : 1648063292000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 996\n\npmdiff - sorting and reporting\n\n\n\nCopyright (c) 2014 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 996</p>\n<p>pmdiff - sorting and reporting</p>\n<p>Copyright (c) 2014 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmdiff"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/996",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/996.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2529fa2466f587.json",
+  "parameterValues" : [ ]
+}

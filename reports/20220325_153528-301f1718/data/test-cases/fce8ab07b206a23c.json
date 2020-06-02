@@ -1,0 +1,98 @@
+{
+  "uid" : "fce8ab07b206a23c",
+  "name" : "QA 642",
+  "fullName" : "QA #642 on fedora35-container",
+  "historyId" : "642@fedora35-container",
+  "time" : {
+    "start" : 1648148433000,
+    "stop" : 1648148485000,
+    "duration" : 52000
+  },
+  "description" : "PCP QA Test No. 642\n\nconcurrent PMDA installs trash the PMNS?\n\n\n\nCopyright (c) 2015 Red Hat.\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 642</p>\n<p>concurrent PMDA installs trash the PMNS?</p>\n<p>Copyright (c) 2015 Red Hat.</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.trivial"
+  }, {
+    "name" : "epic",
+    "value" : "pmns"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.simple"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.sample"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.sendmail"
+  }, {
+    "name" : "epic",
+    "value" : "trace"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.trace"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/642",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/642.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3ff93cdb72a88139",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/3ff93cdb72a88139",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648148433000,
+          "stop" : 1648148485000,
+          "duration" : 52000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fce8ab07b206a23c.json",
+  "parameterValues" : [ ]
+}

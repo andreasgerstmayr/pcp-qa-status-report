@@ -1,0 +1,80 @@
+{
+  "uid" : "7366e3b3d86d45f3",
+  "name" : "QA 680",
+  "fullName" : "QA #680 on fedora35-container",
+  "historyId" : "680@fedora35-container",
+  "time" : {
+    "start" : 1648061940000,
+    "stop" : 1648061940000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 680\n\nstruct padding/allignment for internal (PDU and archive) structs\n\n\n\nCopyright (c) 2018 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 680</p>\n<p>struct padding/allignment for internal (PDU and archive) structs</p>\n<p>Copyright (c) 2018 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "libpcp"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/d09dce6c2e17b68f04eb8474603c05c7c9613065/qa/680",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/d09dce6c2e17b68f04eb8474603c05c7c9613065/qa/680.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ecc18aa3d2467f03",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_213535-fbe3976a//#testresult/ecc18aa3d2467f03",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648061940000,
+          "stop" : 1648061940000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7366e3b3d86d45f3.json",
+  "parameterValues" : [ ]
+}

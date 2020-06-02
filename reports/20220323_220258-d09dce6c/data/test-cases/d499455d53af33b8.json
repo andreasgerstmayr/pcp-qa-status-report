@@ -1,0 +1,80 @@
+{
+  "uid" : "d499455d53af33b8",
+  "name" : "QA 881",
+  "fullName" : "QA #881 on fedora35-container",
+  "historyId" : "881@fedora35-container",
+  "time" : {
+    "start" : 1648062788000,
+    "stop" : 1648062788000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 881\n\nExercise pmsignal(1) options.\n\n\n\nCopyright (c) 2016 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 881</p>\n<p>Exercise pmsignal(1) options.</p>\n<p>Copyright (c) 2016 Red Hat.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmcd"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/d09dce6c2e17b68f04eb8474603c05c7c9613065/qa/881",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/d09dce6c2e17b68f04eb8474603c05c7c9613065/qa/881.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ada7de48d9677602",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_213535-fbe3976a//#testresult/ada7de48d9677602",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648062788000,
+          "stop" : 1648062788000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d499455d53af33b8.json",
+  "parameterValues" : [ ]
+}

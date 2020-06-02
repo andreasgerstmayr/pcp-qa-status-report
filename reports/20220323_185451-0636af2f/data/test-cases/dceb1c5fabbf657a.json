@@ -1,0 +1,134 @@
+{
+  "uid" : "dceb1c5fabbf657a",
+  "name" : "QA 1584",
+  "fullName" : "QA #1584 on fedora35-container",
+  "historyId" : "1584@fedora35-container",
+  "time" : {
+    "start" : 1647978622000,
+    "stop" : 1647978622000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1584\n\nCopyright (c) 2021 Red Hat.\n\n\n\nExercise MongoDB agent Install and Remove scripts,\n\nplus metric value validation on select metrics.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1584</p>\n<p>Copyright (c) 2021 Red Hat.</p>\n<p>Exercise MongoDB agent Install and Remove scripts,</p>\n<p>plus metric value validation on select metrics.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "MongoDB shell not installed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.mongodb"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/1584",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/1584.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 7,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "2c92e4cc09b4ebf5",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/2c92e4cc09b4ebf5",
+        "status" : "skipped",
+        "statusDetails" : "MongoDB shell not installed",
+        "time" : {
+          "start" : 1647978622000,
+          "stop" : 1647978622000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "edf25a10e1a1222",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/edf25a10e1a1222",
+        "status" : "skipped",
+        "statusDetails" : "MongoDB shell not installed",
+        "time" : {
+          "start" : 1647978622000,
+          "stop" : 1647978622000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "230814db93e1a3a0",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/230814db93e1a3a0",
+        "status" : "skipped",
+        "statusDetails" : "MongoDB shell not installed",
+        "time" : {
+          "start" : 1647978622000,
+          "stop" : 1647978622000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d81c92db3d68fd2b",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/d81c92db3d68fd2b",
+        "status" : "skipped",
+        "statusDetails" : "MongoDB shell not installed",
+        "time" : {
+          "start" : 1647978622000,
+          "stop" : 1647978622000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3275cde63780ac10",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/3275cde63780ac10",
+        "status" : "skipped",
+        "statusDetails" : "MongoDB shell not installed",
+        "time" : {
+          "start" : 1647978622000,
+          "stop" : 1647978622000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "41e63440838967d2",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/41e63440838967d2",
+        "status" : "skipped",
+        "statusDetails" : "MongoDB shell not installed",
+        "time" : {
+          "start" : 1647978622000,
+          "stop" : 1647978622000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dceb1c5fabbf657a.json",
+  "parameterValues" : [ ]
+}

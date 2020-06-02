@@ -1,0 +1,59 @@
+{
+  "uid" : "af0cb75cd7ef29f7",
+  "name" : "QA 1190",
+  "fullName" : "QA #1190 on fedora35-container",
+  "historyId" : "1190@fedora35-container",
+  "time" : {
+    "start" : 1648063826000,
+    "stop" : 1648063827000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 1190\n\nParanoid PCP setup checkout ... really a guard before running QA,\n\nbut this accumulates the knowledge for QA catostrophic failures\n\nthat follow Murhy's Law #2: Law #1 was optimistic\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1190</p>\n<p>Paranoid PCP setup checkout ... really a guard before running QA,</p>\n<p>but this accumulates the knowledge for QA catostrophic failures</p>\n<p>that follow Murhy's Law #2: Law #1 was optimistic</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "other"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/1190",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/1190.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af0cb75cd7ef29f7.json",
+  "parameterValues" : [ ]
+}

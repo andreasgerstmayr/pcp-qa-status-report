@@ -1,0 +1,134 @@
+{
+  "uid" : "eebe496bb51e3a87",
+  "name" : "QA 1250",
+  "fullName" : "QA #1250 on fedora35-container",
+  "historyId" : "1250@fedora35-container",
+  "time" : {
+    "start" : 1647977862000,
+    "stop" : 1647977862000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1250\n\n\n\nVerifying current selinux policy against previously reported selinux\n\navc denials.\n\n\n\nWhen we added systematic access to various class domains, we no\n\nlonger were able to map one line of our policy package to one avc\n\ndenial that was reported.  We need to make sure as we refactor our\n\npolicy package, that we don't reopen previous avc's.\n\n\n\nCopyright (c) 2018 Red Hat Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1250</p>\n<p>Verifying current selinux policy against previously reported selinux</p>\n<p>avc denials.</p>\n<p>When we added systematic access to various class domains, we no</p>\n<p>longer were able to map one line of our policy package to one avc</p>\n<p>denial that was reported.  We need to make sure as we refactor our</p>\n<p>policy package, that we don't reopen previous avc's.</p>\n<p>Copyright (c) 2018 Red Hat Inc.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "upstream policy package not loaded",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "selinux"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/1250",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/1250.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 7,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "d15d6192e220a3cc",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/d15d6192e220a3cc",
+        "status" : "skipped",
+        "statusDetails" : "upstream policy package not loaded",
+        "time" : {
+          "start" : 1647977862000,
+          "stop" : 1647977862000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1ee859be8a90bf92",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/1ee859be8a90bf92",
+        "status" : "skipped",
+        "statusDetails" : "upstream policy package not loaded",
+        "time" : {
+          "start" : 1647977862000,
+          "stop" : 1647977862000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3a67d0be1deefbbb",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/3a67d0be1deefbbb",
+        "status" : "skipped",
+        "statusDetails" : "upstream policy package not loaded",
+        "time" : {
+          "start" : 1647977862000,
+          "stop" : 1647977862000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b42086dd4d6baf45",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/b42086dd4d6baf45",
+        "status" : "skipped",
+        "statusDetails" : "upstream policy package not loaded",
+        "time" : {
+          "start" : 1647977862000,
+          "stop" : 1647977862000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "335575628946b552",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/335575628946b552",
+        "status" : "skipped",
+        "statusDetails" : "upstream policy package not loaded",
+        "time" : {
+          "start" : 1647977862000,
+          "stop" : 1647977862000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "af4b834558afbb47",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/af4b834558afbb47",
+        "status" : "skipped",
+        "statusDetails" : "upstream policy package not loaded",
+        "time" : {
+          "start" : 1647977862000,
+          "stop" : 1647977862000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "eebe496bb51e3a87.json",
+  "parameterValues" : [ ]
+}

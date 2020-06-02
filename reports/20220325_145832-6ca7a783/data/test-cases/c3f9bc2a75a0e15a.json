@@ -1,0 +1,86 @@
+{
+  "uid" : "c3f9bc2a75a0e15a",
+  "name" : "QA 1159",
+  "fullName" : "QA #1159 on fedora35-container",
+  "historyId" : "1159@fedora35-container",
+  "time" : {
+    "start" : 1648150529000,
+    "stop" : 1648150533000,
+    "duration" : 4000
+  },
+  "description" : "PCP QA Test No. 1159\n\nSIGINT for pmlogger, part of\n\nhttps://github.com/performancecopilot/pcp/issues/116\n\n\n\nSee also qa/1109.\n\n\n\nCopyright (c) 2017 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1159</p>\n<p>SIGINT for pmlogger, part of</p>\n<p>https://github.com/performancecopilot/pcp/issues/116</p>\n<p>See also qa/1109.</p>\n<p>Copyright (c) 2017 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogger"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/6ca7a783aeaa1503c39f994568d8a0c6d5a0e57a/qa/1159",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/6ca7a783aeaa1503c39f994568d8a0c6d5a0e57a/qa/1159.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b353ffb5d1fc3cc8",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/b353ffb5d1fc3cc8",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648150529000,
+          "stop" : 1648150533000,
+          "duration" : 4000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c3f9bc2a75a0e15a.json",
+  "parameterValues" : [ ]
+}

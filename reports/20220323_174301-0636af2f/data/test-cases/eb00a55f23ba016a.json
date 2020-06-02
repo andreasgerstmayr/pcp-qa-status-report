@@ -1,0 +1,126 @@
+{
+  "uid" : "eb00a55f23ba016a",
+  "name" : "QA 104",
+  "fullName" : "QA #104 on fedora35-container",
+  "historyId" : "104@fedora35-container",
+  "time" : {
+    "start" : 1647972285000,
+    "stop" : 1647972313000,
+    "duration" : 28000
+  },
+  "description" : "PCP QA Test No. 104\n\nexercise the logging state compatibility matrix for pmlc ...\n\ninitial: some instances for a metric\n\nrequest: all instances for the same metric\n\n\n\nCopyright (c) 2014 Red Hat.\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 104</p>\n<p>exercise the logging state compatibility matrix for pmlc ...</p>\n<p>initial: some instances for a metric</p>\n<p>request: all instances for the same metric</p>\n<p>Copyright (c) 2014 Red Hat.</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlc"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogger"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/104",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/104.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "59a4ee0b9c2d070c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/59a4ee0b9c2d070c",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972285000,
+          "stop" : 1647972313000,
+          "duration" : 28000
+        }
+      }, {
+        "uid" : "aeca81de5204d8e",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/aeca81de5204d8e",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972285000,
+          "stop" : 1647972313000,
+          "duration" : 28000
+        }
+      }, {
+        "uid" : "30db78947e66de19",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/30db78947e66de19",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972285000,
+          "stop" : 1647972313000,
+          "duration" : 28000
+        }
+      }, {
+        "uid" : "d682a30a9cc1f34b",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/d682a30a9cc1f34b",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972285000,
+          "stop" : 1647972313000,
+          "duration" : 28000
+        }
+      }, {
+        "uid" : "5d819fb3338cdc64",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/5d819fb3338cdc64",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972285000,
+          "stop" : 1647972313000,
+          "duration" : 28000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "eb00a55f23ba016a.json",
+  "parameterValues" : [ ]
+}

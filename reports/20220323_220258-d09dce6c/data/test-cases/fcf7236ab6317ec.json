@@ -1,0 +1,80 @@
+{
+  "uid" : "fcf7236ab6317ec",
+  "name" : "QA 1149",
+  "fullName" : "QA #1149 on fedora35-container",
+  "historyId" : "1149@fedora35-container",
+  "time" : {
+    "start" : 1648063781000,
+    "stop" : 1648063782000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 1149\n\nPDUBuf mem leak in pmlogrewrite?\n\n\n\nCopyright (c) 2019 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1149</p>\n<p>PDUBuf mem leak in pmlogrewrite?</p>\n<p>Copyright (c) 2019 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogrewrite"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/d09dce6c2e17b68f04eb8474603c05c7c9613065/qa/1149",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/d09dce6c2e17b68f04eb8474603c05c7c9613065/qa/1149.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b026c1a1278232e",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_213535-fbe3976a//#testresult/b026c1a1278232e",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648063781000,
+          "stop" : 1648063782000,
+          "duration" : 1000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fcf7236ab6317ec.json",
+  "parameterValues" : [ ]
+}

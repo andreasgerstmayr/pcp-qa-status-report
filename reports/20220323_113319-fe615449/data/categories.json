@@ -1,0 +1,2351 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Skipped tests",
+    "children" : [ {
+      "name" : "Cannot find docker image. Use: docker run -it --rm busybox",
+      "children" : [ {
+        "name" : "QA 042",
+        "uid" : "b98d3ae64ca3d9ae",
+        "parentUid" : "e87acb61373c0e568a9a29e8fb85765f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647972014000,
+          "stop" : 1647972015000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 047",
+        "uid" : "a69bf5e162c8a70",
+        "parentUid" : "e87acb61373c0e568a9a29e8fb85765f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647972022000,
+          "stop" : 1647972022000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 794",
+        "uid" : "bbb63f6aa53044a7",
+        "parentUid" : "e87acb61373c0e568a9a29e8fb85765f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976091000,
+          "stop" : 1647976091000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1032",
+        "uid" : "25d205b8277c5504",
+        "parentUid" : "e87acb61373c0e568a9a29e8fb85765f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976926000,
+          "stop" : 1647976926000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e87acb61373c0e568a9a29e8fb85765f"
+    }, {
+      "name" : "network.ip checks for linux done in test 216",
+      "children" : [ {
+        "name" : "QA 117",
+        "uid" : "84c0296371e4000a",
+        "parentUid" : "60957b4eb3a9e38c2c18f23f2f40816c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "60957b4eb3a9e38c2c18f23f2f40816c"
+    }, {
+      "name" : "System has active loop devices, bailing",
+      "children" : [ {
+        "name" : "QA 113",
+        "uid" : "43552b7865d51050",
+        "parentUid" : "16e7c82a1518e864b93a36887a01ce13",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647972445000,
+          "stop" : 1647972445000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "16e7c82a1518e864b93a36887a01ce13"
+    }, {
+      "name" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+      "children" : [ {
+        "name" : "QA 130",
+        "uid" : "46e45f01b6926681",
+        "parentUid" : "9a63e743476176218f2190316262838c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647972485000,
+          "stop" : 1647972485000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a63e743476176218f2190316262838c"
+    }, {
+      "name" : "No cisco router set via $PCPQA_CISCO_ROUTER in ./common.config",
+      "children" : [ {
+        "name" : "QA 159",
+        "uid" : "405770302b9f6678",
+        "parentUid" : "da1decccce1b64f1953f19ba5a2793c8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647972632000,
+          "stop" : 1647972632000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da1decccce1b64f1953f19ba5a2793c8"
+    }, {
+      "name" : "new style /usr/include/pcp/pmdbg.h, nothing to test",
+      "children" : [ {
+        "name" : "QA 219",
+        "uid" : "5e50bd6b35c2ab39",
+        "parentUid" : "44b0b6670c894812e6e8e1b55ae17edb",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647972970000,
+          "stop" : 1647972970000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44b0b6670c894812e6e8e1b55ae17edb"
+    }, {
+      "name" : "$PCPQA_CLOSE_X_SERVER not set in ./common.config",
+      "children" : [ {
+        "name" : "QA 276",
+        "uid" : "9c49c6aacc6fe87d",
+        "parentUid" : "d763bd251b787794745ab6418f6e0b45",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647973266000,
+          "stop" : 1647973266000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d763bd251b787794745ab6418f6e0b45"
+    }, {
+      "name" : "metric network.tcp.drops is not available",
+      "children" : [ {
+        "name" : "QA 307",
+        "uid" : "4b3ddc523e251441",
+        "parentUid" : "3a95b7dbd872a66cf6d3786944f9ae6e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647973770000,
+          "stop" : 1647973770000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a95b7dbd872a66cf6d3786944f9ae6e"
+    }, {
+      "name" : "KVM sysfs interface not available",
+      "children" : [ {
+        "name" : "QA 348",
+        "uid" : "a1af2f8797dbedfe",
+        "parentUid" : "a77483f5d2ad56b0859c4c81ac13b4fa",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647973879000,
+          "stop" : 1647973879000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a77483f5d2ad56b0859c4c81ac13b4fa"
+    }, {
+      "name" : "One or more cgroups already in use",
+      "children" : [ {
+        "name" : "QA 361",
+        "uid" : "5328be5f775901e5",
+        "parentUid" : "95d7ffc4024b89f115487ba1026a7525",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647973957000,
+          "stop" : 1647973957000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95d7ffc4024b89f115487ba1026a7525"
+    }, {
+      "name" : "perl Spreadsheet::Read module not installed",
+      "children" : [ {
+        "name" : "QA 371",
+        "uid" : "aedc38e45986622e",
+        "parentUid" : "ac86dba810cb4aae2d3b35cf54ea368e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 372",
+        "uid" : "16d0e7bb0668fade",
+        "parentUid" : "ac86dba810cb4aae2d3b35cf54ea368e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 846",
+        "uid" : "83b49aa232f1939e",
+        "parentUid" : "ac86dba810cb4aae2d3b35cf54ea368e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976335000,
+          "stop" : 1647976335000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 985",
+        "uid" : "1904ab165b68c3a9",
+        "parentUid" : "ac86dba810cb4aae2d3b35cf54ea368e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976906000,
+          "stop" : 1647976906000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1070",
+        "uid" : "ec9400f092323af2",
+        "parentUid" : "ac86dba810cb4aae2d3b35cf54ea368e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977041000,
+          "stop" : 1647977041000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac86dba810cb4aae2d3b35cf54ea368e"
+    }, {
+      "name" : "no qualified output for sysstat version 12.5.4",
+      "children" : [ {
+        "name" : "QA 370",
+        "uid" : "782cf2589c173c6c",
+        "parentUid" : "eb541c04d5be581b1c95177683b1a915",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb541c04d5be581b1c95177683b1a915"
+    }, {
+      "name" : "HAVE_BITFIELDS_LTOR is false",
+      "children" : [ {
+        "name" : "QA 377",
+        "uid" : "583a3768df233829",
+        "parentUid" : "e0ad99817d965acbdc19341d4180bdcd",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647973969000,
+          "stop" : 1647973969000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0ad99817d965acbdc19341d4180bdcd"
+    }, {
+      "name" : "Not yet working - libpcp_gui recording",
+      "children" : [ {
+        "name" : "QA 420",
+        "uid" : "27bd65bbbd219d5",
+        "parentUid" : "392977f2d91ca4befe75e80eb33bb954",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647974222000,
+          "stop" : 1647974222000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "392977f2d91ca4befe75e80eb33bb954"
+    }, {
+      "name" : "PCP source not found at ../src",
+      "children" : [ {
+        "name" : "QA 512",
+        "uid" : "9c5723f2d6ba492f",
+        "parentUid" : "1124dd929a77186a993f8f411e57b955",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647974635000,
+          "stop" : 1647974635000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1124dd929a77186a993f8f411e57b955"
+    }, {
+      "name" : "pmsocks is not installed and/or not configured",
+      "children" : [ {
+        "name" : "QA 545",
+        "uid" : "7043d39eb8526a10",
+        "parentUid" : "0600f67abdcfb274bc2452fa094be96f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647974771000,
+          "stop" : 1647974771000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0600f67abdcfb274bc2452fa094be96f"
+    }, {
+      "name" : "No /etc/*syslog.conf -- probably using a different syslog package",
+      "children" : [ {
+        "name" : "QA 555",
+        "uid" : "552c0f4cbfdf41ba",
+        "parentUid" : "e05c2ebb6a7a5253600538a298b2c3d1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647974790000,
+          "stop" : 1647974791000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e05c2ebb6a7a5253600538a298b2c3d1"
+    }, {
+      "name" : "no GFS2 module to load and not builtin",
+      "children" : [ {
+        "name" : "QA 654",
+        "uid" : "31a94040f93b7c3f",
+        "parentUid" : "4688e1477b944da5ee559b6a20a1d86a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647975468000,
+          "stop" : 1647975468000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 655",
+        "uid" : "41dc701e4aad9cf1",
+        "parentUid" : "4688e1477b944da5ee559b6a20a1d86a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647975468000,
+          "stop" : 1647975468000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4688e1477b944da5ee559b6a20a1d86a"
+    }, {
+      "name" : "No one is home on the default http port 80",
+      "children" : [ {
+        "name" : "QA 703",
+        "uid" : "d3a467e356c89d",
+        "parentUid" : "2f1a6d2fcac7d7d8672092eaf55695ea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647975728000,
+          "stop" : 1647975728000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f1a6d2fcac7d7d8672092eaf55695ea"
+    }, {
+      "name" : "hostname -> f081bf2d614e, no domain name part",
+      "children" : [ {
+        "name" : "QA 713",
+        "uid" : "c365b0dc39e0f2be",
+        "parentUid" : "8b24de8d0bac1afec6274676a22f799c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647975761000,
+          "stop" : 1647975761000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b24de8d0bac1afec6274676a22f799c"
+    }, {
+      "name" : "No systemtap stap executable found",
+      "children" : [ {
+        "name" : "QA 749",
+        "uid" : "83e361265aa76bb4",
+        "parentUid" : "ec0871c9fb8909b3a90b3675065b4f4c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647975932000,
+          "stop" : 1647975932000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec0871c9fb8909b3a90b3675065b4f4c"
+    }, {
+      "name" : "Noones home on the default ActiveMQ REST port 8161",
+      "children" : [ {
+        "name" : "QA 760",
+        "uid" : "86b5262b5ea20dbe",
+        "parentUid" : "8b1773d9d25d8f56008419fd787a6edf",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647975965000,
+          "stop" : 1647975965000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b1773d9d25d8f56008419fd787a6edf"
+    }, {
+      "name" : "unbound-control not installed",
+      "children" : [ {
+        "name" : "QA 759",
+        "uid" : "874037f9fe9e6fad",
+        "parentUid" : "20dca0e8087cd298be344ab20802a464",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647975965000,
+          "stop" : 1647975965000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20dca0e8087cd298be344ab20802a464"
+    }, {
+      "name" : "no active inet interfaces with DNS resolution",
+      "children" : [ {
+        "name" : "QA 766",
+        "uid" : "e9a1cd3dfe9e014",
+        "parentUid" : "66a4531a7848fbf555f75424115e2a70",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976008000,
+          "stop" : 1647976009000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66a4531a7848fbf555f75424115e2a70"
+    }, {
+      "name" : "Cannot run psql as the postgres user, postgresql not installed or running?",
+      "children" : [ {
+        "name" : "QA 778",
+        "uid" : "904ca79b1a104988",
+        "parentUid" : "0417bcc4db220910889a6a465d703aa4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976059000,
+          "stop" : 1647976059000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1362",
+        "uid" : "28cbf0cf60593a16",
+        "parentUid" : "0417bcc4db220910889a6a465d703aa4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978274000,
+          "stop" : 1647978274000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0417bcc4db220910889a6a465d703aa4"
+    }, {
+      "name" : "Zimbra not installed",
+      "children" : [ {
+        "name" : "QA 789",
+        "uid" : "72d3d8572be33fce",
+        "parentUid" : "fe69b545376f678040208dcb1276d395",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976079000,
+          "stop" : 1647976079000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe69b545376f678040208dcb1276d395"
+    }, {
+      "name" : "Noones home on the default elasticsearch port 9200",
+      "children" : [ {
+        "name" : "QA 796",
+        "uid" : "53a0fe93dc6b772b",
+        "parentUid" : "b31ccdc3d9681b2b3b7cda943a671110",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976091000,
+          "stop" : 1647976092000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 819",
+        "uid" : "fd2bfc887a085717",
+        "parentUid" : "b31ccdc3d9681b2b3b7cda943a671110",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976199000,
+          "stop" : 1647976199000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b31ccdc3d9681b2b3b7cda943a671110"
+    }, {
+      "name" : "Noones home on the default DS 389 port",
+      "children" : [ {
+        "name" : "QA 825",
+        "uid" : "54e780acac4248f5",
+        "parentUid" : "56150a81726c929cbae8fb631b0e169d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976239000,
+          "stop" : 1647976239000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56150a81726c929cbae8fb631b0e169d"
+    }, {
+      "name" : "Noones home on the default memcached port 11211",
+      "children" : [ {
+        "name" : "QA 835",
+        "uid" : "ecaeb001b49be6a7",
+        "parentUid" : "575f0b1cd1e1d3a960e8f93e62e2bb05",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976264000,
+          "stop" : 1647976264000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "575f0b1cd1e1d3a960e8f93e62e2bb05"
+    }, {
+      "name" : "no atomic command found",
+      "children" : [ {
+        "name" : "QA 847",
+        "uid" : "95aecec82263b338",
+        "parentUid" : "2eaebcd028dbddda68aa19e47e00364e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976335000,
+          "stop" : 1647976335000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2eaebcd028dbddda68aa19e47e00364e"
+    }, {
+      "name" : "pcp-collectl not installed",
+      "children" : [ {
+        "name" : "QA 864",
+        "uid" : "64d3e472f89bbc14",
+        "parentUid" : "5b54b2ee0665286f8ea39fca98e3afcb",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976397000,
+          "stop" : 1647976397000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b54b2ee0665286f8ea39fca98e3afcb"
+    }, {
+      "name" : "No binary named python2 found",
+      "children" : [ {
+        "name" : "QA 863",
+        "uid" : "bb88a1540c8a53dc",
+        "parentUid" : "10619e52a834a3bfa434d6920ea571b1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976397000,
+          "stop" : 1647976397000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1081",
+        "uid" : "c600b99b78f22024",
+        "parentUid" : "10619e52a834a3bfa434d6920ea571b1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977076000,
+          "stop" : 1647977076000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10619e52a834a3bfa434d6920ea571b1"
+    }, {
+      "name" : "only tested on single CPU systems",
+      "children" : [ {
+        "name" : "QA 873",
+        "uid" : "c1c2deb04c442f",
+        "parentUid" : "6c6f872629fbc20bfde1ffc7194116c6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976427000,
+          "stop" : 1647976427000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c6f872629fbc20bfde1ffc7194116c6"
+    }, {
+      "name" : "XFS module not present: modprobe: FATAL: Module xfs not found in directory /lib/modules/5.11.0-1028-azure",
+      "children" : [ {
+        "name" : "QA 876",
+        "uid" : "562d8bb2d9a303b0",
+        "parentUid" : "07627cf325a84d1ec247c19155bb0d18",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976431000,
+          "stop" : 1647976432000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07627cf325a84d1ec247c19155bb0d18"
+    }, {
+      "name" : "Noone home on default NutCracker port 22222",
+      "children" : [ {
+        "name" : "QA 912",
+        "uid" : "59e35890d04bd4e4",
+        "parentUid" : "a48a9a996a88ce82eb3a3efa687ae740",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976556000,
+          "stop" : 1647976556000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a48a9a996a88ce82eb3a3efa687ae740"
+    }, {
+      "name" : "upstream policy package not loaded",
+      "children" : [ {
+        "name" : "QA 917",
+        "uid" : "6a027334d6f39a1e",
+        "parentUid" : "7682c177a3183e413ae36aae8eb78b40",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976577000,
+          "stop" : 1647976578000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1250",
+        "uid" : "335575628946b552",
+        "parentUid" : "7682c177a3183e413ae36aae8eb78b40",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977862000,
+          "stop" : 1647977862000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1622",
+        "uid" : "302e7cc91e754da3",
+        "parentUid" : "7682c177a3183e413ae36aae8eb78b40",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978665000,
+          "stop" : 1647978665000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7682c177a3183e413ae36aae8eb78b40"
+    }, {
+      "name" : "upstream container policy package not loaded",
+      "children" : [ {
+        "name" : "QA 940",
+        "uid" : "f4e1b5f11c5414ea",
+        "parentUid" : "62e9676004754416906e2b826a8f27d0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976645000,
+          "stop" : 1647976645000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62e9676004754416906e2b826a8f27d0"
+    }, {
+      "name" : "libpcp not built with -DPM_MULTI_THREAD_DEBUG",
+      "children" : [ {
+        "name" : "QA 954",
+        "uid" : "512996825c17cd67",
+        "parentUid" : "61078cb71fae3c1f8b9805f3153a3e34",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976786000,
+          "stop" : 1647976786000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61078cb71fae3c1f8b9805f3153a3e34"
+    }, {
+      "name" : "No ds389 directory log files accessible",
+      "children" : [ {
+        "name" : "QA 960",
+        "uid" : "d37b4f4a1b7a48df",
+        "parentUid" : "13d0f1a6106f2aced5e3831a3116c218",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976821000,
+          "stop" : 1647976821000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "13d0f1a6106f2aced5e3831a3116c218"
+    }, {
+      "name" : "No zsh executable",
+      "children" : [ {
+        "name" : "QA 967",
+        "uid" : "b173da168c8e5042",
+        "parentUid" : "e2ad4237531977d2f0090798787ffb75",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976858000,
+          "stop" : 1647976858000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2ad4237531977d2f0090798787ffb75"
+    }, {
+      "name" : "perl Spreadsheet::ReadSXC module not installed",
+      "children" : [ {
+        "name" : "QA 986",
+        "uid" : "b336bfe70afb2b05",
+        "parentUid" : "1f08700f50e3cb88636a34b450aa6010",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976906000,
+          "stop" : 1647976906000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f08700f50e3cb88636a34b450aa6010"
+    }, {
+      "name" : "perl Slurm module not installed",
+      "children" : [ {
+        "name" : "QA 1031",
+        "uid" : "b9efdc83e48317d9",
+        "parentUid" : "ad33b5341830c0b2acf1712c042ebbaf",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976925000,
+          "stop" : 1647976926000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad33b5341830c0b2acf1712c042ebbaf"
+    }, {
+      "name" : "no named stats file(s)",
+      "children" : [ {
+        "name" : "QA 1034",
+        "uid" : "42a89361b6e4c435",
+        "parentUid" : "937ae2d8250306dce2e8408aeb6998a1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976926000,
+          "stop" : 1647976927000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "937ae2d8250306dce2e8408aeb6998a1"
+    }, {
+      "name" : "Oracle PMDA not configured",
+      "children" : [ {
+        "name" : "QA 1035",
+        "uid" : "82c2e4d88695da8d",
+        "parentUid" : "1bd0aca7bd09db388cc92b2265f4ca7b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976927000,
+          "stop" : 1647976927000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bd0aca7bd09db388cc92b2265f4ca7b"
+    }, {
+      "name" : "no socket, libvirtd not running?",
+      "children" : [ {
+        "name" : "QA 1041",
+        "uid" : "4745311a661f124b",
+        "parentUid" : "0060aba2d2513edd3da575452a79e71f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976929000,
+          "stop" : 1647976929000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0060aba2d2513edd3da575452a79e71f"
+    }, {
+      "name" : "targetcli not installed",
+      "children" : [ {
+        "name" : "QA 1061",
+        "uid" : "c6a664930294cb87",
+        "parentUid" : "44002408f75834b69d99c6f67046fe2b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976987000,
+          "stop" : 1647976988000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44002408f75834b69d99c6f67046fe2b"
+    }, {
+      "name" : "No configuration for the Zabbix agent daemon",
+      "children" : [ {
+        "name" : "QA 1067",
+        "uid" : "5907ad7f98edbdcb",
+        "parentUid" : "677dd1a443cf2bd60b9fd49b144c1d78",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647976992000,
+          "stop" : 1647976992000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "677dd1a443cf2bd60b9fd49b144c1d78"
+    }, {
+      "name" : "kernel headers for kernel 5.11.0-1028-azure not found",
+      "children" : [ {
+        "name" : "QA 1118",
+        "uid" : "1244e8c4a1c85e48",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977224000,
+          "stop" : 1647977224000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1117",
+        "uid" : "d27716672d97258c",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977224000,
+          "stop" : 1647977224000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1115",
+        "uid" : "c8678cc52a2cb21d",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977224000,
+          "stop" : 1647977224000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1116",
+        "uid" : "75271697263a8c34",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977224000,
+          "stop" : 1647977224000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1127",
+        "uid" : "8866dd30d42fa260",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977252000,
+          "stop" : 1647977252000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1126",
+        "uid" : "51c8e02b98d285d2",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977252000,
+          "stop" : 1647977252000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1124",
+        "uid" : "28882ddf663601bd",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977252000,
+          "stop" : 1647977252000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1150",
+        "uid" : "de5e1d53a9bff5e0",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977394000,
+          "stop" : 1647977395000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1153",
+        "uid" : "f1e9ebd152d1f9de",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977395000,
+          "stop" : 1647977395000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1157",
+        "uid" : "e876701641433c99",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977395000,
+          "stop" : 1647977395000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1154",
+        "uid" : "450d39e1240b0253",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977395000,
+          "stop" : 1647977395000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1158",
+        "uid" : "1c7d03857161d57b",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977395000,
+          "stop" : 1647977395000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1155",
+        "uid" : "178c81731e788bcf",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977395000,
+          "stop" : 1647977395000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1156",
+        "uid" : "be53913f290470eb",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977395000,
+          "stop" : 1647977395000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1151",
+        "uid" : "a4418aaefa5fb301",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977395000,
+          "stop" : 1647977395000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1165",
+        "uid" : "616efbc24867faeb",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977404000,
+          "stop" : 1647977404000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1168",
+        "uid" : "ade85cf3b984ceae",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977406000,
+          "stop" : 1647977406000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1170",
+        "uid" : "cb693bb8170a044b",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977408000,
+          "stop" : 1647977409000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1172",
+        "uid" : "12e75b767bdfd192",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977409000,
+          "stop" : 1647977409000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1171",
+        "uid" : "f48d568f1e53c7d2",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977409000,
+          "stop" : 1647977409000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1173",
+        "uid" : "aedf0a4e895114d",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977409000,
+          "stop" : 1647977409000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1176",
+        "uid" : "a0ee92eda68d3f48",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1178",
+        "uid" : "b6b5e4f03544c4d7",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1175",
+        "uid" : "229d5a7ef65f4f0e",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1179",
+        "uid" : "3eb216e716393890",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977418000,
+          "stop" : 1647977418000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1181",
+        "uid" : "9bcc6813b56b3d5",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977428000,
+          "stop" : 1647977428000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1286",
+        "uid" : "ae191e475a6e3e61",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977909000,
+          "stop" : 1647977909000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1704",
+        "uid" : "eaac979ae9404443",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978768000,
+          "stop" : 1647978768000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1702",
+        "uid" : "992a275ed45baa6f",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978768000,
+          "stop" : 1647978768000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1700",
+        "uid" : "e8cbcce14bb933e",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978768000,
+          "stop" : 1647978768000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1705",
+        "uid" : "1323ac32131b0d79",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978768000,
+          "stop" : 1647978768000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1703",
+        "uid" : "76892a45d7f81fa5",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978768000,
+          "stop" : 1647978768000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1706",
+        "uid" : "a409bc7cc6d2b7f8",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978768000,
+          "stop" : 1647978768000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1701",
+        "uid" : "1d29d0bdb3eb9bf5",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978768000,
+          "stop" : 1647978768000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1707",
+        "uid" : "ff2f668436452a56",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978769000,
+          "stop" : 1647978769000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1722",
+        "uid" : "dd7161d8c42a8259",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647979220000,
+          "stop" : 1647979220000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1725",
+        "uid" : "b926c60f7f9e8da8",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647979220000,
+          "stop" : 1647979220000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1721",
+        "uid" : "6cde52565ed35961",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647979220000,
+          "stop" : 1647979220000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1723",
+        "uid" : "7cbff2b9e2263832",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647979220000,
+          "stop" : 1647979220000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1724",
+        "uid" : "7db66d28e506e8bb",
+        "parentUid" : "62a603964440450617ee89a0f60a3c4e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647979220000,
+          "stop" : 1647979220000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62a603964440450617ee89a0f60a3c4e"
+    }, {
+      "name" : "pcpupstream module not loaded",
+      "children" : [ {
+        "name" : "QA 1141",
+        "uid" : "d77aa25922338a17",
+        "parentUid" : "e103ff28a595a57e345ef177f4f2b08d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977377000,
+          "stop" : 1647977377000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e103ff28a595a57e345ef177f4f2b08d"
+    }, {
+      "name" : "ping not installed",
+      "children" : [ {
+        "name" : "QA 1161",
+        "uid" : "7fa517834774cc22",
+        "parentUid" : "e7b2c5fa50130f875b7e5022d32b1c9d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977400000,
+          "stop" : 1647977400000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1160",
+        "uid" : "1c202144607909a4",
+        "parentUid" : "e7b2c5fa50130f875b7e5022d32b1c9d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977400000,
+          "stop" : 1647977400000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e7b2c5fa50130f875b7e5022d32b1c9d"
+    }, {
+      "name" : "no device-mapper devices",
+      "children" : [ {
+        "name" : "QA 1188",
+        "uid" : "23e6f8f4ecdf2c95",
+        "parentUid" : "eb2db0fe63b6a4e87f0c8e01714485f3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977435000,
+          "stop" : 1647977435000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb2db0fe63b6a4e87f0c8e01714485f3"
+    }, {
+      "name" : "Cannot find podman image. Use: /usr/bin/sudo -E podman run -it --rm busybox",
+      "children" : [ {
+        "name" : "QA 1192",
+        "uid" : "58b24820a74b038f",
+        "parentUid" : "d319c4159df16d24afd5f735229bfb1a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977472000,
+          "stop" : 1647977472000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1358",
+        "uid" : "df2cf2b702acfe3e",
+        "parentUid" : "d319c4159df16d24afd5f735229bfb1a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1357",
+        "uid" : "f3353b84e3f0937d",
+        "parentUid" : "d319c4159df16d24afd5f735229bfb1a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d319c4159df16d24afd5f735229bfb1a"
+    }, {
+      "name" : "pmseries querying redis via pmproxy trips assert and pmproxy aborts. query redis directly is OK",
+      "children" : [ {
+        "name" : "QA 1214",
+        "uid" : "19d9c2b850e32e1d",
+        "parentUid" : "9d1a8495b9edf1ab946ff8bf5b68ad95",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977729000,
+          "stop" : 1647977729000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d1a8495b9edf1ab946ff8bf5b68ad95"
+    }, {
+      "name" : "no tty assigned",
+      "children" : [ {
+        "name" : "QA 1220",
+        "uid" : "12cade8f4c8c9c3",
+        "parentUid" : "3470e2335af8493eb93c349a8a85277e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647977757000,
+          "stop" : 1647977757000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3470e2335af8493eb93c349a8a85277e"
+    }, {
+      "name" : "ZFS filesystem unsupported by the running kernel",
+      "children" : [ {
+        "name" : "QA 1309",
+        "uid" : "94da5729efb484b0",
+        "parentUid" : "af0f0197a688c5ff1cf56d334e8c1da4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978042000,
+          "stop" : 1647978042000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1532",
+        "uid" : "7487aa073939bb7f",
+        "parentUid" : "af0f0197a688c5ff1cf56d334e8c1da4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978540000,
+          "stop" : 1647978541000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af0f0197a688c5ff1cf56d334e8c1da4"
+    }, {
+      "name" : "Microsoft SQL Server tools not installed",
+      "children" : [ {
+        "name" : "QA 1337",
+        "uid" : "e859f0f2a4867f86",
+        "parentUid" : "31155f87b10a95b7db80e521a68f1215",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978158000,
+          "stop" : 1647978158000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31155f87b10a95b7db80e521a68f1215"
+    }, {
+      "name" : "no dpkg, probably not even Debian",
+      "children" : [ {
+        "name" : "QA 1352",
+        "uid" : "beb462c697a4c532",
+        "parentUid" : "22d7923089d83e38f47bc180d16f57f1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978244000,
+          "stop" : 1647978244000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22d7923089d83e38f47bc180d16f57f1"
+    }, {
+      "name" : "Redis version 6 not old enough",
+      "children" : [ {
+        "name" : "QA 1360",
+        "uid" : "a5ff19296a0663fd",
+        "parentUid" : "849223e65b55f9c0ef97f728bf818130",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978273000,
+          "stop" : 1647978273000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "849223e65b55f9c0ef97f728bf818130"
+    }, {
+      "name" : "No sensors found, probably a VM",
+      "children" : [ {
+        "name" : "QA 1480",
+        "uid" : "be52f2946f6126bd",
+        "parentUid" : "556fde0c100794174081ff69c666fb41",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978508000,
+          "stop" : 1647978510000,
+          "duration" : 2000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "556fde0c100794174081ff69c666fb41"
+    }, {
+      "name" : "MongoDB shell not installed",
+      "children" : [ {
+        "name" : "QA 1584",
+        "uid" : "3275cde63780ac10",
+        "parentUid" : "340f1080d61f4136a76d112dfc5860d1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978622000,
+          "stop" : 1647978622000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "340f1080d61f4136a76d112dfc5860d1"
+    }, {
+      "name" : "missing required ovs-vsctl command",
+      "children" : [ {
+        "name" : "QA 1680",
+        "uid" : "1e2dfd50679be3bb",
+        "parentUid" : "738ef4620ed4004b3e6c99644998c3f1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978718000,
+          "stop" : 1647978719000,
+          "duration" : 1000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "738ef4620ed4004b3e6c99644998c3f1"
+    }, {
+      "name" : "No client support for scram-sha-256 authentication",
+      "children" : [ {
+        "name" : "QA 1672",
+        "uid" : "12492e8c91ca59a",
+        "parentUid" : "3a4aa1abab5c4df2e2455d3b5d4390ea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647978718000,
+          "stop" : 1647978718000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a4aa1abab5c4df2e2455d3b5d4390ea"
+    }, {
+      "name" : "./getpmcdhosts: unable to get 1 host(s) with options: \"-v pcp>=4 -L -n 1\"",
+      "children" : [ {
+        "name" : "QA 1774",
+        "uid" : "f4e3cf2f5adbe4a",
+        "parentUid" : "a1cb417845d89d69f67a280395ac9f38",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647979266000,
+          "stop" : 1647979266000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1cb417845d89d69f67a280395ac9f38"
+    }, {
+      "name" : "rabbitmq not running on default port:15672",
+      "children" : [ {
+        "name" : "QA 1855",
+        "uid" : "fc0b9823cbdfb9ac",
+        "parentUid" : "c734e9abf044263d3662e6ba9a581f22",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1647979287000,
+          "stop" : 1647979287000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c734e9abf044263d3662e6ba9a581f22"
+    } ],
+    "uid" : "c125badd1841297a9701a15a8082ec24"
+  }, {
+    "name" : "Failed tests",
+    "children" : [ {
+      "name" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+      "children" : [ {
+        "name" : "QA 061",
+        "uid" : "4a83a7ecfe0fd660",
+        "parentUid" : "524365c4f7e9bb8a058cee8525e92397",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647972053000,
+          "stop" : 1647972100000,
+          "duration" : 47000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "524365c4f7e9bb8a058cee8525e92397"
+    }, {
+      "name" : "output mismatch (see 775.out.bad)\n3c3\n< Discovered pmcd servers:\n---\n> No pmcd servers discovered\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+      "children" : [ {
+        "name" : "QA 775",
+        "uid" : "c6122e655453b56b",
+        "parentUid" : "f075d35cd9ef817fdfb44d21c6c73486",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647976016000,
+          "stop" : 1647976026000,
+          "duration" : 10000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f075d35cd9ef817fdfb44d21c6c73486"
+    } ],
+    "uid" : "40f16b7589a18610ab68a6632973ea15"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,108 @@
+{
+  "uid" : "81855f2f3bf88300",
+  "name" : "QA 1801",
+  "fullName" : "QA #1801 on fedora35-container",
+  "historyId" : "1801@fedora35-container",
+  "time" : {
+    "start" : 1648152411000,
+    "stop" : 1648152411000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1801\n\nExercise pmconfig with larger instance domains.\n\n\n\nCopyright (c) 2020 Red Hat.  All Rights Reserved.\n\n\n\n**To reproduce this test, please run:**\n\n    build/ci/ci-run.py fedora35-container reproduce",
+  "descriptionHtml" : "<p>PCP QA Test No. 1801</p>\n<p>Exercise pmconfig with larger instance domains.</p>\n<p>Copyright (c) 2020 Red Hat.  All Rights Reserved.</p>\n<p><strong>To reproduce this test, please run:</strong></p>\n<pre><code>build/ci/ci-run.py fedora35-container reproduce\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "output mismatch (see 1801.out.bad)\n2,9c2\n< ----system---- -dsk/total-\n<      time     | read  writ\n< 11-12 14:22:00|           \n< 11-12 14:22:10|8136k  222M\n< 11-12 14:22:20|8088k  222M\n< 11-12 14:22:30|8136k  222M\n< 11-12 14:22:40|8115k  222M\n< 11-12 14:22:50|8110k  222M\n---\n> pcp-dstat: Corrupted record in a PCP archive log\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h 92921136d5fe -f sample.milliseconds\nPMDA probe: pminfo -h 92921136d5fe -f sampledso.milliseconds\nPMDA probe: pminfo -h 92921136d5fe -f simple.numfetch\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "PCP QA Test No. 1801\n\nExercise pmconfig with larger instance domains.\n\n\n\nCopyright (c) 2020 Red Hat.  All Rights Reserved.\n\n\n\n**To reproduce this test, please run:**\n\n    build/ci/ci-run.py fedora35-container reproduce",
+    "status" : "failed",
+    "statusMessage" : "output mismatch (see 1801.out.bad)\n2,9c2\n< ----system---- -dsk/total-\n<      time     | read  writ\n< 11-12 14:22:00|           \n< 11-12 14:22:10|8136k  222M\n< 11-12 14:22:20|8088k  222M\n< 11-12 14:22:30|8136k  222M\n< 11-12 14:22:40|8115k  222M\n< 11-12 14:22:50|8110k  222M\n---\n> pcp-dstat: Corrupted record in a PCP archive log\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h 92921136d5fe -f sample.milliseconds\nPMDA probe: pminfo -h 92921136d5fe -f sampledso.milliseconds\nPMDA probe: pminfo -h 92921136d5fe -f simple.numfetch\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8fce045faa8a4711",
+      "name" : "1801.out.bad",
+      "source" : "8fce045faa8a4711.txt",
+      "type" : "text/plain",
+      "size" : 75
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "dstat"
+  }, {
+    "name" : "epic",
+    "value" : "python"
+  }, {
+    "name" : "epic",
+    "value" : "pcp"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/6ca7a783aeaa1503c39f994568d8a0c6d5a0e57a/qa/1801",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/6ca7a783aeaa1503c39f994568d8a0c6d5a0e57a/qa/1801.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Failed tests",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bbfc102378da6605",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/bbfc102378da6605",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 1801.out.bad)\n2,9c2\n< ----system---- -dsk/total-\n<      time     | read  writ\n< 11-12 14:22:00|           \n< 11-12 14:22:10|8136k  222M\n< 11-12 14:22:20|8088k  222M\n< 11-12 14:22:30|8136k  222M\n< 11-12 14:22:40|8115k  222M\n< 11-12 14:22:50|8110k  222M\n---\n> pcp-dstat: Corrupted record in a PCP archive log\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h 92921136d5fe -f sample.milliseconds\nPMDA probe: pminfo -h 92921136d5fe -f sampledso.milliseconds\nPMDA probe: pminfo -h 92921136d5fe -f simple.numfetch\n",
+        "time" : {
+          "start" : 1648152411000,
+          "stop" : 1648152411000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "81855f2f3bf88300.json",
+  "parameterValues" : [ ]
+}

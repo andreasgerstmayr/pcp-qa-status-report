@@ -1,0 +1,2 @@
+QA output created by 1801
+pcp-dstat: Corrupted record in a PCP archive log

@@ -1,0 +1,19 @@
+[ {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf/",
+  "data" : {
+    "run" : 1418,
+    "retry" : 0
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449/",
+  "data" : {
+    "run" : 1418,
+    "retry" : 0
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc/",
+  "data" : {
+    "run" : 1418,
+    "retry" : 0
+  }
+} ]

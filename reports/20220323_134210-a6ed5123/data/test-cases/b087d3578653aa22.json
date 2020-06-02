@@ -1,0 +1,107 @@
+{
+  "uid" : "b087d3578653aa22",
+  "name" : "QA 655",
+  "fullName" : "QA #655 on fedora35-container",
+  "historyId" : "655@fedora35-container",
+  "time" : {
+    "start" : 1647975468000,
+    "stop" : 1647975468000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 655\n\nchecks extended pmdagfs2 functionality (gfs2_tracepoints)\n\nRequires GFS2 support in the kernel and gfs2_utils installed,\n\nelse the test will not run.\n\n\n\nCopyright (c) 2013 - 2014 Red Hat, Inc. All Rights Reserved.\n\n\n\nseq=`basename $0`\n\necho \"QA output created by $seq\"\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 655</p>\n<p>checks extended pmdagfs2 functionality (gfs2_tracepoints)</p>\n<p>Requires GFS2 support in the kernel and gfs2_utils installed,</p>\n<p>else the test will not run.</p>\n<p>Copyright (c) 2013 - 2014 Red Hat, Inc. All Rights Reserved.</p>\n<p>seq=<code>basename $0</code></p>\n<p>echo &quot;QA output created by $seq&quot;</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "no GFS2 module to load and not builtin",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.gfs2"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmstore"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/a6ed51230998aacefb4efefbd857d3e63495b290/qa/655",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/a6ed51230998aacefb4efefbd857d3e63495b290/qa/655.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "94b8461da48d4f18",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/94b8461da48d4f18",
+        "status" : "skipped",
+        "statusDetails" : "no GFS2 module to load and not builtin",
+        "time" : {
+          "start" : 1647975468000,
+          "stop" : 1647975468000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "41dc701e4aad9cf1",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/41dc701e4aad9cf1",
+        "status" : "skipped",
+        "statusDetails" : "no GFS2 module to load and not builtin",
+        "time" : {
+          "start" : 1647975468000,
+          "stop" : 1647975468000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cf1b880601615c7c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/cf1b880601615c7c",
+        "status" : "skipped",
+        "statusDetails" : "no GFS2 module to load and not builtin",
+        "time" : {
+          "start" : 1647975468000,
+          "stop" : 1647975468000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b087d3578653aa22.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "7d3f37c079faf8f1",
+  "name" : "QA 064",
+  "fullName" : "QA #064 on fedora35-container",
+  "historyId" : "064@fedora35-container",
+  "time" : {
+    "start" : 1648145243000,
+    "stop" : 1648145244000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 064\n\n\n\nTesting pcp-pidstat's -f argument\n\nCopyright (C) 2017 Alperen Karaoglu\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 064</p>\n<p>Testing pcp-pidstat's -f argument</p>\n<p>Copyright (C) 2017 Alperen Karaoglu</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pidstat"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "python"
+  }, {
+    "name" : "epic",
+    "value" : "pcp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/9c894bfb47d865f478f64268e923375831fc59a9/qa/064",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/9c894bfb47d865f478f64268e923375831fc59a9/qa/064.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d1ef5e95c96f0dd4",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/d1ef5e95c96f0dd4",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648145243000,
+          "stop" : 1648145244000,
+          "duration" : 1000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7d3f37c079faf8f1.json",
+  "parameterValues" : [ ]
+}

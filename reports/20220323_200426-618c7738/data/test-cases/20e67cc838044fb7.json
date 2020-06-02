@@ -1,0 +1,184 @@
+{
+  "uid" : "20e67cc838044fb7",
+  "name" : "QA 061",
+  "fullName" : "QA #061 on fedora35-container",
+  "historyId" : "061@fedora35-container",
+  "time" : {
+    "start" : 1647972053000,
+    "stop" : 1647972100000,
+    "duration" : 47000
+  },
+  "description" : "PCP QA Test No. 061\n\nexercise the logging state compatibility matrix\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n**To reproduce this test, please run:**\n\n    build/ci/ci-run.py fedora35-container reproduce",
+  "descriptionHtml" : "<p>PCP QA Test No. 061</p>\n<p>exercise the logging state compatibility matrix</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n<p><strong>To reproduce this test, please run:</strong></p>\n<pre><code>build/ci/ci-run.py fedora35-container reproduce\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "PCP QA Test No. 061\n\nexercise the logging state compatibility matrix\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n**To reproduce this test, please run:**\n\n    build/ci/ci-run.py fedora35-container reproduce",
+    "status" : "failed",
+    "statusMessage" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5de8a7398f69dd3",
+      "name" : "061.out.bad",
+      "source" : "e5de8a7398f69dd3.txt",
+      "type" : "text/plain",
+      "size" : 72058
+    }, {
+      "uid" : "61291bc51615ca9c",
+      "name" : "061.full",
+      "source" : "61291bc51615ca9c.txt",
+      "type" : "text/plain",
+      "size" : 71319
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogger"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "ostest"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/618c773817aa233e30a53972096939d62aa00735/qa/061",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/618c773817aa233e30a53972096939d62aa00735/qa/061.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Failed tests",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "83ec6ecdafca9977",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_195910-18d6ad8b//#testresult/83ec6ecdafca9977",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+        "time" : {
+          "start" : 1647972053000,
+          "stop" : 1647972100000,
+          "duration" : 47000
+        }
+      }, {
+        "uid" : "8b763290eac7fc24",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/8b763290eac7fc24",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+        "time" : {
+          "start" : 1647972053000,
+          "stop" : 1647972100000,
+          "duration" : 47000
+        }
+      }, {
+        "uid" : "a173fd4f62beae75",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/a173fd4f62beae75",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+        "time" : {
+          "start" : 1647972053000,
+          "stop" : 1647972100000,
+          "duration" : 47000
+        }
+      }, {
+        "uid" : "d115347d82981d8a",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/d115347d82981d8a",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+        "time" : {
+          "start" : 1647972053000,
+          "stop" : 1647972100000,
+          "duration" : 47000
+        }
+      }, {
+        "uid" : "d7c5b6d565f16051",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/d7c5b6d565f16051",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+        "time" : {
+          "start" : 1647972053000,
+          "stop" : 1647972100000,
+          "duration" : 47000
+        }
+      }, {
+        "uid" : "40bc46eb84218d66",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/40bc46eb84218d66",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+        "time" : {
+          "start" : 1647972053000,
+          "stop" : 1647972100000,
+          "duration" : 47000
+        }
+      }, {
+        "uid" : "4a83a7ecfe0fd660",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/4a83a7ecfe0fd660",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+        "time" : {
+          "start" : 1647972053000,
+          "stop" : 1647972100000,
+          "duration" : 47000
+        }
+      }, {
+        "uid" : "70b4d3607c407306",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/70b4d3607c407306",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 061.out.bad)\n1473d1472\n< check_local_creds: uid connecting N != M or M => connection refused\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+        "time" : {
+          "start" : 1647972053000,
+          "stop" : 1647972100000,
+          "duration" : 47000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "20e67cc838044fb7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,147 @@
+{
+  "uid" : "92b1d001d4d71649",
+  "name" : "QA 1774",
+  "fullName" : "QA #1774 on fedora35-container",
+  "historyId" : "1774@fedora35-container",
+  "time" : {
+    "start" : 1647979266000,
+    "stop" : 1647979266000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1774\n\ntest pmlogctl and the pmlogger_farm service\n\n\n\nCopyright (c) 2020 Red Hat.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1774</p>\n<p>test pmlogctl and the pmlogger_farm service</p>\n<p>Copyright (c) 2020 Red Hat.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "./getpmcdhosts: unable to get 1 host(s) with options: \"-v pcp>=4 -L -n 1\"",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogctl"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogger"
+  }, {
+    "name" : "epic",
+    "value" : "logutil"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/18d6ad8b4e959755b699bddbc01e4d40fdca2e02/qa/1774",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/18d6ad8b4e959755b699bddbc01e4d40fdca2e02/qa/1774.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 8,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "e05d3cacdf61b971",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/e05d3cacdf61b971",
+        "status" : "skipped",
+        "statusDetails" : "./getpmcdhosts: unable to get 1 host(s) with options: \"-v pcp>=4 -L -n 1\"",
+        "time" : {
+          "start" : 1647979266000,
+          "stop" : 1647979266000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "eb40812bcfbff99d",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/eb40812bcfbff99d",
+        "status" : "skipped",
+        "statusDetails" : "./getpmcdhosts: unable to get 1 host(s) with options: \"-v pcp>=4 -L -n 1\"",
+        "time" : {
+          "start" : 1647979266000,
+          "stop" : 1647979266000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e07452abe0a242d4",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/e07452abe0a242d4",
+        "status" : "skipped",
+        "statusDetails" : "./getpmcdhosts: unable to get 1 host(s) with options: \"-v pcp>=4 -L -n 1\"",
+        "time" : {
+          "start" : 1647979266000,
+          "stop" : 1647979266000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "79bfeb22660f0c2e",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/79bfeb22660f0c2e",
+        "status" : "skipped",
+        "statusDetails" : "./getpmcdhosts: unable to get 1 host(s) with options: \"-v pcp>=4 -L -n 1\"",
+        "time" : {
+          "start" : 1647979266000,
+          "stop" : 1647979266000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5dbe7c4f60dd6ff1",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/5dbe7c4f60dd6ff1",
+        "status" : "skipped",
+        "statusDetails" : "./getpmcdhosts: unable to get 1 host(s) with options: \"-v pcp>=4 -L -n 1\"",
+        "time" : {
+          "start" : 1647979266000,
+          "stop" : 1647979266000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f4e3cf2f5adbe4a",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/f4e3cf2f5adbe4a",
+        "status" : "skipped",
+        "statusDetails" : "./getpmcdhosts: unable to get 1 host(s) with options: \"-v pcp>=4 -L -n 1\"",
+        "time" : {
+          "start" : 1647979266000,
+          "stop" : 1647979266000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "77b232f25008c6fb",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/77b232f25008c6fb",
+        "status" : "skipped",
+        "statusDetails" : "./getpmcdhosts: unable to get 1 host(s) with options: \"-v pcp>=4 -L -n 1\"",
+        "time" : {
+          "start" : 1647979266000,
+          "stop" : 1647979266000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "92b1d001d4d71649.json",
+  "parameterValues" : [ ]
+}

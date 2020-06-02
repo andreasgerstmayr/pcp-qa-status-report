@@ -1,0 +1,20 @@
+QA output created by 1978
+Defaults with core metric naming
+=== std out
+=== std err
+pcp-atop: Cannot open archive "archives/pcp-atop-threads": Corrupted record in a PCP archive log
+=== done
+
+Creating alternate named archive
+pmlogrewrite: Error: cannot open archive "archives/pcp-atop-threads": Corrupted record in a PCP archive log
+Defaults with ix86arch metric naming
+=== std out
+=== std err
+pcp-atop: Cannot open archive "/var/tmp/1978-1394246.pcp-atop-threads": No such file or directory
+=== done
+
+Checking alternative name output
+3c3
+< pcp-atop: Cannot open archive "archives/pcp-atop-threads": Corrupted record in a PCP archive log
+---
+> pcp-atop: Cannot open archive "/var/tmp/1978-1394246.pcp-atop-threads": No such file or directory

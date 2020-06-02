@@ -1,0 +1,90 @@
+{
+  "uid" : "18eb48a53dbc4c2a",
+  "name" : "QA 371",
+  "fullName" : "QA #371 on fedora35-container",
+  "historyId" : "371@fedora35-container",
+  "time" : {
+    "start" : 1648060230000,
+    "stop" : 1648060230000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 371\n\n\n\nParsing and error checking for the mapfile used by sheet2pcp\n\n\n\nCopyright (c) 2010 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 371</p>\n<p>Parsing and error checking for the mapfile used by sheet2pcp</p>\n<p>Copyright (c) 2010 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "perl Spreadsheet::Read module not installed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmimport"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "epic",
+    "value" : "perl"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/d09dce6c2e17b68f04eb8474603c05c7c9613065/qa/371",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/d09dce6c2e17b68f04eb8474603c05c7c9613065/qa/371.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b4efcb729848547f",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_213535-fbe3976a//#testresult/b4efcb729848547f",
+        "status" : "skipped",
+        "statusDetails" : "perl Spreadsheet::Read module not installed",
+        "time" : {
+          "start" : 1648060230000,
+          "stop" : 1648060230000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "18eb48a53dbc4c2a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,136 @@
+{
+  "uid" : "87d51acfb21df148",
+  "name" : "QA 597",
+  "fullName" : "QA #597 on fedora35-container",
+  "historyId" : "597@fedora35-container",
+  "time" : {
+    "start" : 1647975027000,
+    "stop" : 1647975043000,
+    "duration" : 16000
+  },
+  "description" : "PCP QA Test No. 597\n\nInstall/Remove of shping PMDA\n\n\n\nCopyright (c) 2015 Red Hat.\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 597</p>\n<p>Install/Remove of shping PMDA</p>\n<p>Copyright (c) 2015 Red Hat.</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.shping"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.proc"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.install"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/597",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/597.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "e7814762439b6cd6",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/e7814762439b6cd6",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975027000,
+          "stop" : 1647975043000,
+          "duration" : 16000
+        }
+      }, {
+        "uid" : "76b77f7b241f49b5",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/76b77f7b241f49b5",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975027000,
+          "stop" : 1647975043000,
+          "duration" : 16000
+        }
+      }, {
+        "uid" : "36c19c5fafe081bb",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/36c19c5fafe081bb",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975027000,
+          "stop" : 1647975043000,
+          "duration" : 16000
+        }
+      }, {
+        "uid" : "c92b182f6e65c6b5",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/c92b182f6e65c6b5",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975027000,
+          "stop" : 1647975043000,
+          "duration" : 16000
+        }
+      }, {
+        "uid" : "cc9cd4ebd5dfc5ad",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/cc9cd4ebd5dfc5ad",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975027000,
+          "stop" : 1647975043000,
+          "duration" : 16000
+        }
+      }, {
+        "uid" : "1f853c3556722039",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/1f853c3556722039",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975027000,
+          "stop" : 1647975043000,
+          "duration" : 16000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "87d51acfb21df148.json",
+  "parameterValues" : [ ]
+}

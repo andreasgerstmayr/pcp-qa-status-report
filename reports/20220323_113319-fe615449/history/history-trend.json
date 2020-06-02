@@ -1,0 +1,21 @@
+[ {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449/",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 120,
+    "passed" : 1296,
+    "unknown" : 0,
+    "total" : 1418
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc/",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 120,
+    "passed" : 1296,
+    "unknown" : 0,
+    "total" : 1418
+  }
+} ]

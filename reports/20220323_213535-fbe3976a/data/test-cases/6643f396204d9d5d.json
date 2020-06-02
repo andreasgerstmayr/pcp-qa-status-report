@@ -1,0 +1,63 @@
+{
+  "uid" : "6643f396204d9d5d",
+  "name" : "QA 1584",
+  "fullName" : "QA #1584 on fedora35-container",
+  "historyId" : "1584@fedora35-container",
+  "time" : {
+    "start" : 1648065068000,
+    "stop" : 1648065068000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1584\n\nCopyright (c) 2021 Red Hat.\n\n\n\nExercise MongoDB agent Install and Remove scripts,\n\nplus metric value validation on select metrics.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1584</p>\n<p>Copyright (c) 2021 Red Hat.</p>\n<p>Exercise MongoDB agent Install and Remove scripts,</p>\n<p>plus metric value validation on select metrics.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "MongoDB shell not installed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.mongodb"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/1584",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/1584.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6643f396204d9d5d.json",
+  "parameterValues" : [ ]
+}

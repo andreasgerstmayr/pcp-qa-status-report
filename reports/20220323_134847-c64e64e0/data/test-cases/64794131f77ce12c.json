@@ -1,0 +1,117 @@
+{
+  "uid" : "64794131f77ce12c",
+  "name" : "QA 555",
+  "fullName" : "QA #555 on fedora35-container",
+  "historyId" : "555@fedora35-container",
+  "time" : {
+    "start" : 1647974790000,
+    "stop" : 1647974791000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 555\n\npmie syslog(3) changes and parsing -t tag and -p pri arguments in\n\na syslog action\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 555</p>\n<p>pmie syslog(3) changes and parsing -t tag and -p pri arguments in</p>\n<p>a syslog action</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "No /etc/*syslog.conf -- probably using a different syslog package",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmie"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/c64e64e0d49fd7bcc76ad6e1a053e2f8d30efa58/qa/555",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/c64e64e0d49fd7bcc76ad6e1a053e2f8d30efa58/qa/555.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "fb050b97b5ab48d5",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/fb050b97b5ab48d5",
+        "status" : "skipped",
+        "statusDetails" : "No /etc/*syslog.conf -- probably using a different syslog package",
+        "time" : {
+          "start" : 1647974790000,
+          "stop" : 1647974791000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "241f14c67bdab053",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/241f14c67bdab053",
+        "status" : "skipped",
+        "statusDetails" : "No /etc/*syslog.conf -- probably using a different syslog package",
+        "time" : {
+          "start" : 1647974790000,
+          "stop" : 1647974791000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "552c0f4cbfdf41ba",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/552c0f4cbfdf41ba",
+        "status" : "skipped",
+        "statusDetails" : "No /etc/*syslog.conf -- probably using a different syslog package",
+        "time" : {
+          "start" : 1647974790000,
+          "stop" : 1647974791000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "293aa569306732a2",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/293aa569306732a2",
+        "status" : "skipped",
+        "statusDetails" : "No /etc/*syslog.conf -- probably using a different syslog package",
+        "time" : {
+          "start" : 1647974790000,
+          "stop" : 1647974791000,
+          "duration" : 1000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "64794131f77ce12c.json",
+  "parameterValues" : [ ]
+}

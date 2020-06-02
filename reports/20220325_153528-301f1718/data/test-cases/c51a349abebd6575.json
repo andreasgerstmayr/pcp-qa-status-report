@@ -1,0 +1,80 @@
+{
+  "uid" : "c51a349abebd6575",
+  "name" : "QA 216",
+  "fullName" : "QA #216 on fedora35-container",
+  "historyId" : "216@fedora35-container",
+  "time" : {
+    "start" : 1648146111000,
+    "stop" : 1648146112000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 216\n\n\n\nVerify network.<protocol> statistics\n\n(Linux version, see 117 for non-Linux version - although this version\n\nhas been completely re-written to deal with optional output from the\n\nLinux version of netstat)\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\nCopyright (c) 2009 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 216</p>\n<p>Verify network. statistics</p>\n<p>(Linux version, see 117 for non-Linux version - although this version</p>\n<p>has been completely re-written to deal with optional output from the</p>\n<p>Linux version of netstat)</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n<p>Copyright (c) 2009 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.linux"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/216",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/216.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "33ae8b0f5932c561",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/33ae8b0f5932c561",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648146111000,
+          "stop" : 1648146112000,
+          "duration" : 1000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c51a349abebd6575.json",
+  "parameterValues" : [ ]
+}

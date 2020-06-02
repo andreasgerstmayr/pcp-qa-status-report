@@ -1,0 +1,144 @@
+{
+  "uid" : "68b6c8a297a7fd2e",
+  "name" : "QA 749",
+  "fullName" : "QA #749 on fedora35-container",
+  "historyId" : "749@fedora35-container",
+  "time" : {
+    "start" : 1647975932000,
+    "stop" : 1647975932000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 749\n\nCheck pmcd static probes\n\n\n\nCopyright (c) 2013-2014 Red Hat.\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 749</p>\n<p>Check pmcd static probes</p>\n<p>Copyright (c) 2013-2014 Red Hat.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "No systemtap stap executable found",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmcd"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/18d6ad8b4e959755b699bddbc01e4d40fdca2e02/qa/749",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/18d6ad8b4e959755b699bddbc01e4d40fdca2e02/qa/749.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 8,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "86f6ba846b56c23e",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/86f6ba846b56c23e",
+        "status" : "skipped",
+        "statusDetails" : "No systemtap stap executable found",
+        "time" : {
+          "start" : 1647975932000,
+          "stop" : 1647975932000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "75f6ef71ea7f178e",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/75f6ef71ea7f178e",
+        "status" : "skipped",
+        "statusDetails" : "No systemtap stap executable found",
+        "time" : {
+          "start" : 1647975932000,
+          "stop" : 1647975932000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f3625472fb802e20",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/f3625472fb802e20",
+        "status" : "skipped",
+        "statusDetails" : "No systemtap stap executable found",
+        "time" : {
+          "start" : 1647975932000,
+          "stop" : 1647975932000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bce0fd370289f80e",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/bce0fd370289f80e",
+        "status" : "skipped",
+        "statusDetails" : "No systemtap stap executable found",
+        "time" : {
+          "start" : 1647975932000,
+          "stop" : 1647975932000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8916683536518276",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/8916683536518276",
+        "status" : "skipped",
+        "statusDetails" : "No systemtap stap executable found",
+        "time" : {
+          "start" : 1647975932000,
+          "stop" : 1647975932000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "83e361265aa76bb4",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/83e361265aa76bb4",
+        "status" : "skipped",
+        "statusDetails" : "No systemtap stap executable found",
+        "time" : {
+          "start" : 1647975932000,
+          "stop" : 1647975932000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fc1eec1a3fa16426",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/fc1eec1a3fa16426",
+        "status" : "skipped",
+        "statusDetails" : "No systemtap stap executable found",
+        "time" : {
+          "start" : 1647975932000,
+          "stop" : 1647975932000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "68b6c8a297a7fd2e.json",
+  "parameterValues" : [ ]
+}

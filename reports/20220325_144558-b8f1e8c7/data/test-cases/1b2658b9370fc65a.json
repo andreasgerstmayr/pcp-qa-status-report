@@ -1,0 +1,86 @@
+{
+  "uid" : "1b2658b9370fc65a",
+  "name" : "QA 1108",
+  "fullName" : "QA #1108 on fedora35-container",
+  "historyId" : "1108@fedora35-container",
+  "time" : {
+    "start" : 1648150310000,
+    "stop" : 1648150310000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1108\n\npv:821339 sed gives \"Too many commands\" in daily cron script\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\nCopyright (c) 2018 Red Hat. All Rights Reserved.\n\n\n\ncheck-group-exclude: pmlogger\n\ncheck-group-exclude: pmnewlog\n\ncheck-group-include: pmlogextract\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1108</p>\n<p>pv:821339 sed gives &quot;Too many commands&quot; in daily cron script</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n<p>Copyright (c) 2018 Red Hat. All Rights Reserved.</p>\n<p>check-group-exclude: pmlogger</p>\n<p>check-group-exclude: pmnewlog</p>\n<p>check-group-include: pmlogextract</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "logutil"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "folio"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogextract"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/b8f1e8c7c73c98f620ab340bb4d20435fd9589df/qa/1108",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/b8f1e8c7c73c98f620ab340bb4d20435fd9589df/qa/1108.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d4ae4db0269b3eee",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/d4ae4db0269b3eee",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648150310000,
+          "stop" : 1648150310000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b2658b9370fc65a.json",
+  "parameterValues" : [ ]
+}

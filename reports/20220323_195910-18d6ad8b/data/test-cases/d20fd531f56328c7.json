@@ -1,0 +1,153 @@
+{
+  "uid" : "d20fd531f56328c7",
+  "name" : "QA 159",
+  "fullName" : "QA #159 on fedora35-container",
+  "historyId" : "159@fedora35-container",
+  "time" : {
+    "start" : 1647972632000,
+    "stop" : 1647972632000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 159\n\ncheck out cisco PMDA\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 159</p>\n<p>check out cisco PMDA</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "No cisco router set via $PCPQA_CISCO_ROUTER in ./common.config",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.cisco"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.install"
+  }, {
+    "name" : "epic",
+    "value" : "pmstore"
+  }, {
+    "name" : "epic",
+    "value" : "pmpost"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/18d6ad8b4e959755b699bddbc01e4d40fdca2e02/qa/159",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/18d6ad8b4e959755b699bddbc01e4d40fdca2e02/qa/159.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 8,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "a7ea9998a5d6c341",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/a7ea9998a5d6c341",
+        "status" : "skipped",
+        "statusDetails" : "No cisco router set via $PCPQA_CISCO_ROUTER in ./common.config",
+        "time" : {
+          "start" : 1647972632000,
+          "stop" : 1647972632000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2964cdf317b7ef09",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/2964cdf317b7ef09",
+        "status" : "skipped",
+        "statusDetails" : "No cisco router set via $PCPQA_CISCO_ROUTER in ./common.config",
+        "time" : {
+          "start" : 1647972632000,
+          "stop" : 1647972632000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "10834537ee97f3db",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/10834537ee97f3db",
+        "status" : "skipped",
+        "statusDetails" : "No cisco router set via $PCPQA_CISCO_ROUTER in ./common.config",
+        "time" : {
+          "start" : 1647972632000,
+          "stop" : 1647972632000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8eb3f417ace70f6d",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/8eb3f417ace70f6d",
+        "status" : "skipped",
+        "statusDetails" : "No cisco router set via $PCPQA_CISCO_ROUTER in ./common.config",
+        "time" : {
+          "start" : 1647972632000,
+          "stop" : 1647972632000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5bd4222a49fda6a1",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/5bd4222a49fda6a1",
+        "status" : "skipped",
+        "statusDetails" : "No cisco router set via $PCPQA_CISCO_ROUTER in ./common.config",
+        "time" : {
+          "start" : 1647972632000,
+          "stop" : 1647972632000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "405770302b9f6678",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/405770302b9f6678",
+        "status" : "skipped",
+        "statusDetails" : "No cisco router set via $PCPQA_CISCO_ROUTER in ./common.config",
+        "time" : {
+          "start" : 1647972632000,
+          "stop" : 1647972632000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "733bf9f2aefa4453",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/733bf9f2aefa4453",
+        "status" : "skipped",
+        "statusDetails" : "No cisco router set via $PCPQA_CISCO_ROUTER in ./common.config",
+        "time" : {
+          "start" : 1647972632000,
+          "stop" : 1647972632000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d20fd531f56328c7.json",
+  "parameterValues" : [ ]
+}

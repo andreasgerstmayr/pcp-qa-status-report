@@ -1,0 +1,21 @@
+[ {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220325_152249-9c894bfb/",
+  "data" : {
+    "failed" : 4,
+    "broken" : 0,
+    "skipped" : 120,
+    "passed" : 1295,
+    "unknown" : 0,
+    "total" : 1419
+  }
+}, {
+  "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9/",
+  "data" : {
+    "failed" : 47,
+    "broken" : 0,
+    "skipped" : 1854,
+    "passed" : 16546,
+    "unknown" : 0,
+    "total" : 18447
+  }
+} ]

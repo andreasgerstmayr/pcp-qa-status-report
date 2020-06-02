@@ -1,0 +1,160 @@
+{
+  "uid" : "c5cc385afe0d2d98",
+  "name" : "QA 372",
+  "fullName" : "QA #372 on fedora35-container",
+  "historyId" : "372@fedora35-container",
+  "time" : {
+    "start" : 1647973962000,
+    "stop" : 1647973962000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 372\n\nsimple exerciser for sheet2pcp - base CSV variant\n\n\n\nCopyright (c) 2010 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 372</p>\n<p>simple exerciser for sheet2pcp - base CSV variant</p>\n<p>Copyright (c) 2010 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "perl Spreadsheet::Read module not installed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmimport"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "epic",
+    "value" : "perl"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/618c773817aa233e30a53972096939d62aa00735/qa/372",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/618c773817aa233e30a53972096939d62aa00735/qa/372.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 9,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "78c7cc8e04961866",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_195910-18d6ad8b//#testresult/78c7cc8e04961866",
+        "status" : "skipped",
+        "statusDetails" : "perl Spreadsheet::Read module not installed",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2a53d30ed15735ce",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/2a53d30ed15735ce",
+        "status" : "skipped",
+        "statusDetails" : "perl Spreadsheet::Read module not installed",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b15a56d7cf6ceea8",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/b15a56d7cf6ceea8",
+        "status" : "skipped",
+        "statusDetails" : "perl Spreadsheet::Read module not installed",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "833c8cbd90d44afe",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/833c8cbd90d44afe",
+        "status" : "skipped",
+        "statusDetails" : "perl Spreadsheet::Read module not installed",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "85c272207acd2730",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/85c272207acd2730",
+        "status" : "skipped",
+        "statusDetails" : "perl Spreadsheet::Read module not installed",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "efa1a132358c5091",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/efa1a132358c5091",
+        "status" : "skipped",
+        "statusDetails" : "perl Spreadsheet::Read module not installed",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "16d0e7bb0668fade",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/16d0e7bb0668fade",
+        "status" : "skipped",
+        "statusDetails" : "perl Spreadsheet::Read module not installed",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "549a57bea35535ae",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/549a57bea35535ae",
+        "status" : "skipped",
+        "statusDetails" : "perl Spreadsheet::Read module not installed",
+        "time" : {
+          "start" : 1647973962000,
+          "stop" : 1647973962000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c5cc385afe0d2d98.json",
+  "parameterValues" : [ ]
+}

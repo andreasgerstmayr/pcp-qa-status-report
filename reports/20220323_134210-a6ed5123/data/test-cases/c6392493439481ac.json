@@ -1,0 +1,121 @@
+{
+  "uid" : "c6392493439481ac",
+  "name" : "QA 412",
+  "fullName" : "QA #412 on fedora35-container",
+  "historyId" : "412@fedora35-container",
+  "time" : {
+    "start" : 1647974148000,
+    "stop" : 1647974156000,
+    "duration" : 8000
+  },
+  "description" : "PCP QA Test No. 412\n\nTest out wrapping on libpcp/interp\n\n\n\nTest the creation and reading of an archive created using pmlogger(1) and\n\nand pmval(1).\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 412</p>\n<p>Test out wrapping on libpcp/interp</p>\n<p>Test the creation and reading of an archive created using pmlogger(1) and</p>\n<p>and pmval(1).</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "wrap"
+  }, {
+    "name" : "epic",
+    "value" : "archive"
+  }, {
+    "name" : "epic",
+    "value" : "libpcp"
+  }, {
+    "name" : "epic",
+    "value" : "pmval"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "epic",
+    "value" : "timezone"
+  }, {
+    "name" : "epic",
+    "value" : "pmstore"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/a6ed51230998aacefb4efefbd857d3e63495b290/qa/412",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/a6ed51230998aacefb4efefbd857d3e63495b290/qa/412.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c3733fa714a3c601",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/c3733fa714a3c601",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974148000,
+          "stop" : 1647974156000,
+          "duration" : 8000
+        }
+      }, {
+        "uid" : "1f8c211813769c9e",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/1f8c211813769c9e",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974148000,
+          "stop" : 1647974156000,
+          "duration" : 8000
+        }
+      }, {
+        "uid" : "76678f900031d84f",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/76678f900031d84f",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647974148000,
+          "stop" : 1647974156000,
+          "duration" : 8000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c6392493439481ac.json",
+  "parameterValues" : [ ]
+}

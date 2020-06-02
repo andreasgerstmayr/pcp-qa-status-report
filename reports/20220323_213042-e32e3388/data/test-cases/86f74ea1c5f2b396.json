@@ -1,0 +1,164 @@
+{
+  "uid" : "86f74ea1c5f2b396",
+  "name" : "QA 1855",
+  "fullName" : "QA #1855 on fedora35-container",
+  "historyId" : "1855@fedora35-container",
+  "time" : {
+    "start" : 1648065765000,
+    "stop" : 1648065765000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1855\n\nExercise the rabbitmq PMDA - install, remove and values.\n\n\n\nCopyright (c) 2020 Ashwin Nayak.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1855</p>\n<p>Exercise the rabbitmq PMDA - install, remove and values.</p>\n<p>Copyright (c) 2020 Ashwin Nayak.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "rabbitmq not running on default port:15672",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.rabbitmq"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/e32e3388f92d2db24e3cd601f92387be776eca40/qa/1855",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/e32e3388f92d2db24e3cd601f92387be776eca40/qa/1855.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 10,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "5fce98ce03142bd9",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_200426-618c7738//#testresult/5fce98ce03142bd9",
+        "status" : "skipped",
+        "statusDetails" : "rabbitmq not running on default port:15672",
+        "time" : {
+          "start" : 1647979287000,
+          "stop" : 1647979287000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "842a82fe6c91e6d",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_195910-18d6ad8b//#testresult/842a82fe6c91e6d",
+        "status" : "skipped",
+        "statusDetails" : "rabbitmq not running on default port:15672",
+        "time" : {
+          "start" : 1647979287000,
+          "stop" : 1647979287000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "41b7deff18f08960",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/41b7deff18f08960",
+        "status" : "skipped",
+        "statusDetails" : "rabbitmq not running on default port:15672",
+        "time" : {
+          "start" : 1647979287000,
+          "stop" : 1647979287000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bd5589a98cccf724",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/bd5589a98cccf724",
+        "status" : "skipped",
+        "statusDetails" : "rabbitmq not running on default port:15672",
+        "time" : {
+          "start" : 1647979287000,
+          "stop" : 1647979287000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ebd9da60e078f967",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/ebd9da60e078f967",
+        "status" : "skipped",
+        "statusDetails" : "rabbitmq not running on default port:15672",
+        "time" : {
+          "start" : 1647979287000,
+          "stop" : 1647979287000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7fc6fb7f1a3944c6",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/7fc6fb7f1a3944c6",
+        "status" : "skipped",
+        "statusDetails" : "rabbitmq not running on default port:15672",
+        "time" : {
+          "start" : 1647979287000,
+          "stop" : 1647979287000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "62e2aa7b8db587fe",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/62e2aa7b8db587fe",
+        "status" : "skipped",
+        "statusDetails" : "rabbitmq not running on default port:15672",
+        "time" : {
+          "start" : 1647979287000,
+          "stop" : 1647979287000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fc0b9823cbdfb9ac",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/fc0b9823cbdfb9ac",
+        "status" : "skipped",
+        "statusDetails" : "rabbitmq not running on default port:15672",
+        "time" : {
+          "start" : 1647979287000,
+          "stop" : 1647979287000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "279deb3be1d18556",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/279deb3be1d18556",
+        "status" : "skipped",
+        "statusDetails" : "rabbitmq not running on default port:15672",
+        "time" : {
+          "start" : 1647979287000,
+          "stop" : 1647979287000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86f74ea1c5f2b396.json",
+  "parameterValues" : [ ]
+}

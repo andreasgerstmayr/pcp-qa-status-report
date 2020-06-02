@@ -1,0 +1,83 @@
+{
+  "uid" : "5ed22daf2065d979",
+  "name" : "QA 926",
+  "fullName" : "QA #926 on fedora35-container",
+  "historyId" : "926@fedora35-container",
+  "time" : {
+    "start" : 1648149739000,
+    "stop" : 1648149764000,
+    "duration" : 25000
+  },
+  "description" : "PCP QA Test No. 926\n\nExercise the ganglia2pcp utility\n\n\n\nCopyright (c) 2015 Martins Innus.  All Rights Reserved.\n\n\n\nThe test archives are machine specific. If a set of \n\nfiles for your architecture is not present, please: \n\n\n\ncd  qa/ganglia && mk-gangliatest\n\n\n\nand submit the results.\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 926</p>\n<p>Exercise the ganglia2pcp utility</p>\n<p>Copyright (c) 2015 Martins Innus.  All Rights Reserved.</p>\n<p>The test archives are machine specific. If a set of</p>\n<p>files for your architecture is not present, please:</p>\n<p>cd  qa/ganglia &amp;&amp; mk-gangliatest</p>\n<p>and submit the results.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "ganglia2pcp"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/9c894bfb47d865f478f64268e923375831fc59a9/qa/926",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/9c894bfb47d865f478f64268e923375831fc59a9/qa/926.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2698f62be50e77ec",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/2698f62be50e77ec",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648149739000,
+          "stop" : 1648149764000,
+          "duration" : 25000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5ed22daf2065d979.json",
+  "parameterValues" : [ ]
+}

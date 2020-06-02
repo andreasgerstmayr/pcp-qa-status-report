@@ -1,0 +1,1575 @@
+mandatory on once -> mandatory on once
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341189] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:00:54.019425000 2022 (times in local time)
+last log entry   Tue Mar 22 18:00:54.019827646 2022
+current time     Tue Mar 22 18:00:54.025164773 2022
+log volume       0
+log size         348
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:00:54 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, on delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x556e4f3ade10 next=(nil)
+Fetch Control @ 0x556e4f3ade10: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x556e4f3ade50:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x556e4f3ade80:
+    instances: [1] 2
+      Request @ 0x556e4f3ad8f0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x556e4f3acda0 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972054.0619425 vol=0 meta posn=132 log posn=132
+logputresult: pdubuf=0x556e4f3ad030 input len=44 output len=40 posn=308
+__pmLogPutIndex: timestamp=1647972054.0619827 vol=0 meta posn=451 log posn=308
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x556e4f3add40 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x556e4f3add40 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 15
+logputresult: pdubuf=0x556e4f3acda0 input len=180 output len=176 posn=348
+[Tue Mar 22 18:00:55] pmlogger(341189) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972055.06819429 vol=0 meta posn=1844 log posn=348
+
+Log finished Tue Mar 22 18:00:55 2022
+mandatory on once -> mandatory maybe
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341242] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:00:55.890026000 2022 (times in local time)
+last log entry   Tue Mar 22 18:00:55.890026991 2022
+current time     Tue Mar 22 18:00:55.895681389 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:00:55 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x56249271bed0 state=NNAN delta=0.000000
+compared to: optreq task=0x56249271c170 state=NNMY delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x56249271c0c0 next=(nil)
+Fetch Control @ 0x56249271c0c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x56249271c100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x56249271b970:
+    instances: [1] 2
+      Request @ 0x56249271bfc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x56249271ae40 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972055.06890026 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x56249271adb0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x56249271adb0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 0
+logputresult: pdubuf=0x56249271ae40 input len=180 output len=176 posn=308
+[Tue Mar 22 18:00:57] pmlogger(341242) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972057.06690179 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:00:57 2022
+mandatory on once -> mandatory off
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341296] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:00:57.762794000 2022 (times in local time)
+last log entry   Tue Mar 22 18:00:57.762794311 2022
+current time     Tue Mar 22 18:00:57.768359309 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:00:57 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x55e2983e3ed0 state=NNMN delta=0.000000
+compared to: optreq task=0x55e2983e4170 state=NNMY delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55e2983e40c0 next=(nil)
+Fetch Control @ 0x55e2983e40c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55e2983e4100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55e2983e3970:
+    instances: [1] 2
+      Request @ 0x55e2983e3fc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55e2983e2e40 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972057.06762794 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55e2983e2db0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55e2983e2db0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 2
+logputresult: pdubuf=0x55e2983e2e40 input len=180 output len=176 posn=308
+[Tue Mar 22 18:00:59] pmlogger(341296) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972059.06562590 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:00:59 2022
+mandatory on once -> advisory on once
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341349] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:00:59.633598000 2022 (times in local time)
+last log entry   Tue Mar 22 18:00:59.633991111 2022
+current time     Tue Mar 22 18:00:59.639516109 2022
+log volume       0
+log size         348
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:00:59 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x55e2f5b51ed0 state=NNAY delta=0.000000
+compared to: optreq task=0x55e2f5b52170 state=NNMY delta=0.000000
+Warning [/var/tmp/061-341152.config, line 6]
+Incompatible request for metric "sample.colour" and instance "blue"
+Request for (advisory) ON conflicts with current (mandatory) ON state
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, on delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55e2f5b51e10 next=(nil)
+Fetch Control @ 0x55e2f5b51e10: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55e2f5b51e50:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55e2f5b51e80:
+    instances: [1] 2
+      Request @ 0x55e2f5b518f0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Fetch task[1] delta: 0 usec numpmid: 1
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55e2f5b50e70 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972059.06633598 vol=0 meta posn=132 log posn=132
+logputresult: pdubuf=0x55e2f5b51100 input len=44 output len=40 posn=308
+__pmLogPutIndex: timestamp=1647972059.06633991 vol=0 meta posn=451 log posn=308
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55e2f5b54df0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55e2f5b54df0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 15
+logputresult: pdubuf=0x55e2f5b50e70 input len=180 output len=176 posn=348
+[Tue Mar 22 18:01:01] pmlogger(341349) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972061.06434460 vol=0 meta posn=1844 log posn=348
+
+Log finished Tue Mar 22 18:01:01 2022
+mandatory on once -> advisory off
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341402] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:01.505788000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:01.506207645 2022
+current time     Tue Mar 22 18:01:01.511969343 2022
+log volume       0
+log size         348
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:01 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x55b00ab9ced0 state=NNAN delta=0.000000
+compared to: optreq task=0x55b00ab9d170 state=NNMY delta=0.000000
+Warning [/var/tmp/061-341152.config, line 6]
+Incompatible request for metric "sample.colour" and instance "blue"
+Request for (advisory) OFF conflicts with current (mandatory) ON state
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, on delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55b00ab9ce10 next=(nil)
+Fetch Control @ 0x55b00ab9ce10: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55b00ab9ce50:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55b00ab9ce80:
+    instances: [1] 2
+      Request @ 0x55b00ab9c8f0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Fetch task[1] delta: 0 usec numpmid: 1
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55b00ab9be70 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972061.06505788 vol=0 meta posn=132 log posn=132
+logputresult: pdubuf=0x55b00ab9c100 input len=44 output len=40 posn=308
+__pmLogPutIndex: timestamp=1647972061.06506207 vol=0 meta posn=451 log posn=308
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55b00ab9fdf0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55b00ab9fdf0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 15
+logputresult: pdubuf=0x55b00ab9be70 input len=180 output len=176 posn=348
+[Tue Mar 22 18:01:03] pmlogger(341402) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972063.06307090 vol=0 meta posn=1844 log posn=348
+
+Log finished Tue Mar 22 18:01:03 2022
+mandatory maybe -> mandatory on once
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341455] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:03.378231000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:03.378635078 2022
+current time     Tue Mar 22 18:01:03.384042176 2022
+log volume       0
+log size         348
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:03 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x5574f9875ed0 state=NNMY delta=0.000000
+compared to: optreq task=0x5574f9876170 state=NNAN delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, on delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x5574f98760c0 next=(nil)
+Fetch Control @ 0x5574f98760c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x5574f9876100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x5574f9875970:
+    instances: [1] 2
+      Request @ 0x5574f9875fc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x5574f9874e90 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972063.06378231 vol=0 meta posn=132 log posn=132
+logputresult: pdubuf=0x5574f9875120 input len=44 output len=40 posn=308
+__pmLogPutIndex: timestamp=1647972063.06378635 vol=0 meta posn=451 log posn=308
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x5574f9874dd0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x5574f9874dd0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 15
+logputresult: pdubuf=0x5574f9874e90 input len=180 output len=176 posn=348
+[Tue Mar 22 18:01:05] pmlogger(341455) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972065.06178668 vol=0 meta posn=1844 log posn=348
+
+Log finished Tue Mar 22 18:01:05 2022
+mandatory maybe -> mandatory maybe
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341510] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:05.249847000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:05.249847012 2022
+current time     Tue Mar 22 18:01:05.255686410 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:05 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x556d9896fe10 next=(nil)
+Fetch Control @ 0x556d9896fe10: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x556d9896fe50:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x556d9896fe80:
+    instances: [1] 2
+      Request @ 0x556d9896f8f0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x556d9896ecf0 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972065.06249847 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x556d9896f120 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x556d9896f120 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 0
+logputresult: pdubuf=0x556d9896ecf0 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:07] pmlogger(341510) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972067.0652130 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:07 2022
+mandatory maybe -> mandatory off
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341563] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:07.123773000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:07.123773645 2022
+current time     Tue Mar 22 18:01:07.129561643 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:07 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x5647a0bbbed0 state=NNMN delta=0.000000
+compared to: optreq task=0x5647a0bbc170 state=NNAN delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x5647a0bbc0c0 next=(nil)
+Fetch Control @ 0x5647a0bbc0c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x5647a0bbc100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x5647a0bbb970:
+    instances: [1] 2
+      Request @ 0x5647a0bbbfc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x5647a0bbae40 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972067.06123773 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x5647a0bbadb0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x5647a0bbadb0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 2
+logputresult: pdubuf=0x5647a0bbae40 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:08] pmlogger(341563) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972068.06924131 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:08 2022
+mandatory maybe -> advisory on once
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341618] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:08.995507000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:08.995908568 2022
+current time     Tue Mar 22 18:01:09.001796419 2022
+log volume       0
+log size         348
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:08 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x555697a33ed0 state=NNAY delta=0.000000
+compared to: optreq task=0x555697a34170 state=NNAN delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, on delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x555697a340c0 next=(nil)
+Fetch Control @ 0x555697a340c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x555697a34100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x555697a33970:
+    instances: [1] 2
+      Request @ 0x555697a33fc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x555697a32e90 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972068.06995507 vol=0 meta posn=132 log posn=132
+logputresult: pdubuf=0x555697a33120 input len=44 output len=40 posn=308
+__pmLogPutIndex: timestamp=1647972068.06995908 vol=0 meta posn=451 log posn=308
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x555697a32dd0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x555697a32dd0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 13
+logputresult: pdubuf=0x555697a32e90 input len=180 output len=176 posn=348
+[Tue Mar 22 18:01:10] pmlogger(341618) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972070.06796642 vol=0 meta posn=1844 log posn=348
+
+Log finished Tue Mar 22 18:01:10 2022
+mandatory maybe -> advisory off
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341671] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:10.867393000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:10.867393800 2022
+current time     Tue Mar 22 18:01:10.873131550 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:10 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x55772e14aed0 state=NNAN delta=0.000000
+compared to: optreq task=0x55772e14b170 state=NNAN delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55772e14b0c0 next=(nil)
+Fetch Control @ 0x55772e14b0c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55772e14b100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55772e14a970:
+    instances: [1] 2
+      Request @ 0x55772e14afc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55772e149e40 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972070.06867393 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55772e149db0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55772e149db0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 0
+logputresult: pdubuf=0x55772e149e40 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:12] pmlogger(341671) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972072.06667736 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:12 2022
+mandatory off -> mandatory on once
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341724] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:12.739006000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:12.739401137 2022
+current time     Tue Mar 22 18:01:12.744615982 2022
+log volume       0
+log size         348
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:12 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x557808b16ed0 state=NNMY delta=0.000000
+compared to: optreq task=0x557808b17170 state=NNMN delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, on delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x557808b170c0 next=(nil)
+Fetch Control @ 0x557808b170c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x557808b17100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x557808b16970:
+    instances: [1] 2
+      Request @ 0x557808b16fc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x557808b15e90 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972072.06739006 vol=0 meta posn=132 log posn=132
+logputresult: pdubuf=0x557808b16120 input len=44 output len=40 posn=308
+__pmLogPutIndex: timestamp=1647972072.06739401 vol=0 meta posn=451 log posn=308
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x557808b15dd0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x557808b15dd0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 15
+logputresult: pdubuf=0x557808b15e90 input len=180 output len=176 posn=348
+[Tue Mar 22 18:01:14] pmlogger(341724) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972074.06539067 vol=0 meta posn=1844 log posn=348
+
+Log finished Tue Mar 22 18:01:14 2022
+mandatory off -> mandatory maybe
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341777] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:14.610056000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:14.610056611 2022
+current time     Tue Mar 22 18:01:14.615977609 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:14 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x55a54e617ed0 state=NNAN delta=0.000000
+compared to: optreq task=0x55a54e618170 state=NNMN delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55a54e6180c0 next=(nil)
+Fetch Control @ 0x55a54e6180c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55a54e618100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55a54e617970:
+    instances: [1] 2
+      Request @ 0x55a54e617fc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55a54e616e40 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972074.06610056 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55a54e616db0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55a54e616db0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 0
+logputresult: pdubuf=0x55a54e616e40 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:16] pmlogger(341777) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972076.06410834 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:16 2022
+mandatory off -> mandatory off
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341830] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:16.481418000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:16.481418622 2022
+current time     Tue Mar 22 18:01:16.487349491 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:16 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55cd3dedfe10 next=(nil)
+Fetch Control @ 0x55cd3dedfe10: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55cd3dedfe50:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55cd3dedfe80:
+    instances: [1] 2
+      Request @ 0x55cd3dedf8f0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55cd3dedecf0 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972076.06481418 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55cd3dedf120 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55cd3dedf120 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 2
+logputresult: pdubuf=0x55cd3dedecf0 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:18] pmlogger(341830) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972078.06282254 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:18 2022
+mandatory off -> advisory on once
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341884] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:18.354510000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:18.354510904 2022
+current time     Tue Mar 22 18:01:18.360465774 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:18 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x5652eecf0ed0 state=NNAY delta=0.000000
+compared to: optreq task=0x5652eecf1170 state=NNMN delta=0.000000
+Warning [/var/tmp/061-341152.config, line 6]
+Incompatible request for metric "sample.colour" and instance "blue"
+Request for (advisory) ON conflicts with current (mandatory) OFF state
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x5652eecf0e10 next=(nil)
+Fetch Control @ 0x5652eecf0e10: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x5652eecf0e50:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x5652eecf0e80:
+    instances: [1] 2
+      Request @ 0x5652eecf08f0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Fetch task[1] delta: 0 usec numpmid: 1
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x5652eecefe20 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972078.06354510 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x5652eecefd90 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x5652eecefd90 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 2
+logputresult: pdubuf=0x5652eecefe20 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:20] pmlogger(341884) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972080.06155046 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:20 2022
+mandatory off -> advisory off
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341937] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:20.225678000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:20.225678113 2022
+current time     Tue Mar 22 18:01:20.231783818 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:20 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x555bc3e0eed0 state=NNAN delta=0.000000
+compared to: optreq task=0x555bc3e0f170 state=NNMN delta=0.000000
+Warning [/var/tmp/061-341152.config, line 6]
+Incompatible request for metric "sample.colour" and instance "blue"
+Request for (advisory) OFF conflicts with current (mandatory) OFF state
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x555bc3e0ee10 next=(nil)
+Fetch Control @ 0x555bc3e0ee10: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x555bc3e0ee50:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x555bc3e0ee80:
+    instances: [1] 2
+      Request @ 0x555bc3e0e8f0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Fetch task[1] delta: 0 usec numpmid: 1
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x555bc3e0de20 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972080.06225678 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x555bc3e0dd90 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x555bc3e0dd90 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 2
+logputresult: pdubuf=0x555bc3e0de20 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:22] pmlogger(341937) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972082.0626501 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:22 2022
+advisory on once -> mandatory on once
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [341990] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:22.098413000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:22.098808572 2022
+current time     Tue Mar 22 18:01:22.104564176 2022
+log volume       0
+log size         348
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:22 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x564021782ed0 state=NNMY delta=0.000000
+compared to: optreq task=0x564021783170 state=NNAY delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, on delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x5640217830c0 next=(nil)
+Fetch Control @ 0x5640217830c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x564021783100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x564021782970:
+    instances: [1] 2
+      Request @ 0x564021782fc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x564021781e90 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972082.0698413 vol=0 meta posn=132 log posn=132
+logputresult: pdubuf=0x564021782120 input len=44 output len=40 posn=308
+__pmLogPutIndex: timestamp=1647972082.0698808 vol=0 meta posn=451 log posn=308
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x564021781dd0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x564021781dd0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 15
+logputresult: pdubuf=0x564021781e90 input len=180 output len=176 posn=348
+[Tue Mar 22 18:01:23] pmlogger(341990) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972083.06898920 vol=0 meta posn=1844 log posn=348
+
+Log finished Tue Mar 22 18:01:23 2022
+advisory on once -> mandatory maybe
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [342043] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:23.969182000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:23.969182220 2022
+current time     Tue Mar 22 18:01:23.975408650 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:23 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x5590d532ded0 state=NNAN delta=0.000000
+compared to: optreq task=0x5590d532e170 state=NNAY delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x5590d532e0c0 next=(nil)
+Fetch Control @ 0x5590d532e0c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x5590d532e100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x5590d532d970:
+    instances: [1] 2
+      Request @ 0x5590d532dfc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x5590d532ce40 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972083.06969182 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x5590d532cdb0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x5590d532cdb0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 0
+logputresult: pdubuf=0x5590d532ce40 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:25] pmlogger(342043) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972085.06769490 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:25 2022
+advisory on once -> mandatory off
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [342096] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:25.840030000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:25.840030961 2022
+current time     Tue Mar 22 18:01:25.845991589 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:25 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x55f0c8e72ed0 state=NNMN delta=0.000000
+compared to: optreq task=0x55f0c8e73170 state=NNAY delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55f0c8e730c0 next=(nil)
+Fetch Control @ 0x55f0c8e730c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55f0c8e73100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55f0c8e72970:
+    instances: [1] 2
+      Request @ 0x55f0c8e72fc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55f0c8e71e40 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972085.06840030 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55f0c8e71db0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55f0c8e71db0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 2
+logputresult: pdubuf=0x55f0c8e71e40 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:27] pmlogger(342096) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972087.06639993 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:27 2022
+advisory on once -> advisory on once
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [342151] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:27.710846000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:27.711242703 2022
+current time     Tue Mar 22 18:01:27.716762329 2022
+log volume       0
+log size         348
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:27 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, on delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x5629d43cde10 next=(nil)
+Fetch Control @ 0x5629d43cde10: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x5629d43cde50:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x5629d43cde80:
+    instances: [1] 2
+      Request @ 0x5629d43cd8f0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x5629d43ccda0 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972087.06710846 vol=0 meta posn=132 log posn=132
+logputresult: pdubuf=0x5629d43cd030 input len=44 output len=40 posn=308
+__pmLogPutIndex: timestamp=1647972087.06711242 vol=0 meta posn=451 log posn=308
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x5629d43cdd40 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x5629d43cdd40 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 13
+logputresult: pdubuf=0x5629d43ccda0 input len=180 output len=176 posn=348
+[Tue Mar 22 18:01:29] pmlogger(342151) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972089.06511433 vol=0 meta posn=1844 log posn=348
+
+Log finished Tue Mar 22 18:01:29 2022
+advisory on once -> advisory off
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [342204] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:29.587110000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:29.587110167 2022
+current time     Tue Mar 22 18:01:29.587632269 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:29 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x55c588279ed0 state=NNAN delta=0.000000
+compared to: optreq task=0x55c58827a170 state=NNAY delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55c58827a0c0 next=(nil)
+Fetch Control @ 0x55c58827a0c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55c58827a100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55c588279970:
+    instances: [1] 2
+      Request @ 0x55c588279fc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55c588278e40 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972089.06587110 vol=0 meta posn=132 log posn=132
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55c588278db0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55c588278db0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 0
+logputresult: pdubuf=0x55c588278e40 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:31] pmlogger(342204) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972091.06381928 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:31 2022
+advisory off -> mandatory on once
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [342257] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:31.452597000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:31.452989835 2022
+current time     Tue Mar 22 18:01:31.458731134 2022
+log volume       0
+log size         348
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:31 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x557824caced0 state=NNMY delta=0.000000
+compared to: optreq task=0x557824cad170 state=NNAN delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, on delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x557824cad0c0 next=(nil)
+Fetch Control @ 0x557824cad0c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x557824cad100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x557824cac970:
+    instances: [1] 2
+      Request @ 0x557824cacfc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x557824cabe90 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972091.06452597 vol=0 meta posn=132 log posn=132
+logputresult: pdubuf=0x557824cac120 input len=44 output len=40 posn=308
+__pmLogPutIndex: timestamp=1647972091.06452989 vol=0 meta posn=451 log posn=308
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x557824cabdd0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x557824cabdd0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 15
+logputresult: pdubuf=0x557824cabe90 input len=180 output len=176 posn=348
+[Tue Mar 22 18:01:33] pmlogger(342257) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972093.06253101 vol=0 meta posn=1844 log posn=348
+
+Log finished Tue Mar 22 18:01:33 2022
+advisory off -> mandatory maybe
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [342310] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:33.327025000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:33.327025905 2022
+current time     Tue Mar 22 18:01:33.327921305 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:33 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x55a29200aed0 state=NNAN delta=0.000000
+compared to: optreq task=0x55a29200b170 state=NNAN delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55a29200b0c0 next=(nil)
+Fetch Control @ 0x55a29200b0c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55a29200b100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55a29200a970:
+    instances: [1] 2
+      Request @ 0x55a29200afc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55a292009e40 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972093.06327025 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55a292009db0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55a292009db0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 0
+logputresult: pdubuf=0x55a292009e40 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:35] pmlogger(342310) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972095.06122356 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:35 2022
+advisory off -> mandatory off
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [342363] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:35.194244000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:35.194244377 2022
+current time     Tue Mar 22 18:01:35.200383475 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:35 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x55849a6fced0 state=NNMN delta=0.000000
+compared to: optreq task=0x55849a6fd170 state=NNAN delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, mand, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55849a6fd0c0 next=(nil)
+Fetch Control @ 0x55849a6fd0c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55849a6fd100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55849a6fc970:
+    instances: [1] 2
+      Request @ 0x55849a6fcfc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55849a6fbe40 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972095.06194244 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55849a6fbdb0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55849a6fbdb0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 2
+logputresult: pdubuf=0x55849a6fbe40 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:36] pmlogger(342363) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972096.06994592 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:36 2022
+advisory off -> advisory on once
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [342416] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:37.065769000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:37.066288347 2022
+current time     Tue Mar 22 18:01:37.071991045 2022
+log volume       0
+log size         348
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:37 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+chk_one: pmid=29.0.5 task=0x561282027ed0 state=NNAY delta=0.000000
+compared to: optreq task=0x561282028170 state=NNAN delta=0.000000
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, on delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x5612820280c0 next=(nil)
+Fetch Control @ 0x5612820280c0: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x561282028100:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x561282027970:
+    instances: [1] 2
+      Request @ 0x561282027fc0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x561282026e90 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972097.0665769 vol=0 meta posn=132 log posn=132
+logputresult: pdubuf=0x561282027120 input len=44 output len=40 posn=308
+__pmLogPutIndex: timestamp=1647972097.0666288 vol=0 meta posn=451 log posn=308
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x561282026dd0 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x561282026dd0 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 13
+logputresult: pdubuf=0x561282026e90 input len=180 output len=176 posn=348
+[Tue Mar 22 18:01:38] pmlogger(342416) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972098.06865934 vol=0 meta posn=1844 log posn=348
+
+Log finished Tue Mar 22 18:01:38 2022
+advisory off -> advisory off
+_wait_for_pmlogger() success at iter 0 ...
+Connected to pmlogger on port 4331 at local:
+pmlogger [342470] on host local: is logging metrics from host f081bf2d614e
+PMCD host        f081bf2d614e
+log started      Tue Mar 22 18:01:38.938614000 2022 (times in local time)
+last log entry   Tue Mar 22 18:01:38.938614817 2022
+current time     Tue Mar 22 18:01:38.944884516 2022
+log volume       0
+log size         308
+Log for pmlogger on f081bf2d614e started Tue Mar 22 18:01:38 2022
+
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /var/tmp/061-341152.config
+Config parsed
+optFetch Cost Parameters: pmid=4 indom=1 fetch=15 scope=1
+
+After loading config ...
+ state: not in log, unavail, adv, off delta: 0 usec numpmid: 1
+  29.0.5 (sample.colour):
+Dump optfetch structures from 0x55c71cba3e10 next=(nil)
+Fetch Control @ 0x55c71cba3e10: cost=20 state=NEW PMID PROFILE 
+PMIDs: [1] 29.0.5
+  InDom 29.1 Control @ 0x55c71cba3e50:
+  instances: [1] 2
+    PMID 29.0.5 Control @ 0x55c71cba3e80:
+    instances: [1] 2
+      Request @ 0x55c71cba38f0:
+      instances: [1] 2
+
+Fetch task[0] delta: 0 usec numpmid: 1
+  Fetch group[0][0] 1 metrics
+Starting logger for host "f081bf2d614e" via "local:"
+__pmFopen("/var/tmp/061-341152.index", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.meta", "w"): no decompress
+__pmFopen("/var/tmp/061-341152.0", "w"): no decompress
+Archive basename: /var/tmp/061-341152
+logputresult: pdubuf=0x55c71cba2cf0 input len=180 output len=176 posn=132
+__pmLogPutIndex: timestamp=1647972098.06938614 vol=0 meta posn=132 log posn=132
+check_local_creds: uid connecting 385 != 386 or 386 => connection refused
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+__pmDecodeLogRequest: got PDU (type=2, version=3)
+__pmSendLogStatus: sending PDU (version=3)
+control_req: connection accepted on fd=10 from localhost
+do_creds: pmlc PDU version=3
+do_control_req: control=13 state=0 delta=5000 request ...
+LogControl dump from 0x55c71cba3120 numpmid: 1
+  29.0.5 : numval: 3 valfmt: 0 inst [0]
+ inst [1]
+ inst [2]
+__pmResult dump from 0x55c71cba3120 timestamp: 0.000000000 00:00:00.000000000 numpmid: 1
+  29.0.5 (sample.dupnames.four.colour, sample.colour): numval: 3 valfmt: 0 vlist[]:
+    inst [0 or "red"] value 0
+    inst [1 or "green"] value 0
+    inst [2 or "blue"] value 0
+logputresult: pdubuf=0x55c71cba2cf0 input len=180 output len=176 posn=308
+[Tue Mar 22 18:01:40] pmlogger(342470) Info: pmlogger: Caught signal 15, exiting
+__pmLogPutIndex: timestamp=1647972100.06739765 vol=0 meta posn=451 log posn=308
+
+Log finished Tue Mar 22 18:01:40 2022

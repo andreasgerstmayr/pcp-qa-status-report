@@ -1,0 +1,90 @@
+{
+  "uid" : "cf56d8debcee313f",
+  "name" : "QA 1031",
+  "fullName" : "QA #1031 on fedora35-container",
+  "historyId" : "1031@fedora35-container",
+  "time" : {
+    "start" : 1648150058000,
+    "stop" : 1648150058000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1031\n\nTest the slurm perl pmda\n\n\n\nCopyright (c) 2015 Martins Innus.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1031</p>\n<p>Test the slurm perl pmda</p>\n<p>Copyright (c) 2015 Martins Innus.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "perl Slurm module not installed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.slurm"
+  }, {
+    "name" : "epic",
+    "value" : "perl"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "dbpmda"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/1031",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/1031.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c21b995873206b4e",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/c21b995873206b4e",
+        "status" : "skipped",
+        "statusDetails" : "perl Slurm module not installed",
+        "time" : {
+          "start" : 1648150058000,
+          "stop" : 1648150058000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cf56d8debcee313f.json",
+  "parameterValues" : [ ]
+}

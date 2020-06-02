@@ -1,0 +1,69 @@
+{
+  "uid" : "abb0e07594abc19",
+  "name" : "QA 794",
+  "fullName" : "QA #794 on fedora35-container",
+  "historyId" : "794@fedora35-container",
+  "time" : {
+    "start" : 1648062410000,
+    "stop" : 1648062410000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 794\n\nCopyright (c) 2015 Red Hat.  All Rights Reserved.\n\n\n\nExercise \"container switching\" using pmStore.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 794</p>\n<p>Copyright (c) 2015 Red Hat.  All Rights Reserved.</p>\n<p>Exercise &quot;container switching&quot; using pmStore.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Cannot find docker image. Use: docker run -it --rm busybox",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "containers"
+  }, {
+    "name" : "epic",
+    "value" : "pmcd"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.pmcd"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/794",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/794.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "abb0e07594abc19.json",
+  "parameterValues" : [ ]
+}

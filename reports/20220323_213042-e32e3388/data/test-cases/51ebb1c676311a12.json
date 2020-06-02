@@ -1,0 +1,167 @@
+{
+  "uid" : "51ebb1c676311a12",
+  "name" : "QA 1178",
+  "fullName" : "QA #1178 on fedora35-container",
+  "historyId" : "1178@fedora35-container",
+  "time" : {
+    "start" : 1648063806000,
+    "stop" : 1648063806000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1178\n\nExercise the BCC PMDA tcpperpid module - install, remove and values.\n\n\n\nCopyright (c) 2018 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1178</p>\n<p>Exercise the BCC PMDA tcpperpid module - install, remove and values.</p>\n<p>Copyright (c) 2018 Red Hat.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "kernel headers for kernel 5.11.0-1028-azure not found",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.bcc"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "python"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/e32e3388f92d2db24e3cd601f92387be776eca40/qa/1178",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/e32e3388f92d2db24e3cd601f92387be776eca40/qa/1178.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 10,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "f1b754cd21033b06",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_200426-618c7738//#testresult/f1b754cd21033b06",
+        "status" : "skipped",
+        "statusDetails" : "kernel headers for kernel 5.11.0-1028-azure not found",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fecc4597f0244b7b",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_195910-18d6ad8b//#testresult/fecc4597f0244b7b",
+        "status" : "skipped",
+        "statusDetails" : "kernel headers for kernel 5.11.0-1028-azure not found",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ba220847d1d7f744",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/ba220847d1d7f744",
+        "status" : "skipped",
+        "statusDetails" : "kernel headers for kernel 5.11.0-1028-azure not found",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5fb79753fbc54216",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/5fb79753fbc54216",
+        "status" : "skipped",
+        "statusDetails" : "kernel headers for kernel 5.11.0-1028-azure not found",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "94436c638602c7e8",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/94436c638602c7e8",
+        "status" : "skipped",
+        "statusDetails" : "kernel headers for kernel 5.11.0-1028-azure not found",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "97e3ac6ec1e028ed",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/97e3ac6ec1e028ed",
+        "status" : "skipped",
+        "statusDetails" : "kernel headers for kernel 5.11.0-1028-azure not found",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "217e3e9950d96877",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/217e3e9950d96877",
+        "status" : "skipped",
+        "statusDetails" : "kernel headers for kernel 5.11.0-1028-azure not found",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b6b5e4f03544c4d7",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/b6b5e4f03544c4d7",
+        "status" : "skipped",
+        "statusDetails" : "kernel headers for kernel 5.11.0-1028-azure not found",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ba9cf06212d841c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/ba9cf06212d841c",
+        "status" : "skipped",
+        "statusDetails" : "kernel headers for kernel 5.11.0-1028-azure not found",
+        "time" : {
+          "start" : 1647977417000,
+          "stop" : 1647977417000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "51ebb1c676311a12.json",
+  "parameterValues" : [ ]
+}

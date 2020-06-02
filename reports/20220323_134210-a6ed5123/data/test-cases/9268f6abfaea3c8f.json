@@ -1,0 +1,104 @@
+{
+  "uid" : "9268f6abfaea3c8f",
+  "name" : "QA 825",
+  "fullName" : "QA #825 on fedora35-container",
+  "historyId" : "825@fedora35-container",
+  "time" : {
+    "start" : 1647976239000,
+    "stop" : 1647976239000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 825\n\nExercise the DS389 PMDA - install, remove and values.\n\n\n\nSetup: install 389-ds-base and perl-LDAP packages, then\n\nrun setup-ds.pl and follow the prompts.  Currently this\n\ntest assumes local ds389 server with default everything\n\nand bind password as set in $passwd below.\n\n\n\nCopyright (c) 2014-2015 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 825</p>\n<p>Exercise the DS389 PMDA - install, remove and values.</p>\n<p>Setup: install 389-ds-base and perl-LDAP packages, then</p>\n<p>run setup-ds.pl and follow the prompts.  Currently this</p>\n<p>test assumes local ds389 server with default everything</p>\n<p>and bind password as set in $passwd below.</p>\n<p>Copyright (c) 2014-2015 Red Hat.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Noones home on the default DS 389 port",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.ds389"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/a6ed51230998aacefb4efefbd857d3e63495b290/qa/825",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/a6ed51230998aacefb4efefbd857d3e63495b290/qa/825.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "aee698cf02b40b39",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/aee698cf02b40b39",
+        "status" : "skipped",
+        "statusDetails" : "Noones home on the default DS 389 port",
+        "time" : {
+          "start" : 1647976239000,
+          "stop" : 1647976239000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "54e780acac4248f5",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/54e780acac4248f5",
+        "status" : "skipped",
+        "statusDetails" : "Noones home on the default DS 389 port",
+        "time" : {
+          "start" : 1647976239000,
+          "stop" : 1647976239000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6f34880c8b486a4d",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/6f34880c8b486a4d",
+        "status" : "skipped",
+        "statusDetails" : "Noones home on the default DS 389 port",
+        "time" : {
+          "start" : 1647976239000,
+          "stop" : 1647976239000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9268f6abfaea3c8f.json",
+  "parameterValues" : [ ]
+}

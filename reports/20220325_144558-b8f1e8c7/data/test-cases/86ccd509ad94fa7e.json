@@ -1,0 +1,86 @@
+{
+  "uid" : "86ccd509ad94fa7e",
+  "name" : "QA 1303",
+  "fullName" : "QA #1303 on fedora35-container",
+  "historyId" : "1303@fedora35-container",
+  "time" : {
+    "start" : 1648151152000,
+    "stop" : 1648151153000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 1303\n\nExercise pcp-dstat extra device handling options (RH BZ #1794273).\n\n\n\nCopyright (c) 2020 Red Hat.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1303</p>\n<p>Exercise pcp-dstat extra device handling options (RH BZ #1794273).</p>\n<p>Copyright (c) 2020 Red Hat.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pcp"
+  }, {
+    "name" : "epic",
+    "value" : "dstat"
+  }, {
+    "name" : "epic",
+    "value" : "python"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/b8f1e8c7c73c98f620ab340bb4d20435fd9589df/qa/1303",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/b8f1e8c7c73c98f620ab340bb4d20435fd9589df/qa/1303.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d55739dabc65636e",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/d55739dabc65636e",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648151152000,
+          "stop" : 1648151153000,
+          "duration" : 1000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86ccd509ad94fa7e.json",
+  "parameterValues" : [ ]
+}

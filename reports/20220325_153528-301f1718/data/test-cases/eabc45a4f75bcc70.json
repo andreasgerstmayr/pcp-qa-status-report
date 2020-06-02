@@ -1,0 +1,83 @@
+{
+  "uid" : "eabc45a4f75bcc70",
+  "name" : "QA 1697",
+  "fullName" : "QA #1697 on fedora35-container",
+  "historyId" : "1697@fedora35-container",
+  "time" : {
+    "start" : 1648151896000,
+    "stop" : 1648151901000,
+    "duration" : 5000
+  },
+  "description" : "PCP QA Test No. 1697\n\nValgrind pmproxy REST API testing.\n\nBased on 1601 and 1696\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1697</p>\n<p>Valgrind pmproxy REST API testing.</p>\n<p>Based on 1601 and 1696</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmproxy"
+  }, {
+    "name" : "epic",
+    "value" : "valgrind"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/1697",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/1697.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8f3433d7653c6cc8",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/8f3433d7653c6cc8",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648151896000,
+          "stop" : 1648151901000,
+          "duration" : 5000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "eabc45a4f75bcc70.json",
+  "parameterValues" : [ ]
+}

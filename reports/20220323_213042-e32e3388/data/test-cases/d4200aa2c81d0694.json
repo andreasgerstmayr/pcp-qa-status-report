@@ -1,0 +1,167 @@
+{
+  "uid" : "d4200aa2c81d0694",
+  "name" : "QA 361",
+  "fullName" : "QA #361 on fedora35-container",
+  "historyId" : "361@fedora35-container",
+  "time" : {
+    "start" : 1648060224000,
+    "stop" : 1648060225000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 361\n\nExercise cgroup metrics in the Linux PMDA\n\n\n\nCopyright (c) 2010 Aconex.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 361</p>\n<p>Exercise cgroup metrics in the Linux PMDA</p>\n<p>Copyright (c) 2010 Aconex.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "One or more cgroups already in use",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.linux"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "cgroups"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/e32e3388f92d2db24e3cd601f92387be776eca40/qa/361",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/e32e3388f92d2db24e3cd601f92387be776eca40/qa/361.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 10,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "616301080313e9ad",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_200426-618c7738//#testresult/616301080313e9ad",
+        "status" : "skipped",
+        "statusDetails" : "One or more cgroups already in use",
+        "time" : {
+          "start" : 1647973957000,
+          "stop" : 1647973957000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "796b20fa09452396",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_195910-18d6ad8b//#testresult/796b20fa09452396",
+        "status" : "skipped",
+        "statusDetails" : "One or more cgroups already in use",
+        "time" : {
+          "start" : 1647973957000,
+          "stop" : 1647973957000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fc3976d3795214c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/fc3976d3795214c",
+        "status" : "skipped",
+        "statusDetails" : "One or more cgroups already in use",
+        "time" : {
+          "start" : 1647973957000,
+          "stop" : 1647973957000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "de495ad5ceeace68",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/de495ad5ceeace68",
+        "status" : "skipped",
+        "statusDetails" : "One or more cgroups already in use",
+        "time" : {
+          "start" : 1647973957000,
+          "stop" : 1647973957000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a8242b2e8e0ff7ed",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/a8242b2e8e0ff7ed",
+        "status" : "skipped",
+        "statusDetails" : "One or more cgroups already in use",
+        "time" : {
+          "start" : 1647973957000,
+          "stop" : 1647973957000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6acf2692921e888",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/6acf2692921e888",
+        "status" : "skipped",
+        "statusDetails" : "One or more cgroups already in use",
+        "time" : {
+          "start" : 1647973957000,
+          "stop" : 1647973957000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f6cd01ef9d0b0961",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/f6cd01ef9d0b0961",
+        "status" : "skipped",
+        "statusDetails" : "One or more cgroups already in use",
+        "time" : {
+          "start" : 1647973957000,
+          "stop" : 1647973957000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5328be5f775901e5",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/5328be5f775901e5",
+        "status" : "skipped",
+        "statusDetails" : "One or more cgroups already in use",
+        "time" : {
+          "start" : 1647973957000,
+          "stop" : 1647973957000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4e4b23f19fb0ab7b",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/4e4b23f19fb0ab7b",
+        "status" : "skipped",
+        "statusDetails" : "One or more cgroups already in use",
+        "time" : {
+          "start" : 1647973957000,
+          "stop" : 1647973957000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d4200aa2c81d0694.json",
+  "parameterValues" : [ ]
+}

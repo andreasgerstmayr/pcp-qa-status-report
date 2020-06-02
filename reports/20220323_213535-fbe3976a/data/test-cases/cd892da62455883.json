@@ -1,0 +1,63 @@
+{
+  "uid" : "cd892da62455883",
+  "name" : "QA 749",
+  "fullName" : "QA #749 on fedora35-container",
+  "historyId" : "749@fedora35-container",
+  "time" : {
+    "start" : 1648062246000,
+    "stop" : 1648062246000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 749\n\nCheck pmcd static probes\n\n\n\nCopyright (c) 2013-2014 Red Hat.\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 749</p>\n<p>Check pmcd static probes</p>\n<p>Copyright (c) 2013-2014 Red Hat.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "No systemtap stap executable found",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmcd"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/749",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/fbe3976afc51972e684aedf4e20cce6242d87286/qa/749.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cd892da62455883.json",
+  "parameterValues" : [ ]
+}

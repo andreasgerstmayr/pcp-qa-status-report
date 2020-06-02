@@ -1,0 +1,130 @@
+{
+  "uid" : "e28ee21f21b2e309",
+  "name" : "QA 237",
+  "fullName" : "QA #237 on fedora35-container",
+  "historyId" : "237@fedora35-container",
+  "time" : {
+    "start" : 1647973064000,
+    "stop" : 1647973064000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 237\n\nserious pmnsmerge exerciser\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 237</p>\n<p>serious pmnsmerge exerciser</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmns"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/237",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/237.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "bfe9bd12bc324fdd",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/bfe9bd12bc324fdd",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647973064000,
+          "stop" : 1647973064000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8e21caac5b0aaef2",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/8e21caac5b0aaef2",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647973064000,
+          "stop" : 1647973064000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "67be0f592505b034",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/67be0f592505b034",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647973064000,
+          "stop" : 1647973064000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2bed23e27c44f3f1",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/2bed23e27c44f3f1",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647973064000,
+          "stop" : 1647973064000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "314f393eb2f24398",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/314f393eb2f24398",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647973064000,
+          "stop" : 1647973064000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b7113a98df9e3397",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/b7113a98df9e3397",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647973064000,
+          "stop" : 1647973064000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e28ee21f21b2e309.json",
+  "parameterValues" : [ ]
+}

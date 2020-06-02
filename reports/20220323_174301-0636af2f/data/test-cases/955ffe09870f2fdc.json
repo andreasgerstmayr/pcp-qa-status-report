@@ -1,0 +1,129 @@
+{
+  "uid" : "955ffe09870f2fdc",
+  "name" : "QA 193",
+  "fullName" : "QA #193 on fedora35-container",
+  "historyId" : "193@fedora35-container",
+  "time" : {
+    "start" : 1647972854000,
+    "stop" : 1647972861000,
+    "duration" : 7000
+  },
+  "description" : "PCP QA Test No. 193\n\nbogus pdus attacking pmcd causing core dump or looping pmcd\n\npv 935490\n\n\n\nCopyright (c) 2005 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 193</p>\n<p>bogus pdus attacking pmcd causing core dump or looping pmcd</p>\n<p>pv 935490</p>\n<p>Copyright (c) 2005 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "libpcp"
+  }, {
+    "name" : "epic",
+    "value" : "pmcd"
+  }, {
+    "name" : "epic",
+    "value" : "#935490"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pdu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/193",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/193.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "b75eac0e4b238491",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/b75eac0e4b238491",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972854000,
+          "stop" : 1647972861000,
+          "duration" : 7000
+        }
+      }, {
+        "uid" : "5542f45aabdafb34",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/5542f45aabdafb34",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972854000,
+          "stop" : 1647972861000,
+          "duration" : 7000
+        }
+      }, {
+        "uid" : "3c2f35f5e679a8fd",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/3c2f35f5e679a8fd",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972854000,
+          "stop" : 1647972861000,
+          "duration" : 7000
+        }
+      }, {
+        "uid" : "ba5264cd1c3c956",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/ba5264cd1c3c956",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972854000,
+          "stop" : 1647972861000,
+          "duration" : 7000
+        }
+      }, {
+        "uid" : "7e1f969d6fead911",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/7e1f969d6fead911",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972854000,
+          "stop" : 1647972861000,
+          "duration" : 7000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "955ffe09870f2fdc.json",
+  "parameterValues" : [ ]
+}

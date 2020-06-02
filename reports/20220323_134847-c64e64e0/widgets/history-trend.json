@@ -1,0 +1,51 @@
+[ {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0/",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 120,
+    "passed" : 1296,
+    "unknown" : 0,
+    "total" : 1418
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123/",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 120,
+    "passed" : 1296,
+    "unknown" : 0,
+    "total" : 1418
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf/",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 120,
+    "passed" : 1296,
+    "unknown" : 0,
+    "total" : 1418
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449/",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 120,
+    "passed" : 1296,
+    "unknown" : 0,
+    "total" : 1418
+  }
+}, {
+  "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc/",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 120,
+    "passed" : 1296,
+    "unknown" : 0,
+    "total" : 1418
+  }
+} ]

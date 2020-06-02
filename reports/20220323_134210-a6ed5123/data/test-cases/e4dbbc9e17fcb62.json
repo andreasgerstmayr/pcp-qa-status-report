@@ -1,0 +1,100 @@
+{
+  "uid" : "e4dbbc9e17fcb62",
+  "name" : "QA 1219",
+  "fullName" : "QA #1219 on fedora35-container",
+  "historyId" : "1219@fedora35-container",
+  "time" : {
+    "start" : 1647977757000,
+    "stop" : 1647977757000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1219\n\nExercise the pcp(1) script with explicit command paths.\n\n\n\nCopyright (c) 2018 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1219</p>\n<p>Exercise the pcp(1) script with explicit command paths.</p>\n<p>Copyright (c) 2018 Red Hat.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pcp"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/a6ed51230998aacefb4efefbd857d3e63495b290/qa/1219",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/a6ed51230998aacefb4efefbd857d3e63495b290/qa/1219.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ebf183d08fbc87b8",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/ebf183d08fbc87b8",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647977757000,
+          "stop" : 1647977757000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b9ca43f64331935a",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/b9ca43f64331935a",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647977757000,
+          "stop" : 1647977757000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3c38a8d4860e6442",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/3c38a8d4860e6442",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647977757000,
+          "stop" : 1647977757000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e4dbbc9e17fcb62.json",
+  "parameterValues" : [ ]
+}

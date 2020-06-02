@@ -1,0 +1,144 @@
+{
+  "uid" : "506f484e2e29b1b",
+  "name" : "QA 796",
+  "fullName" : "QA #796 on fedora35-container",
+  "historyId" : "796@fedora35-container",
+  "time" : {
+    "start" : 1647976091000,
+    "stop" : 1647976092000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 796\n\nExercise elasticsearch PMDA - install, remove and values.\n\n\n\nCopyright (c) 2015 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 796</p>\n<p>Exercise elasticsearch PMDA - install, remove and values.</p>\n<p>Copyright (c) 2015 Red Hat.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Noones home on the default elasticsearch port 9200",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.elasticsearch"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/18d6ad8b4e959755b699bddbc01e4d40fdca2e02/qa/796",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/18d6ad8b4e959755b699bddbc01e4d40fdca2e02/qa/796.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 8,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "2e994e5d969be7da",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_185451-0636af2f//#testresult/2e994e5d969be7da",
+        "status" : "skipped",
+        "statusDetails" : "Noones home on the default elasticsearch port 9200",
+        "time" : {
+          "start" : 1647976091000,
+          "stop" : 1647976092000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "31f29c11a94d927e",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/31f29c11a94d927e",
+        "status" : "skipped",
+        "statusDetails" : "Noones home on the default elasticsearch port 9200",
+        "time" : {
+          "start" : 1647976091000,
+          "stop" : 1647976092000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "b503a7ea695310f8",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/b503a7ea695310f8",
+        "status" : "skipped",
+        "statusDetails" : "Noones home on the default elasticsearch port 9200",
+        "time" : {
+          "start" : 1647976091000,
+          "stop" : 1647976092000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "265b5281b0f94493",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/265b5281b0f94493",
+        "status" : "skipped",
+        "statusDetails" : "Noones home on the default elasticsearch port 9200",
+        "time" : {
+          "start" : 1647976091000,
+          "stop" : 1647976092000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "5bdeba53d4c7cd4d",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/5bdeba53d4c7cd4d",
+        "status" : "skipped",
+        "statusDetails" : "Noones home on the default elasticsearch port 9200",
+        "time" : {
+          "start" : 1647976091000,
+          "stop" : 1647976092000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "53a0fe93dc6b772b",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/53a0fe93dc6b772b",
+        "status" : "skipped",
+        "statusDetails" : "Noones home on the default elasticsearch port 9200",
+        "time" : {
+          "start" : 1647976091000,
+          "stop" : 1647976092000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "18de3d57895a7b6c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/18de3d57895a7b6c",
+        "status" : "skipped",
+        "statusDetails" : "Noones home on the default elasticsearch port 9200",
+        "time" : {
+          "start" : 1647976091000,
+          "stop" : 1647976092000,
+          "duration" : 1000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "506f484e2e29b1b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,130 @@
+{
+  "uid" : "dba6eeb5b7181548",
+  "name" : "QA 609",
+  "fullName" : "QA #609 on fedora35-container",
+  "historyId" : "609@fedora35-container",
+  "time" : {
+    "start" : 1647975221000,
+    "stop" : 1647975224000,
+    "duration" : 3000
+  },
+  "description" : "PCP QA Test No. 609\n\nCheck countmark.\n\n\n\nCopyright (c) 2018 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 609</p>\n<p>Check countmark.</p>\n<p>Copyright (c) 2018 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/609",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/609.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "12a72d8f53a40e1c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/12a72d8f53a40e1c",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975221000,
+          "stop" : 1647975224000,
+          "duration" : 3000
+        }
+      }, {
+        "uid" : "1014677daf0b60b9",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/1014677daf0b60b9",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975221000,
+          "stop" : 1647975224000,
+          "duration" : 3000
+        }
+      }, {
+        "uid" : "9a5cf9fecaf3bbdd",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/9a5cf9fecaf3bbdd",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975221000,
+          "stop" : 1647975224000,
+          "duration" : 3000
+        }
+      }, {
+        "uid" : "2535fe3d84a4e9cc",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/2535fe3d84a4e9cc",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975221000,
+          "stop" : 1647975224000,
+          "duration" : 3000
+        }
+      }, {
+        "uid" : "e52f638722b0bd9",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/e52f638722b0bd9",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975221000,
+          "stop" : 1647975224000,
+          "duration" : 3000
+        }
+      }, {
+        "uid" : "2cc3819b94b6f519",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/2cc3819b94b6f519",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975221000,
+          "stop" : 1647975224000,
+          "duration" : 3000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dba6eeb5b7181548.json",
+  "parameterValues" : [ ]
+}

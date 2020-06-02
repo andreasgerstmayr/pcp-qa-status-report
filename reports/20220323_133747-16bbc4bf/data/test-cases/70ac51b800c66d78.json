@@ -1,0 +1,118 @@
+{
+  "uid" : "70ac51b800c66d78",
+  "name" : "QA 775",
+  "fullName" : "QA #775 on fedora35-container",
+  "historyId" : "775@fedora35-container",
+  "time" : {
+    "start" : 1647976016000,
+    "stop" : 1647976026000,
+    "duration" : 10000
+  },
+  "description" : "PCP QA Test No. 775\n\nTest using pmfind to discover pmcd servers with the avahi\n\nservice discovery mechanism (at least) available.\n\n\n\nCopyright (c) 2014 Red Hat.  All Rights Reserved.\n\n\n\n**To reproduce this test, please run:**\n\n    build/ci/ci-run.py fedora35-container reproduce",
+  "descriptionHtml" : "<p>PCP QA Test No. 775</p>\n<p>Test using pmfind to discover pmcd servers with the avahi</p>\n<p>service discovery mechanism (at least) available.</p>\n<p>Copyright (c) 2014 Red Hat.  All Rights Reserved.</p>\n<p><strong>To reproduce this test, please run:</strong></p>\n<pre><code>build/ci/ci-run.py fedora35-container reproduce\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "output mismatch (see 775.out.bad)\n3c3\n< Discovered pmcd servers:\n---\n> No pmcd servers discovered\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "PCP QA Test No. 775\n\nTest using pmfind to discover pmcd servers with the avahi\n\nservice discovery mechanism (at least) available.\n\n\n\nCopyright (c) 2014 Red Hat.  All Rights Reserved.\n\n\n\n**To reproduce this test, please run:**\n\n    build/ci/ci-run.py fedora35-container reproduce",
+    "status" : "failed",
+    "statusMessage" : "output mismatch (see 775.out.bad)\n3c3\n< Discovered pmcd servers:\n---\n> No pmcd servers discovered\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2a969d0a10558f2e",
+      "name" : "775.out.bad",
+      "source" : "2a969d0a10558f2e.txt",
+      "type" : "text/plain",
+      "size" : 391
+    }, {
+      "uid" : "bdb893920fa00d04",
+      "name" : "775.full",
+      "source" : "bdb893920fa00d04.txt",
+      "type" : "text/plain",
+      "size" : 4363
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmfind"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/16bbc4bfc9b3fc30cf786e61d7ad955c63bb490b/qa/775",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/16bbc4bfc9b3fc30cf786e61d7ad955c63bb490b/qa/775.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Failed tests",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c6122e655453b56b",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/c6122e655453b56b",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 775.out.bad)\n3c3\n< Discovered pmcd servers:\n---\n> No pmcd servers discovered\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+        "time" : {
+          "start" : 1647976016000,
+          "stop" : 1647976026000,
+          "duration" : 10000
+        }
+      }, {
+        "uid" : "5a56f80d0d83b157",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/5a56f80d0d83b157",
+        "status" : "failed",
+        "statusDetails" : "output mismatch (see 775.out.bad)\n3c3\n< Discovered pmcd servers:\n---\n> No pmcd servers discovered\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h f081bf2d614e -f sample.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f sampledso.milliseconds\nPMDA probe: pminfo -h f081bf2d614e -f simple.numfetch\n",
+        "time" : {
+          "start" : 1647976016000,
+          "stop" : 1647976026000,
+          "duration" : 10000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "70ac51b800c66d78.json",
+  "parameterValues" : [ ]
+}

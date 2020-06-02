@@ -1,0 +1,93 @@
+{
+  "uid" : "d17952e9a2d3d3d4",
+  "name" : "QA 747",
+  "fullName" : "QA #747 on fedora35-container",
+  "historyId" : "747@fedora35-container",
+  "time" : {
+    "start" : 1647975929000,
+    "stop" : 1647975932000,
+    "duration" : 3000
+  },
+  "description" : "PCP QA Test No. 747\n\nExercise Linux hardware inventory online/offline metrics.\n\n\n\nCopyright (c) 2014,2020 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 747</p>\n<p>Exercise Linux hardware inventory online/offline metrics.</p>\n<p>Copyright (c) 2014,2020 Red Hat.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.linux"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/16bbc4bfc9b3fc30cf786e61d7ad955c63bb490b/qa/747",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/16bbc4bfc9b3fc30cf786e61d7ad955c63bb490b/qa/747.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a21459170653441c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/a21459170653441c",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975929000,
+          "stop" : 1647975932000,
+          "duration" : 3000
+        }
+      }, {
+        "uid" : "efa48695544ef0b2",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/efa48695544ef0b2",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647975929000,
+          "stop" : 1647975932000,
+          "duration" : 3000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d17952e9a2d3d3d4.json",
+  "parameterValues" : [ ]
+}

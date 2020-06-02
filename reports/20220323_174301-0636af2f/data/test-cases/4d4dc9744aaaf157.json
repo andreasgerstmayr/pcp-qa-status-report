@@ -1,0 +1,127 @@
+{
+  "uid" : "4d4dc9744aaaf157",
+  "name" : "QA 348",
+  "fullName" : "QA #348 on fedora35-container",
+  "historyId" : "348@fedora35-container",
+  "time" : {
+    "start" : 1647973879000,
+    "stop" : 1647973879000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 348\n\nInstall/Remove for Linux KVM pmda\n\n\n\nCopyright (c) 2020 Red Hat.\n\nCopyright (c) 2008 Aconex.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 348</p>\n<p>Install/Remove for Linux KVM pmda</p>\n<p>Copyright (c) 2020 Red Hat.</p>\n<p>Copyright (c) 2008 Aconex.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "KVM sysfs interface not available",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.kvm"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.install"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/348",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/348.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "974499764830df57",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/974499764830df57",
+        "status" : "skipped",
+        "statusDetails" : "KVM sysfs interface not available",
+        "time" : {
+          "start" : 1647973879000,
+          "stop" : 1647973879000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8bc36e57316733af",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/8bc36e57316733af",
+        "status" : "skipped",
+        "statusDetails" : "KVM sysfs interface not available",
+        "time" : {
+          "start" : 1647973879000,
+          "stop" : 1647973879000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "83048a2621b0c853",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/83048a2621b0c853",
+        "status" : "skipped",
+        "statusDetails" : "KVM sysfs interface not available",
+        "time" : {
+          "start" : 1647973879000,
+          "stop" : 1647973879000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a1af2f8797dbedfe",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/a1af2f8797dbedfe",
+        "status" : "skipped",
+        "statusDetails" : "KVM sysfs interface not available",
+        "time" : {
+          "start" : 1647973879000,
+          "stop" : 1647973879000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a6a39c16624b23f3",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/a6a39c16624b23f3",
+        "status" : "skipped",
+        "statusDetails" : "KVM sysfs interface not available",
+        "time" : {
+          "start" : 1647973879000,
+          "stop" : 1647973879000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4d4dc9744aaaf157.json",
+  "parameterValues" : [ ]
+}

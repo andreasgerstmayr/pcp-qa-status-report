@@ -1,0 +1,80 @@
+{
+  "uid" : "d90b8fa191d5b5bf",
+  "name" : "QA 1209",
+  "fullName" : "QA #1209 on fedora35-container",
+  "historyId" : "1209@fedora35-container",
+  "time" : {
+    "start" : 1648150718000,
+    "stop" : 1648150732000,
+    "duration" : 14000
+  },
+  "description" : "PCP QA Test No. 1209\n\npmlogctl - mixed class and hostname tests - destroy actions\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1209</p>\n<p>pmlogctl - mixed class and hostname tests - destroy actions</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogctl"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/1209",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/301f17185abb339eea9bdffbc5da160d6595a098/qa/1209.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "90d5998cb22a9bb3",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/90d5998cb22a9bb3",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648150718000,
+          "stop" : 1648150732000,
+          "duration" : 14000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d90b8fa191d5b5bf.json",
+  "parameterValues" : [ ]
+}

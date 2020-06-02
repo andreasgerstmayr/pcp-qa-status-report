@@ -1,0 +1,84 @@
+{
+  "uid" : "5fcab50a3d105969",
+  "name" : "QA 1220",
+  "fullName" : "QA #1220 on fedora35-container",
+  "historyId" : "1220@fedora35-container",
+  "time" : {
+    "start" : 1648150898000,
+    "stop" : 1648150898000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1220\n\nExercise Linux process ttyname extraction.\n\n\n\nCopyright (c) 2018 Red Hat.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1220</p>\n<p>Exercise Linux process ttyname extraction.</p>\n<p>Copyright (c) 2018 Red Hat.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "no tty assigned",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.proc"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/6ca7a783aeaa1503c39f994568d8a0c6d5a0e57a/qa/1220",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/6ca7a783aeaa1503c39f994568d8a0c6d5a0e57a/qa/1220.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "31030e450259bc2c",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/31030e450259bc2c",
+        "status" : "skipped",
+        "statusDetails" : "no tty assigned",
+        "time" : {
+          "start" : 1648150898000,
+          "stop" : 1648150898000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5fcab50a3d105969.json",
+  "parameterValues" : [ ]
+}

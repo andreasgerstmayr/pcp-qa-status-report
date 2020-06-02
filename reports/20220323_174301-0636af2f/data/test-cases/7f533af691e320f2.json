@@ -1,0 +1,120 @@
+{
+  "uid" : "7f533af691e320f2",
+  "name" : "QA 1227",
+  "fullName" : "QA #1227 on fedora35-container",
+  "historyId" : "1227@fedora35-container",
+  "time" : {
+    "start" : 1647977805000,
+    "stop" : 1647977810000,
+    "duration" : 5000
+  },
+  "description" : "PCP QA Test No. 1227\n\nderived metrics - instance not filled in pmResult when scalar:indom\n\nor indom:scalar and indom operand has one instance, e.g.\n\nin Marko's example of pmval -i <pid> iopct\n\n\n\nCopyright (c) 2017 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1227</p>\n<p>derived metrics - instance not filled in pmResult when scalar:indom</p>\n<p>or indom:scalar and indom operand has one instance, e.g.</p>\n<p>in Marko's example of pmval -i  iopct</p>\n<p>Copyright (c) 2017 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "derive"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/1227",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/1227.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "8e70547c0f4b8522",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/8e70547c0f4b8522",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647977805000,
+          "stop" : 1647977810000,
+          "duration" : 5000
+        }
+      }, {
+        "uid" : "87a8a0bf00bda73b",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/87a8a0bf00bda73b",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647977805000,
+          "stop" : 1647977810000,
+          "duration" : 5000
+        }
+      }, {
+        "uid" : "18f2681b91ca77fd",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/18f2681b91ca77fd",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647977805000,
+          "stop" : 1647977810000,
+          "duration" : 5000
+        }
+      }, {
+        "uid" : "46d1b00d7a1defb9",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/46d1b00d7a1defb9",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647977805000,
+          "stop" : 1647977810000,
+          "duration" : 5000
+        }
+      }, {
+        "uid" : "c10339f85e2164e2",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/c10339f85e2164e2",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647977805000,
+          "stop" : 1647977810000,
+          "duration" : 5000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7f533af691e320f2.json",
+  "parameterValues" : [ ]
+}

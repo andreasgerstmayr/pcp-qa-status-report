@@ -1,0 +1,133 @@
+{
+  "uid" : "99faf4796cc55180",
+  "name" : "QA 836",
+  "fullName" : "QA #836 on fedora35-container",
+  "historyId" : "836@fedora35-container",
+  "time" : {
+    "start" : 1647976264000,
+    "stop" : 1647976264000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 836\n\nExercise pmdiff(1) script functionality.\n\n\n\nCopyright (c) 2014 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 836</p>\n<p>Exercise pmdiff(1) script functionality.</p>\n<p>Copyright (c) 2014 Red Hat.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogsummary"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmdiff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/836",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/836.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "42ecfc894b44e646",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/42ecfc894b44e646",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976264000,
+          "stop" : 1647976264000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "401dab876ac2d141",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/401dab876ac2d141",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976264000,
+          "stop" : 1647976264000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "378217c41f878112",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/378217c41f878112",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976264000,
+          "stop" : 1647976264000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6bc888aad936a12c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/6bc888aad936a12c",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976264000,
+          "stop" : 1647976264000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8a7dd5ec71536981",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/8a7dd5ec71536981",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976264000,
+          "stop" : 1647976264000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9710f1340f29de69",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/9710f1340f29de69",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647976264000,
+          "stop" : 1647976264000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "99faf4796cc55180.json",
+  "parameterValues" : [ ]
+}

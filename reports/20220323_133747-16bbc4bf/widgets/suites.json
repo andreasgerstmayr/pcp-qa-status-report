@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "4768cfa637bff7780abecb7514a3e0f7",
+    "name" : "fedora35-container",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 120,
+      "passed" : 1296,
+      "unknown" : 0,
+      "total" : 1418
+    }
+  } ]
+}

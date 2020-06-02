@@ -1,0 +1,80 @@
+{
+  "uid" : "8e0ac72fc88317c4",
+  "name" : "QA 1708",
+  "fullName" : "QA #1708 on fedora35-container",
+  "historyId" : "1708@fedora35-container",
+  "time" : {
+    "start" : 1648151902000,
+    "stop" : 1648152012000,
+    "duration" : 110000
+  },
+  "description" : "PCP QA Test No. 1708\n\nExercises pmdastatsd - setting all configuration options via ini files (NOT the settings themselves) and fetching them via pminfo\n\n\n\nCopyright (c) 2020 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1708</p>\n<p>Exercises pmdastatsd - setting all configuration options via ini files (NOT the settings themselves) and fetching them via pminfo</p>\n<p>Copyright (c) 2020 Red Hat.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.statsd"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/9c894bfb47d865f478f64268e923375831fc59a9/qa/1708",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/9c894bfb47d865f478f64268e923375831fc59a9/qa/1708.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "270326baf959b20b",
+        "reportUrl" : "https://performancecopilot.github.io/qa-reports/reports/20220324_203021-b2d50ec9//#testresult/270326baf959b20b",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1648151902000,
+          "stop" : 1648152012000,
+          "duration" : 110000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8e0ac72fc88317c4.json",
+  "parameterValues" : [ ]
+}

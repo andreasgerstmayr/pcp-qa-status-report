@@ -1,0 +1,124 @@
+{
+  "uid" : "612c4eb819d19032",
+  "name" : "QA 703",
+  "fullName" : "QA #703 on fedora35-container",
+  "historyId" : "703@fedora35-container",
+  "time" : {
+    "start" : 1647975728000,
+    "stop" : 1647975728000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 703\n\nweblog PMDA install/remove test\n\n\n\nCopyright (c) 2015 Red Hat.\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 703</p>\n<p>weblog PMDA install/remove test</p>\n<p>Copyright (c) 2015 Red Hat.</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "No one is home on the default http port 80",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.weblog"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/703",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/703.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "e851da18c0336b04",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/e851da18c0336b04",
+        "status" : "skipped",
+        "statusDetails" : "No one is home on the default http port 80",
+        "time" : {
+          "start" : 1647975728000,
+          "stop" : 1647975728000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "abc0a605cf1378a2",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/abc0a605cf1378a2",
+        "status" : "skipped",
+        "statusDetails" : "No one is home on the default http port 80",
+        "time" : {
+          "start" : 1647975728000,
+          "stop" : 1647975728000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cee8625e5d764c67",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/cee8625e5d764c67",
+        "status" : "skipped",
+        "statusDetails" : "No one is home on the default http port 80",
+        "time" : {
+          "start" : 1647975728000,
+          "stop" : 1647975728000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d3a467e356c89d",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/d3a467e356c89d",
+        "status" : "skipped",
+        "statusDetails" : "No one is home on the default http port 80",
+        "time" : {
+          "start" : 1647975728000,
+          "stop" : 1647975728000,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1ba8bf66a201145",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/1ba8bf66a201145",
+        "status" : "skipped",
+        "statusDetails" : "No one is home on the default http port 80",
+        "time" : {
+          "start" : 1647975728000,
+          "stop" : 1647975728000,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "612c4eb819d19032.json",
+  "parameterValues" : [ ]
+}

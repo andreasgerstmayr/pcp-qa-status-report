@@ -1,0 +1,136 @@
+{
+  "uid" : "eb919490835e5c9d",
+  "name" : "QA 049",
+  "fullName" : "QA #049 on fedora35-container",
+  "historyId" : "049@fedora35-container",
+  "time" : {
+    "start" : 1647972022000,
+    "stop" : 1647972023000,
+    "duration" : 1000
+  },
+  "description" : "PCP QA Test No. 049\n\nBig archive exerciser and temporal index\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 049</p>\n<p>Big archive exerciser and temporal index</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "archive"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "ostest"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/049",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/andreasgerstmayr/pcp/tree/0636af2fdd4ef1e98a768160e0d1ed6497660bcd/qa/049.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "dd87bdd129265d5d",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_174301-0636af2f//#testresult/dd87bdd129265d5d",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972022000,
+          "stop" : 1647972023000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "743e01f4e6d9d85c",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134847-c64e64e0//#testresult/743e01f4e6d9d85c",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972022000,
+          "stop" : 1647972023000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "ff7517cdaff338fb",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_134210-a6ed5123//#testresult/ff7517cdaff338fb",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972022000,
+          "stop" : 1647972023000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "1973c1eb49a5e34a",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_133747-16bbc4bf//#testresult/1973c1eb49a5e34a",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972022000,
+          "stop" : 1647972023000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "6c3b6d8e9c354e8",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_113319-fe615449//#testresult/6c3b6d8e9c354e8",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972022000,
+          "stop" : 1647972023000,
+          "duration" : 1000
+        }
+      }, {
+        "uid" : "ca8f3d39a714aa49",
+        "reportUrl" : "https://andreasgerstmayr.github.io/qa-reports/reports/20220323_111723-4e8ececc//#testresult/ca8f3d39a714aa49",
+        "status" : "passed",
+        "statusDetails" : "",
+        "time" : {
+          "start" : 1647972022000,
+          "stop" : 1647972023000,
+          "duration" : 1000
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "eb919490835e5c9d.json",
+  "parameterValues" : [ ]
+}

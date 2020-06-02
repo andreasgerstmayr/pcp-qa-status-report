@@ -1,0 +1,114 @@
+{
+  "total" : 236,
+  "items" : [ {
+    "uid" : "5a28ff24753a3a2fae74f89ef3f1cd8e",
+    "name" : "local",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 119,
+      "passed" : 1289,
+      "unknown" : 0,
+      "total" : 1412
+    }
+  }, {
+    "uid" : "94661daae26ec3417d9d152df1abf856",
+    "name" : "atop",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "817d2dda6a5d27390d5d4ca371ecfe05",
+    "name" : "python",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 51,
+      "passed" : 135,
+      "unknown" : 0,
+      "total" : 187
+    }
+  }, {
+    "uid" : "95d815a4abb093dff443ca09346e56d9",
+    "name" : "pcp",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 40,
+      "unknown" : 0,
+      "total" : 43
+    }
+  }, {
+    "uid" : "6cebc9804650167c79165f666dc08dfa",
+    "name" : "pmfind",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "5823732efc83f2297a1f8781d65edaba",
+    "name" : "dstat",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "09119064be4d72c611512e09f60b82d2",
+    "name" : "avahi",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "2374fd5fa88405976f599a9f8b93b314",
+    "name" : "pmdumplog",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 8,
+      "passed" : 202,
+      "unknown" : 0,
+      "total" : 210
+    }
+  }, {
+    "uid" : "e8ebae4dce1cfd14a5aeebc116659810",
+    "name" : "kernel",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 6,
+      "passed" : 171,
+      "unknown" : 0,
+      "total" : 177
+    }
+  }, {
+    "uid" : "38c62ee5555e24c5ef9c0f8f81c54954",
+    "name" : "libpcp",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 149,
+      "unknown" : 0,
+      "total" : 151
+    }
+  } ]
+}
