@@ -1,0 +1,2 @@
+QA output created by 1275
+=== should be in man page ===

@@ -1,0 +1,142 @@
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+   Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+   Active: inactive (dead)
+     Docs: man:pmproxy(1)
+
+Sep 09 21:22:44 1c4b759d3f03 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 21:22:44 1c4b759d3f03 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+Sep 09 21:22:48 1c4b759d3f03 systemd[1]: Stopping Proxy for Performance Metrics Collector Daemon...
+Sep 09 21:22:48 1c4b759d3f03 systemd[1]: pmproxy.service: Succeeded.
+Sep 09 21:22:48 1c4b759d3f03 systemd[1]: Stopped Proxy for Performance Metrics Collector Daemon.
+Sep 09 21:22:48 1c4b759d3f03 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 21:22:48 1c4b759d3f03 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: Stopping Proxy for Performance Metrics Collector Daemon...
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: pmproxy.service: Succeeded.
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: Stopped Proxy for Performance Metrics Collector Daemon.
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+   Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+   Active: active (running) since Thu 2021-09-09 21:35:13 UTC; 20ms ago
+     Docs: man:pmproxy(1)
+ Main PID: 1011136 (pmproxy)
+    Tasks: 1 (limit: 44456)
+   Memory: 3.1M
+   CGroup: /machine.slice/libpod-1c4b759d3f03c4d9b47252f6616314d80767657c5392d6334cfed67491ddbb99.scope/system.slice/pmproxy.service
+           └─1011136 /usr/libexec/pcp/bin/pmproxy -F
+
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+context curl ...
+<stdout>
+{"context":653825459,"source":"b71d1cb2734c625ed89e0fe01582868fca256c1f","hostspec":"1c4b759d3f03","labels":{"domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f"}}
+
+<stderr>
+
+ctx1=653825459
+metrics curl ...
+<stdout>
+{"context":653825459,"metrics":[{"name":"sample.long.one","series":"4a60062506a7d61eaa3fb9a6d1ee4a01823fd51f","pmid":121634826,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"1 as a 32-bit integer","text-help":"1 as a 32-bit integer"},{"name":"sample.long.ten","series":"80b43514995597239271d85390c7f7ee49f0a155","pmid":121634827,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"10 as a 32-bit integer","text-help":"10 as a 32-bit integer"},{"name":"sample.long.hundred","series":"eba32877e4eeed74778abd71fe0302a141fdce4f","pmid":121634828,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"100 as a 32-bit integer","text-help":"100 as a 32-bit integer"},{"name":"sample.long.million","series":"59e1cc710347d17c4c94ee9c4f0010ec38a909bc","pmid":121634829,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"1000000 as a 32-bit integer","text-help":"1000000 as a 32-bit integer"},{"name":"sample.long.write_me","series":"5771cabb5a9ee3a3141a5508a2c888686a91cdb8","pmid":121634830,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"a 32-bit integer that can be modified","text-help":"a 32-bit integer that can be modified"},{"name":"sample.long.bin","series":"6440292bb383d76e34029808f09a8e1f07b04b46","pmid":121634919,"indom":121634818,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"like sample.bin but type 32","text-help":"like sample.bin but type 32"},{"name":"sample.long.bin_ctr","series":"e9aec3a81be817385690ce877fd21ef490ca953a","pmid":121634920,"indom":121634818,"type":"32","sem":"counter","units":"Kbyte","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"like sample.bin but type 32, SEM_COUNTER and SPACE_KBYTE","text-help":"like sample.bin but type 32, SEM_COUNTER and SPACE_KBYTE"}]}
+
+<stderr>
+
+● pmcd.service - Performance Metrics Collector Daemon
+   Loaded: loaded (/usr/lib/systemd/system/pmcd.service; enabled; vendor preset: disabled)
+   Active: deactivating (stop) since Thu 2021-09-09 21:35:13 UTC; 485ms ago
+     Docs: man:pmcd(1)
+  Process: 1009028 ExecStart=/usr/libexec/pcp/lib/pmcd start-systemd (code=exited, status=0/SUCCESS)
+ Main PID: 1009028 (code=exited, status=0/SUCCESS); Control PID: 1011221 (pmcd)
+    Tasks: 4 (limit: 44456)
+   Memory: 4.2M
+   CGroup: /machine.slice/libpod-1c4b759d3f03c4d9b47252f6616314d80767657c5392d6334cfed67491ddbb99.scope/system.slice/pmcd.service
+           ├─1011221 /bin/sh /usr/libexec/pcp/lib/pmcd stop-systemd
+           ├─1011415 /bin/sh /usr/libexec/pcp/lib/pmcd stop-systemd
+           ├─1011452 /bin/sh /usr/libexec/pcp/lib/pmcd stop-systemd
+           └─1011453 sed -e s/\//\\\//g -e s/.*/\/[0-9][:\\.][0-9][0-9]  *& \/s\/ .*\/\/p/
+
+Sep 09 21:34:52 1c4b759d3f03 systemd[1]: Starting Performance Metrics Collector Daemon...
+Sep 09 21:34:52 1c4b759d3f03 systemd[1]: Started Performance Metrics Collector Daemon.
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: Stopping Performance Metrics Collector Daemon...
+metrics curl ...
+<stdout>
+{"context":653825459,"message":"sample.long traversal failed - IPC protocol failure","success":false}
+
+<stderr>
+
+context curl ...
+<stdout>
+{"message":"cannot connect to PMCD: Connection refused","success":false}
+
+<stderr>
+
+ctx2=
+● pmcd.service - Performance Metrics Collector Daemon
+   Loaded: loaded (/usr/lib/systemd/system/pmcd.service; enabled; vendor preset: disabled)
+   Active: active (running) since Thu 2021-09-09 21:35:15 UTC; 28ms ago
+     Docs: man:pmcd(1)
+  Process: 1011221 ExecStop=/usr/libexec/pcp/lib/pmcd stop-systemd (code=exited, status=0/SUCCESS)
+ Main PID: 1012105 (pmcd)
+    Tasks: 14 (limit: 44456)
+   Memory: 38.1M
+   CGroup: /machine.slice/libpod-1c4b759d3f03c4d9b47252f6616314d80767657c5392d6334cfed67491ddbb99.scope/system.slice/pmcd.service
+           ├─1012004 /bin/sh /usr/libexec/pcp/lib/pmcd start-systemd
+           ├─1012105 /usr/libexec/pcp/bin/pmcd -T 3
+           ├─1012109 /var/lib/pcp/pmdas/root/pmdaroot
+           ├─1012110 /var/lib/pcp/pmdas/proc/pmdaproc -d 3
+           ├─1012111 /var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+           ├─1012112 /var/lib/pcp/pmdas/sample/pmdasample -d 29
+           ├─1012113 /var/lib/pcp/pmdas/linux/pmdalinux
+           ├─1012114 python3 /var/lib/pcp/pmdas/nfsclient/pmdanfsclient.python
+           ├─1012118 /var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+           ├─1012119 /var/lib/pcp/pmdas/dm/pmdadm -d 129
+           ├─1012120 python3 /var/lib/pcp/pmdas/openmetrics/pmdaopenmetrics.python
+           ├─1012124 /var/lib/pcp/pmdas/simple/pmdasimple -d 253
+           ├─1012130 /bin/sh /etc/pcp/pmcd/rc.local -v start
+           └─1012145 /usr/bin/coreutils --coreutils-prog-shebang=expr /usr/bin/expr 2 - 1
+
+Sep 09 21:35:14 1c4b759d3f03 systemd[1]: Starting Performance Metrics Collector Daemon...
+Sep 09 21:35:15 1c4b759d3f03 systemd[1]: Started Performance Metrics Collector Daemon.
+context curl ...
+<stdout>
+{"context":1609682751,"source":"b71d1cb2734c625ed89e0fe01582868fca256c1f","hostspec":"1c4b759d3f03","labels":{"domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f"}}
+
+<stderr>
+
+ctx3=1609682751
+metrics curl ...
+<stdout>
+{"context":1609682751,"metrics":[{"name":"sample.long.one","series":"4a60062506a7d61eaa3fb9a6d1ee4a01823fd51f","pmid":121634826,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"1 as a 32-bit integer","text-help":"1 as a 32-bit integer"},{"name":"sample.long.ten","series":"80b43514995597239271d85390c7f7ee49f0a155","pmid":121634827,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"10 as a 32-bit integer","text-help":"10 as a 32-bit integer"},{"name":"sample.long.hundred","series":"eba32877e4eeed74778abd71fe0302a141fdce4f","pmid":121634828,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"100 as a 32-bit integer","text-help":"100 as a 32-bit integer"},{"name":"sample.long.million","series":"59e1cc710347d17c4c94ee9c4f0010ec38a909bc","pmid":121634829,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"1000000 as a 32-bit integer","text-help":"1000000 as a 32-bit integer"},{"name":"sample.long.write_me","series":"5771cabb5a9ee3a3141a5508a2c888686a91cdb8","pmid":121634830,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"a 32-bit integer that can be modified","text-help":"a 32-bit integer that can be modified"},{"name":"sample.long.bin","series":"6440292bb383d76e34029808f09a8e1f07b04b46","pmid":121634919,"indom":121634818,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"like sample.bin but type 32","text-help":"like sample.bin but type 32"},{"name":"sample.long.bin_ctr","series":"e9aec3a81be817385690ce877fd21ef490ca953a","pmid":121634920,"indom":121634818,"type":"32","sem":"counter","units":"Kbyte","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"like sample.bin but type 32, SEM_COUNTER and SPACE_KBYTE","text-help":"like sample.bin but type 32, SEM_COUNTER and SPACE_KBYTE"}]}
+
+<stderr>
+
+metrics curl ...
+<stdout>
+{"context":653825459,"metrics":[{"name":"sample.long.one","series":"4a60062506a7d61eaa3fb9a6d1ee4a01823fd51f","pmid":121634826,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"1 as a 32-bit integer","text-help":"1 as a 32-bit integer"},{"name":"sample.long.ten","series":"80b43514995597239271d85390c7f7ee49f0a155","pmid":121634827,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"10 as a 32-bit integer","text-help":"10 as a 32-bit integer"},{"name":"sample.long.hundred","series":"eba32877e4eeed74778abd71fe0302a141fdce4f","pmid":121634828,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"100 as a 32-bit integer","text-help":"100 as a 32-bit integer"},{"name":"sample.long.million","series":"59e1cc710347d17c4c94ee9c4f0010ec38a909bc","pmid":121634829,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"1000000 as a 32-bit integer","text-help":"1000000 as a 32-bit integer"},{"name":"sample.long.write_me","series":"5771cabb5a9ee3a3141a5508a2c888686a91cdb8","pmid":121634830,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"a 32-bit integer that can be modified","text-help":"a 32-bit integer that can be modified"},{"name":"sample.long.bin","series":"6440292bb383d76e34029808f09a8e1f07b04b46","pmid":121634919,"indom":121634818,"type":"32","sem":"instant","units":"none","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"like sample.bin but type 32","text-help":"like sample.bin but type 32"},{"name":"sample.long.bin_ctr","series":"e9aec3a81be817385690ce877fd21ef490ca953a","pmid":121634920,"indom":121634818,"type":"32","sem":"counter","units":"Kbyte","labels":{"agent":"sample","cluster":"zero","domainname":"localdomain","hostname":"1c4b759d3f03","machineid":"9280e484a32f4365b2948880170cb24f","role":"testing"},"text-oneline":"like sample.bin but type 32, SEM_COUNTER and SPACE_KBYTE","text-help":"like sample.bin but type 32, SEM_COUNTER and SPACE_KBYTE"}]}
+
+<stderr>
+
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+   Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+   Active: inactive (dead)
+     Docs: man:pmproxy(1)
+
+Sep 09 21:22:48 1c4b759d3f03 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 21:22:48 1c4b759d3f03 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: Stopping Proxy for Performance Metrics Collector Daemon...
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: pmproxy.service: Succeeded.
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: Stopped Proxy for Performance Metrics Collector Daemon.
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 21:35:13 1c4b759d3f03 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+Sep 09 21:35:15 1c4b759d3f03 systemd[1]: Stopping Proxy for Performance Metrics Collector Daemon...
+Sep 09 21:35:15 1c4b759d3f03 systemd[1]: pmproxy.service: Succeeded.
+Sep 09 21:35:15 1c4b759d3f03 systemd[1]: Stopped Proxy for Performance Metrics Collector Daemon.
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+   Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+   Active: active (running) since Thu 2021-09-09 21:35:15 UTC; 24ms ago
+     Docs: man:pmproxy(1)
+ Main PID: 1012538 (pmproxy)
+    Tasks: 1 (limit: 44456)
+   Memory: 2.9M
+   CGroup: /machine.slice/libpod-1c4b759d3f03c4d9b47252f6616314d80767657c5392d6334cfed67491ddbb99.scope/system.slice/pmproxy.service
+           └─1012538 /usr/libexec/pcp/bin/pmproxy -F
+
+Sep 09 21:35:15 1c4b759d3f03 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 21:35:15 1c4b759d3f03 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.

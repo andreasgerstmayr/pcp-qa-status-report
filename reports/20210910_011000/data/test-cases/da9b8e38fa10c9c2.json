@@ -1,0 +1,61 @@
+{
+  "uid" : "da9b8e38fa10c9c2",
+  "name" : "QA 675",
+  "fullName" : "QA #675 on ubuntu1804-container",
+  "historyId" : "675@ubuntu1804-container",
+  "time" : {
+    "start" : 1631220925000,
+    "stop" : 1631220927000,
+    "duration" : 2000
+  },
+  "description" : "PCP QA Test No. 675\n\ncheck pmlogger_rewrite wrapper script\n\n\n\nCopyright (c) 2018 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 675</p>\n<p>check pmlogger_rewrite wrapper script</p>\n<p>Copyright (c) 2018 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu1804-container"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu1804-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogrewrite"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "logutil"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/675",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/675.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da9b8e38fa10c9c2.json",
+  "parameterValues" : [ ]
+}

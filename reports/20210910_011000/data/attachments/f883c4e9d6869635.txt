@@ -1,0 +1,42 @@
+total 76
+-rw-r--r-- 1 pcpqa pcpqa    1 Sep  9 22:06 0.0
+-rw-r--r-- 1 pcpqa pcpqa    1 Sep  9 22:06 0.index
+-rw-r--r-- 1 pcpqa pcpqa    1 Sep  9 22:06 0.meta
+-rw-r--r-- 1 pcpqa pcpqa  132 Sep  9 22:06 1.0
+-rw-r--r-- 1 pcpqa pcpqa  132 Sep  9 22:06 1.index
+-rw-r--r-- 1 pcpqa pcpqa  132 Sep  9 22:06 1.meta
+-rw-r--r-- 1 pcpqa pcpqa 2180 Sep  9 22:06 2.0
+-rw-r--r-- 1 pcpqa pcpqa  192 Sep  9 22:06 2.index
+-rw-r--r-- 1 pcpqa pcpqa 4598 Sep  9 22:06 2.meta
+-rw-r--r-- 1 pcpqa pcpqa   60 Sep  9 22:06 3.0.xz
+-rw-r--r-- 1 pcpqa pcpqa    1 Sep  9 22:06 3.index
+-rw-r--r-- 1 pcpqa pcpqa   60 Sep  9 22:06 3.meta.xz
+-rw-r--r-- 1 pcpqa pcpqa  116 Sep  9 22:06 4.0.xz
+-rw-r--r-- 1 pcpqa pcpqa  132 Sep  9 22:06 4.index
+-rw-r--r-- 1 pcpqa pcpqa  116 Sep  9 22:06 4.meta.xz
+-rw-r--r-- 1 pcpqa pcpqa  392 Sep  9 22:06 5.0.xz
+-rw-r--r-- 1 pcpqa pcpqa  192 Sep  9 22:06 5.index
+-rw-r--r-- 1 pcpqa pcpqa 1836 Sep  9 22:06 5.meta.xz
+--- TI tmparch/foo --
+
+Temporal Index
+			Log Vol    end(meta)     end(log)
+20:00:42.796215000	      0          132          132
+20:00:42.816310000	      0          451          324
+20:00:49.816905000	      0         4598         1988
+--- TI 2 --
+
+Temporal Index
+			Log Vol    end(meta)     end(log)
+20:00:42.796215000	      0          132          132
+20:00:42.816310000	      0          451          324
+20:00:49.816393000	      0         4386         1780
+20:00:49.816905000	      0         4598         1988
+--- TI 5 --
+
+Temporal Index
+			Log Vol    end(meta)     end(log)
+20:00:42.796215000	      0          132          132
+20:00:42.816310000	      0          451          324
+20:00:49.816393000	      0         4386         1780
+20:00:49.816905000	      0         4598         1988

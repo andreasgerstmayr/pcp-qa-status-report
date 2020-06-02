@@ -1,0 +1,55 @@
+{
+  "uid" : "dbeb30a6d2218d87",
+  "name" : "QA 157",
+  "fullName" : "QA #157 on fedora33-container",
+  "historyId" : "157@fedora33-container",
+  "time" : {
+    "start" : 1631218320000,
+    "stop" : 1631218331000,
+    "duration" : 11000
+  },
+  "description" : "PCP QA Test No. 157\n\nexercise the -u (unbuffered) option for pmlogger (now default)\n\n\n\nCopyright (c) 2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 157</p>\n<p>exercise the -u (unbuffered) option for pmlogger (now default)</p>\n<p>Copyright (c) 2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora33-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora33-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogger"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/157",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/157.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dbeb30a6d2218d87.json",
+  "parameterValues" : [ ]
+}

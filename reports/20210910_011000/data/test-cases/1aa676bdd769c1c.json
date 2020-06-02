@@ -1,0 +1,58 @@
+{
+  "uid" : "1aa676bdd769c1c",
+  "name" : "QA 1723",
+  "fullName" : "QA #1723 on ubuntu2004-btf",
+  "historyId" : "1723@ubuntu2004-btf",
+  "time" : {
+    "start" : 1631226176000,
+    "stop" : 1631226202000,
+    "duration" : 26000
+  },
+  "description" : "PCP QA Test No. 1723\n\nExercise the bpftrace PMDA - check autostart script directory permissions\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1723</p>\n<p>Exercise the bpftrace PMDA - check autostart script directory permissions</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu2004-btf"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu2004-btf"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.bpftrace"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "python"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1723",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1723.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1aa676bdd769c1c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "3af5df863d9c9719",
+  "name" : "QA 117",
+  "fullName" : "QA #117 on fedora-rawhide-container",
+  "historyId" : "117@fedora-rawhide-container",
+  "time" : {
+    "start" : 1631218324000,
+    "stop" : 1631218324000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 117\n\nVerify network.ip statistics (Non-linux version, see 216 for Linux version)\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 117</p>\n<p>Verify network.ip statistics (Non-linux version, see 216 for Linux version)</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "network.ip checks for linux done in test 216",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora-rawhide-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora-rawhide-container"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/117",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/117.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3af5df863d9c9719.json",
+  "parameterValues" : [ ]
+}

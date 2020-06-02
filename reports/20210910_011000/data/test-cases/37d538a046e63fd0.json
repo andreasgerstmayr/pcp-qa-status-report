@@ -1,0 +1,58 @@
+{
+  "uid" : "37d538a046e63fd0",
+  "name" : "QA 1805",
+  "fullName" : "QA #1805 on ubuntu2004-btf",
+  "historyId" : "1805@ubuntu2004-btf",
+  "time" : {
+    "start" : 1631226287000,
+    "stop" : 1631226287000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1805\n\nExercise Linux /proc/net/netstat MPTCP metrics\n\n\n\nCopyright (c) 2020 Red Hat.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1805</p>\n<p>Exercise Linux /proc/net/netstat MPTCP metrics</p>\n<p>Copyright (c) 2020 Red Hat.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu2004-btf"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu2004-btf"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.linux"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1805",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1805.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37d538a046e63fd0.json",
+  "parameterValues" : [ ]
+}

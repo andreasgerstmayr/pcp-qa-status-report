@@ -1,0 +1,67 @@
+{
+  "uid" : "5eb2454e9f50bf88",
+  "name" : "QA 569",
+  "fullName" : "QA #569 on ubuntu2004-btf",
+  "historyId" : "569@ubuntu2004-btf",
+  "time" : {
+    "start" : 1631287583000,
+    "stop" : 1631287583000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 569\n\nexercise pmprobe, and pv 679693 in particular\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 569</p>\n<p>exercise pmprobe, and pv 679693 in particular</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu2004-btf"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu2004-btf"
+  }, {
+    "name" : "epic",
+    "value" : "pmprobe"
+  }, {
+    "name" : "epic",
+    "value" : "#679693"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "sanity"
+  }, {
+    "name" : "epic",
+    "value" : "pmstore"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/df78e0ca0739f347483d68853ea84b8ed34ef188/qa/569",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/df78e0ca0739f347483d68853ea84b8ed34ef188/qa/569.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5eb2454e9f50bf88.json",
+  "parameterValues" : [ ]
+}

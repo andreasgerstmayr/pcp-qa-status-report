@@ -1,0 +1,58 @@
+{
+  "uid" : "2b3414cf4c981826",
+  "name" : "QA 1422",
+  "fullName" : "QA #1422 on ubuntu1804-container",
+  "historyId" : "1422@ubuntu1804-container",
+  "time" : {
+    "start" : 1631224125000,
+    "stop" : 1631224142000,
+    "duration" : 17000
+  },
+  "description" : "PCP QA Test No. 1422\n\nExercise MMV indom handling bug.\n\n\n\nCopyright (c) 2018 Red Hat.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1422</p>\n<p>Exercise MMV indom handling bug.</p>\n<p>Copyright (c) 2018 Red Hat.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu1804-container"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu1804-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.mmv"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "valgrind"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1422",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1422.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b3414cf4c981826.json",
+  "parameterValues" : [ ]
+}

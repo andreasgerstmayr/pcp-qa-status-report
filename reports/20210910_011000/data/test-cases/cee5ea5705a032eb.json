@@ -1,0 +1,61 @@
+{
+  "uid" : "cee5ea5705a032eb",
+  "name" : "QA 992",
+  "fullName" : "QA #992 on fedora-rawhide-container",
+  "historyId" : "992@fedora-rawhide-container",
+  "time" : {
+    "start" : 1631223896000,
+    "stop" : 1631223896000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 992\n\ntest pmlogger with pmcpp integration\n\n\n\nCopyright (c) 2015 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 992</p>\n<p>test pmlogger with pmcpp integration</p>\n<p>Copyright (c) 2015 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora-rawhide-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora-rawhide-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmcpp"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogger"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/992",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/992.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cee5ea5705a032eb.json",
+  "parameterValues" : [ ]
+}

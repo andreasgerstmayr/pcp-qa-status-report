@@ -1,0 +1,98 @@
+{
+  "uid" : "7879d28ec028ceb3",
+  "name" : "QA 003",
+  "fullName" : "QA #003 on fedora35-container",
+  "historyId" : "003@fedora35-container",
+  "time" : {
+    "start" : 1631217769000,
+    "stop" : 1631217769000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 003\n\nCheck that we get the expected metrics failing for each OS\n\nWill need to be updated with every kernel pmda change\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n**To reproduce this test in a container, please run:**\n\n    build/ci/ci-run.py fedora35-container reproduce",
+  "descriptionHtml" : "<p>PCP QA Test No. 003</p>\n<p>Check that we get the expected metrics failing for each OS</p>\n<p>Will need to be updated with every kernel pmda change</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n<p><strong>To reproduce this test in a container, please run:</strong></p>\n<pre><code>build/ci/ci-run.py fedora35-container reproduce\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "output mismatch (see 003.out.bad)\n2a3\n> Arrgh: pmcd killed ... check 003.full\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h a4b6d40c0190 -f sample.milliseconds\nPMDA probe: pminfo -h a4b6d40c0190 -f sampledso.milliseconds\nPMDA probe: pminfo -h a4b6d40c0190 -f simple.numfetch\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "PCP QA Test No. 003\n\nCheck that we get the expected metrics failing for each OS\n\nWill need to be updated with every kernel pmda change\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n**To reproduce this test in a container, please run:**\n\n    build/ci/ci-run.py fedora35-container reproduce",
+    "status" : "failed",
+    "statusMessage" : "output mismatch (see 003.out.bad)\n2a3\n> Arrgh: pmcd killed ... check 003.full\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h a4b6d40c0190 -f sample.milliseconds\nPMDA probe: pminfo -h a4b6d40c0190 -f sampledso.milliseconds\nPMDA probe: pminfo -h a4b6d40c0190 -f simple.numfetch\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7cbee4994ee7d643",
+      "name" : "003.out.bad",
+      "source" : "7cbee4994ee7d643.txt",
+      "type" : "text/plain",
+      "size" : 94
+    }, {
+      "uid" : "bce880536cf6ce78",
+      "name" : "003.full",
+      "source" : "bce880536cf6ce78.txt",
+      "type" : "text/plain",
+      "size" : 23860
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pdu"
+  }, {
+    "name" : "epic",
+    "value" : "pmcd"
+  }, {
+    "name" : "epic",
+    "value" : "mem_leak"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "ostest"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/003",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/003.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Failed tests",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7879d28ec028ceb3.json",
+  "parameterValues" : [ ]
+}

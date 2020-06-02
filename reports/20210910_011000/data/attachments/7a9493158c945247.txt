@@ -1,0 +1,732 @@
+sampledso.proc.exec: pmFetch: IPC protocol failure
+sampledso.proc.reset: pmLookupName: IPC protocol failure
+sampledso.proc.time: pmLookupName: IPC protocol failure
+UID          PID    PPID  C STIME TTY          TIME CMD
+=== /var/log/pcp/pmcd/pmcd.log ===
+Log for pmcd on fv-az91-599 started Thu Sep  9 19:57:45 2021
+
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 381704  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+
+pmcd: PID = 381695, PDU version = 2
+pmcd request port(s):
+  sts fd   port  family address
+  === ==== ===== ====== =======
+  ok     4       unix   /run/pcp/pmcd.socket
+  ok     0 44321 inet   INADDR_ANY
+  ok     3 44321 ipv6   INADDR_ANY
+[Thu Sep  9 19:57:46] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:46 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 381704  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:46] pmcd(381695) Info: Reloading PMNS "DEFAULT"
+[Thu Sep  9 19:57:46] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:46 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+Configuration file '/etc/pcp/pmcd/pmcd.conf' unchanged
+Restarting any deceased agents:
+    (no agents required restarting)
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 381704  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:46] pmcd(381695) Info: Reloading PMNS "DEFAULT"
+[Thu Sep  9 19:57:47] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:47 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+Configuration file '/etc/pcp/pmcd/pmcd.conf' unchanged
+Restarting any deceased agents:
+    (no agents required restarting)
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 381704  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:47] pmcd(381695) Info: Reloading PMNS "DEFAULT"
+[Thu Sep  9 19:57:47] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:47 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+Configuration file '/etc/pcp/pmcd/pmcd.conf' unchanged
+Restarting any deceased agents:
+    (no agents required restarting)
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 381704  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:47] pmcd(381695) Info: Reloading PMNS "DEFAULT"
+[Thu Sep  9 19:57:48] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:48 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+Configuration file '/etc/pcp/pmcd/pmcd.conf' unchanged
+Restarting any deceased agents:
+    (no agents required restarting)
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 381704  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:48] pmcd(381695) Info: Reloading PMNS "DEFAULT"
+[Thu Sep  9 19:57:48] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:48 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+Configuration file '/etc/pcp/pmcd/pmcd.conf' unchanged
+Restarting any deceased agents:
+    (no agents required restarting)
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 381704  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:48] pmcd(381695) Info: Reloading PMNS "DEFAULT"
+[Thu Sep  9 19:57:49] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:49 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+Configuration file '/etc/pcp/pmcd/pmcd.conf' unchanged
+Restarting any deceased agents:
+    (no agents required restarting)
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 381704  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:49] pmcd(381695) Info: Reloading PMNS "DEFAULT"
+[Thu Sep  9 19:57:49] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:49 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+Configuration file '/etc/pcp/pmcd/pmcd.conf' unchanged
+Restarting any deceased agents:
+    (no agents required restarting)
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 381704  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:49] pmcd(381695) Info: Reloading PMNS "DEFAULT"
+[Thu Sep  9 19:57:50] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:50 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+[Thu Sep  9 19:57:50] pmcd(381695) Info: CleanupAgent ...
+Cleanup "dm" agent (dom 129): unconfigured, exit(0)
+
+->PMCD event trace: starting at Thu Sep  9 19:57:50 2021
+->         Recv: CREDS PDU, fd=24, pdubuf=0x...1
+->         Recv: PMNS_TRAVERSE PDU, fd=24, pdubuf=0x...3a59f020
+->         Xmit: PMNS_NAMES PDU, fd=24, numpmid=1
+->         Recv: PMNS_NAMES PDU, fd=24, pdubuf=0x...3a59f020
+->         Xmit: PMNS_IDS PDU, fd=24, numpmid=1
+->         Recv: PROFILE PDU, fd=24, pdubuf=0x...3a59f020
+->         Recv: FETCH PDU, fd=24, pdubuf=0x...3a59f020
+->         Xmit: FETCH PDU, fd=24
+->         Recv: DESC_REQ PDU, fd=24, pdubuf=0x...3a59f020
+->         Xmit: DESC PDU, fd=24, pmid=2.0.22
+->         End client: [1] fd=24
+->         Xmit: ERROR PDU, fd=6, err=-12391: Not Connected
+->         Xmit: ERROR PDU, fd=9, err=-12391: Not Connected
+->         Xmit: ERROR PDU, fd=11, err=-12391: Not Connected
+->         Xmit: ERROR PDU, fd=13, err=-12391: Not Connected
+->         Xmit: ERROR PDU, fd=15, err=-12391: Not Connected
+->         Xmit: ERROR PDU, fd=17, err=-12391: Not Connected
+->         Xmit: ERROR PDU, fd=19, err=-12391: Not Connected
+->         Xmit: ERROR PDU, fd=21, err=-12391: Not Connected
+->         Drop PMDA: domain=129, infd=19, outfd=20
+
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:50] pmcd(381695) Info: PMNS file "DEFAULT" is unchanged
+[Thu Sep  9 19:57:51] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:51 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 382673  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:51] pmcd(381695) Info: PMNS file "DEFAULT" is unchanged
+[Thu Sep  9 19:57:54] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:54 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+Configuration file '/etc/pcp/pmcd/pmcd.conf' unchanged
+Restarting any deceased agents:
+    (no agents required restarting)
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 382673  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:54] pmcd(381695) Info: Reloading PMNS "DEFAULT"
+[Thu Sep  9 19:57:55] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:55 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+nfsclient     62 382974  24  25   2 bin pipe cmd=python3 /var/lib/pcp/pmdas/nfsclient/pmdanfsclient.python
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 382673  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:55] pmcd(381695) Info: PMNS file "DEFAULT" is unchanged
+[Thu Sep  9 19:57:58] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:58 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+Configuration file '/etc/pcp/pmcd/pmcd.conf' unchanged
+Restarting any deceased agents:
+    (no agents required restarting)
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+nfsclient     62 382974  24  25   2 bin pipe cmd=python3 /var/lib/pcp/pmdas/nfsclient/pmdanfsclient.python
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 382673  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:58] pmcd(381695) Info: Reloading PMNS "DEFAULT"
+[Thu Sep  9 19:57:59] pmcd(381695) Info: 
+
+pmcd RESTARTED at Thu Sep  9 19:57:59 2021
+
+
+Current PMCD clients ...
+     fd  client connection from                    ipc ver  operations denied
+     ==  ========================================  =======  =================
+     23  /run/pcp/pmcd.socket                            2
+
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 381698   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7fca356f41c0]
+proc           3 381699   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7fca34df2c40]
+xfs           11 381700  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+sample        29 381701  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/sample/pmdasample -d 29
+sampledso     30                 2 dso i:7  lib=/var/lib/pcp/pmdas/sample/pmda_sample.so entry=sample_init [0x7fca34de0c60]
+linux         60 381702  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+nfsclient     62 382974  24  25   2 bin pipe cmd=python3 /var/lib/pcp/pmdas/nfsclient/pmdanfsclient.python
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7fca34df2c80]
+kvm           95 381703  17  18   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7fca34dc7ff0]
+dm           129 382673  19  20   2 bin pipe cmd=/var/lib/pcp/pmdas/dm/pmdadm -d 129
+openmetrics  144 383265  26  27   2 bin pipe cmd=python3 /var/lib/pcp/pmdas/openmetrics/pmdaopenmetrics.python
+simple       253 381705  21  22   2 bin pipe cmd=/var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+[Thu Sep  9 19:57:59] pmcd(381695) Info: PMNS file "DEFAULT" is unchanged
+[Thu Sep  9 19:57:59] pmcd(381695) Info: PMNS file "DEFAULT" is unchanged
+=== /var/log/pcp/pmcd/pmcd.log.prev ===
+Log for pmcd on fv-az91-599 started Thu Sep  9 19:56:45 2021
+
+
+active agent dom   pid  in out ver protocol parameters
+============ === ===== === === === ======== ==========
+root           1 372548   6   7   2 bin pipe cmd=/var/lib/pcp/pmdas/root/pmdaroot
+pmcd           2                 2 dso i:6  lib=/var/lib/pcp/pmdas/pmcd/pmda_pmcd.so entry=pmcd_init [0x7f35ee0551c0]
+proc           3 372549   9  10   2 bin pipe cmd=/var/lib/pcp/pmdas/proc/pmdaproc -d 3
+xfs           11 372550  11  12   2 bin pipe cmd=/var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+linux         60 372551  13  14   2 bin pipe cmd=/var/lib/pcp/pmdas/linux/pmdalinux
+pmproxy        4                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=pmproxy_init [0x7f35ed753c40]
+mmv           70                 2 dso i:7  lib=/var/lib/pcp/pmdas/mmv/pmda_mmv.so entry=mmv_init [0x7f35ed753c80]
+jbd2         122                 2 dso i:4  lib=/var/lib/pcp/pmdas/jbd2/pmda_jbd2.so entry=jbd2_init [0x7f35ed749ff0]
+kvm           95 372552  15  16   2 bin pipe cmd=/var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+
+Host access list:
+00 01 Cur/MaxCons host-spec                               host-mask                               lvl host-name
+== == =========== ======================================= ======================================= === ==============
+ y  y     0     0 127.0.1.1                               255.255.255.255                           0 localhost
+ y  y     0     0 10.1.0.159                              255.255.255.255                           0 localhost
+ y  y     0     0 /                                       /                                         1 unix:
+    n     0     0 0.0.0.0                                 0.0.0.0                                   4 .*
+    n     0     0 ::                                      ::                                        8 :*
+User access list empty: user-based access control turned off
+Group access list empty: group-based access control turned off
+
+
+pmcd: PID = 372545, PDU version = 2
+pmcd request port(s):
+  sts fd   port  family address
+  === ==== ===== ====== =======
+  ok     4       unix   /run/pcp/pmcd.socket
+  ok     0 44321 inet   INADDR_ANY
+  ok     3 44321 ipv6   INADDR_ANY
+[Thu Sep  9 19:57:32] pmcd(372545) Info: pmcd caught SIGTERM from pid=379557 uid=0
+[Thu Sep  9 19:57:32] pmcd(372545) Info: CleanupAgent ...
+Cleanup "proc" agent (dom 3): terminated, exit(0)
+[Thu Sep  9 19:57:32] pmcd(372545) Info: CleanupAgent ...
+Cleanup "linux" agent (dom 60): terminated, exit(0)
+[Thu Sep  9 19:57:32] pmcd(372545) Info: __pmProcessTerminate(189671424) failed: No such process
+[Thu Sep  9 19:57:32] pmcd(372545) Info: pmdaRootProcessTerminate(..., 372550) failed: Operation not permitted
+[Thu Sep  9 19:57:32] pmcd(372545) Info: __pmProcessTerminate(189676832) failed: No such process
+[Thu Sep  9 19:57:32] pmcd(372545) Info: __pmProcessTerminate(189915952) failed: No such process
+[Thu Sep  9 19:57:32] pmcd(372545) Info: __pmProcessTerminate(189915696) failed: No such process
+[Thu Sep  9 19:57:32] pmcd(372545) Info: pmdaRootProcessTerminate(..., 372552) failed: Operation not permitted
+[Thu Sep  9 19:57:32] pmcd(372545) Info: __pmProcessTerminate(372548) failed: Operation not permitted
+[Thu Sep  9 19:57:32] pmcd(372545) Info: pmcd Shutdown
+
+Log finished Thu Sep  9 19:57:32 2021
+=== /var/log/pcp/pmcd/sample.log ===
+Log for pmdasample on fv-az91-599 started Thu Sep  9 19:57:45 2021
+
+=== /var/log/pcp/pmcd/linux.log ===
+Log for pmdalinux on fv-az91-599 started Thu Sep  9 19:57:45 2021
+
+=== /var/log/pcp/pmcd/linux.log.prev ===
+Log for pmdalinux on fv-az91-599 started Thu Sep  9 19:57:32 2021
+
+
+Log finished Thu Sep  9 19:57:45 2021
+● pmcd.service - Performance Metrics Collector Daemon
+     Loaded: loaded (/lib/systemd/system/pmcd.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2021-09-09 20:03:23 UTC; 13ms ago
+       Docs: man:pmcd(1)
+   Main PID: 385534 (pmcd)
+      Tasks: 13 (limit: 8335)
+     Memory: 33.2M
+     CGroup: /system.slice/pmcd.service
+             ├─385441 /bin/sh /etc/init.d/pmcd start-systemd
+             ├─385534 /usr/lib/pcp/bin/pmcd -T 3
+             ├─385537 /var/lib/pcp/pmdas/root/pmdaroot
+             ├─385538 /var/lib/pcp/pmdas/proc/pmdaproc -d 3
+             ├─385539 /var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+             ├─385540 /var/lib/pcp/pmdas/sample/pmdasample -d 29
+             ├─385541 /var/lib/pcp/pmdas/linux/pmdalinux
+             ├─385542 python3 /var/lib/pcp/pmdas/nfsclient/pmdanfsclient.python
+             ├─385546 /var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+             ├─385547 /var/lib/pcp/pmdas/dm/pmdadm -d 129
+             ├─385548 python3 /var/lib/pcp/pmdas/openmetrics/pmdaopenmetrics.python
+             ├─385552 /var/lib/pcp/pmdas/simple/pmdasimple -d 253
+             └─385557 /usr/lib/pcp/bin/pmpost start pmcd from /etc/init.d/pmcd
+
+Sep 09 20:03:23 fv-az91-599 systemd[1]: pmcd.service: Succeeded.
+Sep 09 20:03:23 fv-az91-599 systemd[1]: Stopped Performance Metrics Collector Daemon.
+Sep 09 20:03:23 fv-az91-599 systemd[1]: Starting Performance Metrics Collector Daemon...
+Sep 09 20:03:23 fv-az91-599 systemd[1]: Started Performance Metrics Collector Daemon.

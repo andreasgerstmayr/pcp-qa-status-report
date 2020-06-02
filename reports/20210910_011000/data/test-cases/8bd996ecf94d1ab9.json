@@ -1,0 +1,55 @@
+{
+  "uid" : "8bd996ecf94d1ab9",
+  "name" : "QA 1128",
+  "fullName" : "QA #1128 on debian10-container",
+  "historyId" : "1128@debian10-container",
+  "time" : {
+    "start" : 1631223497000,
+    "stop" : 1631223587000,
+    "duration" : 90000
+  },
+  "description" : "PCP QA Test No. 1128\n\npmie retry back-off for bad metric\n\n\n\nCopyright (c) 2017 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1128</p>\n<p>pmie retry back-off for bad metric</p>\n<p>Copyright (c) 2017 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "debian10-container"
+  }, {
+    "name" : "host",
+    "value" : "debian10-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmie"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1128",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1128.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8bd996ecf94d1ab9.json",
+  "parameterValues" : [ ]
+}

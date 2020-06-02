@@ -1,0 +1,115 @@
+QA output created by 1898
+
+=== bpf agent installation ===
+Updating the Performance Metrics Name Space (PMNS) ...
+Terminate PMDA if already installed ...
+[...install files, make output...]
+Updating the PMCD control file, and notifying PMCD ...
+Check bpf metrics have appeared ... X metrics and X values
+
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Error: bpf load failed: -4007, Kernel verifier blocks program loading
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Error: module initialisation failed: runqlat.so, -4007, Kernel verifier blocks program loading
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: loaded modules (0)
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: registering metrics
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Critical: pmdaInit: PMDA pmdabpf: metrics (0x561412b12fa0) not consistent with nmetrics (0)
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: setting up namespace
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: bpf pmda init complete
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Error: PMDA Initialisation Failed
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: shutting down
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: shutdown complete
+
+Log finished Thu Sep  9 22:26:26 2021
+_pmdabpf_wait_for_metric: Botch: bbpf PMDA ready but metric bpf returns numval -12386 (Code: -12386 0xffffcf9e Text: No PMCD agent for domain of request)
+bpf: pmLookupName: No PMCD agent for domain of request
+Here's the PMDA log ...
+Log for pmdabpf on fv-az91-599 started Thu Sep  9 22:26:26 2021
+
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: loading configuration: /var/lib/pcp/pmdas/bpf/bpf.conf
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: loaded configuration: /var/lib/pcp/pmdas/bpf/bpf.conf
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: setrlimit ok
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: loading modules
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: loading modules
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: loading runqlat.so
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: loading: runqlat.so from /var/lib/pcp/pmdas/bpf/modules/runqlat.so
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: initialising runqlat.so
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: loading /var/lib/pcp/pmdas/bpf/modules/runqlat.bpf.o
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(2) tp_btf/sched_wakeup, size 128, link 0, flags 6, type=1
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec 'tp_btf/sched_wakeup': found program 'sched_wakeup' at insn offset 0 (0 bytes), code size 16 insns (128 bytes)
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(3) tp_btf/sched_wakeup_new, size 128, link 0, flags 6, type=1
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec 'tp_btf/sched_wakeup_new': found program 'sched_wakeup_new' at insn offset 0 (0 bytes), code size 16 insns (128 bytes)
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(4) tp_btf/sched_switch, size 952, link 0, flags 6, type=1
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec 'tp_btf/sched_switch': found program 'sched_swith' at insn offset 0 (0 bytes), code size 119 insns (952 bytes)
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(5) version, size 4, link 0, flags 3, type=1
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: kernel version of /var/lib/pcp/pmdas/bpf/modules/runqlat.bpf.o is 1
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(6) license, size 4, link 0, flags 3, type=1
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: license of /var/lib/pcp/pmdas/bpf/modules/runqlat.bpf.o is GPL
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(7) .maps, size 64, link 0, flags 3, type=1
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(8) .BTF, size 2178, link 0, flags 0, type=1
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(9) .BTF.ext, size 1360, link 0, flags 0, type=1
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(10) .symtab, size 696, link 17, flags 0, type=2
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(11) .reltp_btf/sched_wakeup, size 16, link 10, flags 0, type=9
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(12) .reltp_btf/sched_wakeup_new, size 16, link 10, flags 0, type=9
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: elf: section(13) .reltp_btf/sched_switch, size 80, link 10, flags 0, type=9
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: looking for externs among 29 symbols...
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: collected 0 externs total
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'start': at sec_idx 7, offset 0.
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'start': found type = 1.
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'start': found key [9], sz = 4.
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'start': found value [13], sz = 8.
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'start': found max_entries = 10240.
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'hist': at sec_idx 7, offset 32.
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'hist': found type = 1.
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'hist': found key [13], sz = 8.
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'hist': found value [13], sz = 8.
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'hist': found max_entries = 10240.
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec '.reltp_btf/sched_wakeup': collecting relocation for section(2) 'tp_btf/sched_wakeup'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec '.reltp_btf/sched_wakeup': relo #0: insn #10 against 'start'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: prog 'sched_wakeup': found map 0 (start, sec 7, off 0) for insn #10
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec '.reltp_btf/sched_wakeup_new': collecting relocation for section(3) 'tp_btf/sched_wakeup_new'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec '.reltp_btf/sched_wakeup_new': relo #0: insn #10 against 'start'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: prog 'sched_wakeup_new': found map 0 (start, sec 7, off 0) for insn #10
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec '.reltp_btf/sched_switch': collecting relocation for section(4) 'tp_btf/sched_switch'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec '.reltp_btf/sched_switch': relo #0: insn #13 against 'start'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: prog 'sched_swith': found map 0 (start, sec 7, off 0) for insn #13
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec '.reltp_btf/sched_switch': relo #1: insn #21 against 'start'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: prog 'sched_swith': found map 0 (start, sec 7, off 0) for insn #21
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec '.reltp_btf/sched_switch': relo #2: insn #98 against 'hist'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: prog 'sched_swith': found map 1 (hist, sec 7, off 32) for insn #98
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec '.reltp_btf/sched_switch': relo #3: insn #108 against 'hist'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: prog 'sched_swith': found map 1 (hist, sec 7, off 32) for insn #108
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: sec '.reltp_btf/sched_switch': relo #4: insn #114 against 'start'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: prog 'sched_swith': found map 0 (start, sec 7, off 0) for insn #114
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: booting: runqlat
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: loading kernel BTF '/boot/vmlinux-5.8.0-1040-azure': 0
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'start': created successfully, fd=4
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Debug: libbpf: map 'hist': created successfully, fd=5
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Warning: libbpf: load bpf program failed: Invalid argument
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Warning: libbpf: -- BEGIN DUMP LOG ---
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Warning: libbpf: 
+FENTRY/FEXIT program can only be attached to another program annotated with BTF
+processed 0 insns (limit 1000000) max_states_per_insn 0 total_states 0 peak_states 0 mark_read 0
+
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Warning: libbpf: -- END LOG --
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Warning: libbpf: failed to load program 'sched_wakeup'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Warning: libbpf: failed to load object '/var/lib/pcp/pmdas/bpf/modules/runqlat.bpf.o'
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Error: bpf load failed: -4007, Kernel verifier blocks program loading
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Error: module initialisation failed: runqlat.so, -4007, Kernel verifier blocks program loading
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: loaded modules (0)
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: registering metrics
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Critical: pmdaInit: PMDA pmdabpf: metrics (0x561412b12fa0) not consistent with nmetrics (0)
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: setting up namespace
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: bpf pmda init complete
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Error: PMDA Initialisation Failed
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: shutting down
+[Thu Sep  9 22:26:26] pmdabpf(1510637) Info: shutdown complete
+
+Log finished Thu Sep  9 22:26:26 2021
+=== report metric values ===
+=== check metric labels ===
+
+=== remove bpf agent ===
+Culling the Performance Metrics Name Space ...
+bpf ... done
+Updating the PMCD control file, and notifying PMCD ...
+[...removing files...]
+Check bpf metrics have gone away ... OK

@@ -1,0 +1,263 @@
+Group "not_in_container" is empty or not defined; ignored
+PMDA probe: pminfo -h 24e0948c7885 -f sample.milliseconds
+PMDA probe: pminfo -h 24e0948c7885 -f sampledso.milliseconds
+PMDA probe: pminfo -h 24e0948c7885 -f simple.numfetch
+[0%] 001
+[1%] 002 1s ...
+[2%] 004
+[3%] 005
+[5%] 007
+[6%] 010
+[7%] 026
+[8%] 027
+[10%] 031
+[11%] 034
+[12%] 048
+[14%] 055
+[15%] 059
+[16%] 068
+[17%] 074
+[19%] 080
+[20%] 085
+[21%] 087
+[23%] 091
+[24%] 107
+[25%] 112
+[26%] 127
+[28%] 137
+[29%] 146
+[30%] 153
+[32%] 154
+[33%] 155
+[34%] 178
+[35%] 201
+[37%] 207
+[38%] 208
+[39%] 210
+[41%] 213
+[42%] 232
+[43%] 234
+[44%] 249
+[46%] 256
+[47%] 263
+[48%] 278
+[50%] 299
+[51%] 338
+[52%] 345
+[53%] 354
+[55%] 359
+[56%] 369
+[57%] 385
+[58%] 397
+[60%] 401
+[61%] 403
+[62%] 404
+[64%] 407
+[65%] 416
+[66%] 435
+[67%] 436
+[69%] 437
+[70%] 453
+[71%] 548
+[73%] 561
+[74%] 562
+[75%] 567
+[76%] 568
+[78%] 569
+[79%] 574
+[80%] 646
+[82%] 689
+[83%] 702
+[84%] 707
+[85%] 738
+[87%] 900
+[88%] 970
+[89%] 978
+[91%] 1044
+[92%] 1098 - output mismatch (see 1098.out.bad)
+1a2,100
+> Arrgh: warnings for some metrics!
+> pminfo --fetch output:
+> 
+> test_python.current_username
+> Error: Resource temporarily unavailable
+> 
+> test_python.current_ctx
+> Error: Resource temporarily unavailable
+> 
+> test_python.loaded_indom.some_value
+> Error: Resource temporarily unavailable
+> 
+> test_python.other_indom.some_value
+> Error: Resource temporarily unavailable
+> 
+> test_python.some_indom.some_value
+> Error: Resource temporarily unavailable
+> 
+> test_python.some_value
+> Error: Resource temporarily unavailable
+> PMDA log file:
+> Log for pmdatest_python on 24e0948c7885 started Fri Sep 10 17:00:54 2021
+> 
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:54] pmdatest_python(323145) Error: endcontext: callback failed
+> Traceback (most recent call last):
+>   File "/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python", line 209, in test_endcontext_callback
+>     self.log("endcontext callback for ctx %d " % (ctx,))
+> AttributeError: 'TestPMDA' object has no attribute 'log'
+> [Fri Sep 10 17:00:55] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:55] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:55] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:55] pmdatest_python(323145) Error: endcontext: callback failed
+> Traceback (most recent call last):
+>   File "/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python", line 209, in test_endcontext_callback
+>     self.log("endcontext callback for ctx %d " % (ctx,))
+> AttributeError: 'TestPMDA' object has no attribute 'log'
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: refresh_all_clusters: callback failed
+> Traceback (most recent call last):
+>   File "/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python", line 92, in test_refresh_all
+>     self.log("refresh_all callback")
+> AttributeError: 'TestPMDA' object has no attribute 'log'
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 5
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 4
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 3
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 2
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 1
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 0
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: endcontext callback for ctx 2 
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: refresh_all_clusters: callback failed
+> Traceback (most recent call last):
+>   File "/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python", line 92, in test_refresh_all
+>     self.log("refresh_all callback")
+> SystemError: PY_SSIZE_T_CLEAN macro must be defined for '#' formats
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 5
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 4
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 3
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 2
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 1
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 0
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: endcontext callback for ctx 2 
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Error: refresh_all_clusters: callback failed
+> Traceback (most recent call last):
+>   File "/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python", line 92, in test_refresh_all
+>     self.log("refresh_all callback")
+> SystemError: PY_SSIZE_T_CLEAN macro must be defined for '#' formats
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 5
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 4
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 3
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 2
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 1
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: refresh callback for cluster 0
+> [Fri Sep 10 17:00:56] pmdatest_python(323145) Info: endcontext callback for ctx 2 
+6,7c105,106
+< Check test_python metrics have appeared ... 6 metrics and N values
+< test_python.some_value old value=N new value=0
+---
+> Check test_python metrics have appeared ... 6 warnings, 6 metrics and N values
+> test_python.some_value: Error: Resource temporarily unavailable
+9,11c108,110
+< test_python.other_indom.some_value 2
+< test_python.some_value 1
+< test_python.some_indom.some_value 0
+---
+> test_python.other_indom.some_value -11 Resource temporarily unavailable
+> test_python.some_value -11 Resource temporarily unavailable
+> test_python.some_indom.some_value -11 Resource temporarily unavailable
+13,15c112,114
+< test_python.other_indom.some_value 0
+< test_python.some_value 1
+< test_python.some_indom.some_value 1
+---
+> test_python.other_indom.some_value -11 Resource temporarily unavailable
+> test_python.some_value -11 Resource temporarily unavailable
+> test_python.some_indom.some_value -11 Resource temporarily unavailable
+17,19c116,118
+< test_python.other_indom.some_value 2
+< test_python.some_value 1
+< test_python.some_indom.some_value 1
+---
+> test_python.other_indom.some_value -11 Resource temporarily unavailable
+> test_python.some_value -11 Resource temporarily unavailable
+> test_python.some_indom.some_value -11 Resource temporarily unavailable
+21,23c120,122
+< test_python.other_indom.some_value 0
+< test_python.some_value 1
+< test_python.some_indom.some_value 2
+---
+> test_python.other_indom.some_value -11 Resource temporarily unavailable
+> test_python.some_value -11 Resource temporarily unavailable
+> test_python.some_indom.some_value -11 Resource temporarily unavailable
+25,27c124,126
+< test_python.other_indom.some_value 2
+< test_python.some_value 1
+< test_python.some_indom.some_value 2
+---
+> test_python.other_indom.some_value -11 Resource temporarily unavailable
+> test_python.some_value -11 Resource temporarily unavailable
+> test_python.some_indom.some_value -11 Resource temporarily unavailable
+29,31c128,130
+< test_python.other_indom.some_value 0
+< test_python.some_value 1
+< test_python.some_indom.some_value 4
+---
+> test_python.other_indom.some_value -11 Resource temporarily unavailable
+> test_python.some_value -11 Resource temporarily unavailable
+> test_python.some_indom.some_value -11 Resource temporarily unavailable
+33,35c132,134
+< test_python.other_indom.some_value 2
+< test_python.some_value 1
+< test_python.some_indom.some_value 4
+---
+> test_python.other_indom.some_value -11 Resource temporarily unavailable
+> test_python.some_value -11 Resource temporarily unavailable
+> test_python.some_indom.some_value -11 Resource temporarily unavailable
+37,39c136,138
+< test_python.other_indom.some_value 0
+< test_python.some_value 1
+< test_python.some_indom.some_value 0
+---
+> test_python.other_indom.some_value -11 Resource temporarily unavailable
+> test_python.some_value -11 Resource temporarily unavailable
+> test_python.some_indom.some_value -11 Resource temporarily unavailable
+44,45c143
+<     inst [5 or "five"] value "FIVE"
+<     inst [9 or "nine"] value "NINE"
+---
+> Error: Resource temporarily unavailable
+Check local PMCD is still alive ...
+PMDA probe: pminfo -h 24e0948c7885 -f sample.milliseconds
+PMDA probe: pminfo -h 24e0948c7885 -f sampledso.milliseconds
+PMDA probe: pminfo -h 24e0948c7885 -f simple.numfetch
+[93%] 1204
+[94%] 1229
+[96%] 1274
+[97%] 1315
+[98%] 1368
+Failures: 1098
+Failed 1 of 78 tests

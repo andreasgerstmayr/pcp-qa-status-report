@@ -1,0 +1,114 @@
+{
+  "total" : 52,
+  "items" : [ {
+    "uid" : "5a28ff24753a3a2fae74f89ef3f1cd8e",
+    "name" : "local",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 5,
+      "passed" : 1084,
+      "unknown" : 0,
+      "total" : 1092
+    }
+  }, {
+    "uid" : "3c2fd161d37da8eab58e0d7dcc419317",
+    "name" : "sanity",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 5,
+      "passed" : 1084,
+      "unknown" : 0,
+      "total" : 1092
+    }
+  }, {
+    "uid" : "817d2dda6a5d27390d5d4ca371ecfe05",
+    "name" : "python",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 5,
+      "passed" : 91,
+      "unknown" : 0,
+      "total" : 98
+    }
+  }, {
+    "uid" : "a36d054f09f26a272e1d1b83e20c5dfc",
+    "name" : "pmstore",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 81,
+      "unknown" : 0,
+      "total" : 84
+    }
+  }, {
+    "uid" : "38c62ee5555e24c5ef9c0f8f81c54954",
+    "name" : "libpcp",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 276,
+      "unknown" : 0,
+      "total" : 280
+    }
+  }, {
+    "uid" : "e6e002a8210bff4f1628acabbbef5e27",
+    "name" : "ostest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 238,
+      "unknown" : 0,
+      "total" : 238
+    }
+  }, {
+    "uid" : "1a42c7e51e4fad2068ffb5c96fa6ea52",
+    "name" : "pmda.sample",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 196,
+      "unknown" : 0,
+      "total" : 196
+    }
+  }, {
+    "uid" : "2374fd5fa88405976f599a9f8b93b314",
+    "name" : "pmdumplog",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 168,
+      "unknown" : 0,
+      "total" : 168
+    }
+  }, {
+    "uid" : "1e21c98df92b2dfeb3b0dc0b8f990f9f",
+    "name" : "archive",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 154,
+      "unknown" : 0,
+      "total" : 154
+    }
+  }, {
+    "uid" : "234fba4e9e83ccf1955cb5f9de00f3a3",
+    "name" : "pmns",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 140,
+      "unknown" : 0,
+      "total" : 140
+    }
+  } ]
+}

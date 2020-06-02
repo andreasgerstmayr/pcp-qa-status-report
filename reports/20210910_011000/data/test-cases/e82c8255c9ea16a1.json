@@ -1,0 +1,64 @@
+{
+  "uid" : "e82c8255c9ea16a1",
+  "name" : "QA 080",
+  "fullName" : "QA #080 on fedora34-container",
+  "historyId" : "080@fedora34-container",
+  "time" : {
+    "start" : 1631218299000,
+    "stop" : 1631218301000,
+    "duration" : 2000
+  },
+  "description" : "PCP QA Test No. 080\n\nexercise new options to pmval: -r -z -Z -S -p\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 080</p>\n<p>exercise new options to pmval: -r -z -Z -S -p</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora34-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora34-container"
+  }, {
+    "name" : "epic",
+    "value" : "libpcp"
+  }, {
+    "name" : "epic",
+    "value" : "pmval"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "sanity"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/080",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/080.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e82c8255c9ea16a1.json",
+  "parameterValues" : [ ]
+}

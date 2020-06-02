@@ -1,0 +1,407 @@
+pmproxy_was_running=true
+○ pmlogger.service - Performance Metrics Archive Logger
+     Loaded: loaded (/usr/lib/systemd/system/pmlogger.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Thu 2021-09-09 22:32:38 UTC; 137ms ago
+       Docs: man:pmlogger(1)
+    Process: 1267324 ExecStart=/usr/libexec/pcp/lib/pmlogger start-systemd (code=exited, status=0/SUCCESS)
+    Process: 1272598 ExecStop=/usr/libexec/pcp/lib/pmlogger stop-systemd (code=exited, status=0/SUCCESS)
+   Main PID: 1267324 (code=exited, status=0/SUCCESS)
+
+Sep 09 22:29:41 e9a5ee16573f systemd[1]: Starting Performance Metrics Archive Logger...
+Sep 09 22:29:42 e9a5ee16573f systemd[1]: Started Performance Metrics Archive Logger.
+Sep 09 22:32:38 e9a5ee16573f systemd[1]: Stopping Performance Metrics Archive Logger...
+Sep 09 22:32:38 e9a5ee16573f systemd[1]: pmlogger.service: Deactivated successfully.
+Sep 09 22:32:38 e9a5ee16573f systemd[1]: Stopped Performance Metrics Archive Logger.
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+     Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+     Active: active (running) since Thu 2021-09-09 22:32:38 UTC; 25ms ago
+       Docs: man:pmproxy(1)
+   Main PID: 1272694 (pmproxy)
+     CGroup: /machine.slice/libpod-e9a5ee16573f23cb0517314f6f04ea3bf4b0a1b49f5859a518f21e1b3f57fc44.scope/system.slice/pmproxy.service
+             └─1272694 /usr/libexec/pcp/bin/pmproxy -F
+
+Sep 09 22:32:38 e9a5ee16573f systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:32:38 e9a5ee16573f systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+● pmlogger.service - Performance Metrics Archive Logger
+     Loaded: loaded (/usr/lib/systemd/system/pmlogger.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2021-09-09 22:32:39 UTC; 44ms ago
+       Docs: man:pmlogger(1)
+   Main PID: 1273001 (pmlogger)
+     CGroup: /machine.slice/libpod-e9a5ee16573f23cb0517314f6f04ea3bf4b0a1b49f5859a518f21e1b3f57fc44.scope/system.slice/pmlogger.service
+             ├─1272779 /usr/bin/sh /usr/libexec/pcp/lib/pmlogger start-systemd
+             ├─1272832 /usr/bin/sh /usr/libexec/pcp/bin/pmlogger_check --quick -V
+             ├─1272927 /usr/bin/sh /usr/libexec/pcp/bin/pmlogger_check --quick -V
+             ├─1273001 /usr/libexec/pcp/bin/pmlogger -N -P -r -T24h10m -c config.default -v 100mb -m pmlogger_check %Y%m%d.%H.%M
+             ├─1273064 /usr/bin/sh /usr/libexec/pcp/bin/pmlogger_check --quick -V
+             ├─1273065 pmlc
+             └─1273066 grep Unable to connect
+
+Sep 09 22:32:39 e9a5ee16573f systemd[1]: Starting Performance Metrics Archive Logger...
+Sep 09 22:32:39 e9a5ee16573f systemd[1]: Started Performance Metrics Archive Logger.
+RSS1 for PID 1272694 is 10120
+RSS2 for PID 1272694 is 10120
+Log for pmproxy on e9a5ee16573f started Thu Sep  9 22:32:38 2021
+
+pmproxy: PID = 1272694, PDU version = 2, user = pcp (386)
+pmproxy request port(s):
+  sts fd   port  family address
+  === ==== ===== ====== =======
+  ok    10       unix   /run/pcp/pmproxy.socket
+  ok    11 44322 inet   INADDR_ANY
+  ok    15 44322 ipv6   INADDR_ANY
+  ok    16 44323 inet   INADDR_ANY
+  ok    17 44323 ipv6   INADDR_ANY
+[Thu Sep  9 22:32:38] pmproxy(1272694) Info: Redis slots, command keys setup
+== maps
+55748e45f000-55748e466000 r--p 00000000 00:34 9054186                    /usr/libexec/pcp/bin/pmproxy
+55748e466000-55748e479000 r-xp 00007000 00:34 9054186                    /usr/libexec/pcp/bin/pmproxy
+55748e479000-55748e480000 r--p 0001a000 00:34 9054186                    /usr/libexec/pcp/bin/pmproxy
+55748e481000-55748e482000 r--p 00021000 00:34 9054186                    /usr/libexec/pcp/bin/pmproxy
+55748e482000-55748e483000 rw-p 00022000 00:34 9054186                    /usr/libexec/pcp/bin/pmproxy
+55748e483000-55748e485000 rw-p 00000000 00:00 0 
+55748f801000-55748f898000 rw-p 00000000 00:00 0                          [heap]
+7f9f80000000-7f9f80021000 rw-p 00000000 00:00 0 
+7f9f80021000-7f9f84000000 ---p 00000000 00:00 0 
+7f9f846a0000-7f9f846a2000 r--p 00000000 00:34 4428389                    /usr/lib64/libffi.so.6.0.2
+7f9f846a2000-7f9f846a7000 r-xp 00002000 00:34 4428389                    /usr/lib64/libffi.so.6.0.2
+7f9f846a7000-7f9f846a8000 r--p 00007000 00:34 4428389                    /usr/lib64/libffi.so.6.0.2
+7f9f846a8000-7f9f846a9000 ---p 00008000 00:34 4428389                    /usr/lib64/libffi.so.6.0.2
+7f9f846a9000-7f9f846aa000 r--p 00008000 00:34 4428389                    /usr/lib64/libffi.so.6.0.2
+7f9f846aa000-7f9f846ab000 rw-p 00009000 00:34 4428389                    /usr/lib64/libffi.so.6.0.2
+7f9f846ab000-7f9f846d4000 r--p 00000000 00:34 4391819                    /usr/lib64/libp11-kit.so.0.3.0
+7f9f846d4000-7f9f84772000 r-xp 00029000 00:34 4391819                    /usr/lib64/libp11-kit.so.0.3.0
+7f9f84772000-7f9f847c9000 r--p 000c7000 00:34 4391819                    /usr/lib64/libp11-kit.so.0.3.0
+7f9f847c9000-7f9f847d3000 r--p 0011d000 00:34 4391819                    /usr/lib64/libp11-kit.so.0.3.0
+7f9f847d3000-7f9f847dd000 rw-p 00127000 00:34 4391819                    /usr/lib64/libp11-kit.so.0.3.0
+7f9f847dd000-7f9f847e4000 r--p 00000000 00:34 4391755                    /usr/lib64/libnss_systemd.so.2
+7f9f847e4000-7f9f84816000 r-xp 00007000 00:34 4391755                    /usr/lib64/libnss_systemd.so.2
+7f9f84816000-7f9f84827000 r--p 00039000 00:34 4391755                    /usr/lib64/libnss_systemd.so.2
+7f9f84827000-7f9f8482b000 r--p 00049000 00:34 4391755                    /usr/lib64/libnss_systemd.so.2
+7f9f8482b000-7f9f8482c000 rw-p 0004d000 00:34 4391755                    /usr/lib64/libnss_systemd.so.2
+7f9f8482c000-7f9f8482f000 r--p 00000000 00:34 4391625                    /usr/lib64/libnss_files-2.33.so
+7f9f8482f000-7f9f84836000 r-xp 00003000 00:34 4391625                    /usr/lib64/libnss_files-2.33.so
+7f9f84836000-7f9f84838000 r--p 0000a000 00:34 4391625                    /usr/lib64/libnss_files-2.33.so
+7f9f84838000-7f9f84839000 r--p 0000b000 00:34 4391625                    /usr/lib64/libnss_files-2.33.so
+7f9f84839000-7f9f84840000 rw-p 00000000 00:00 0 
+7f9f84840000-7f9f84842000 r--p 00000000 00:34 4391636                    /usr/lib64/libnss_sss.so.2
+7f9f84842000-7f9f84849000 r-xp 00002000 00:34 4391636                    /usr/lib64/libnss_sss.so.2
+7f9f84849000-7f9f8484b000 r--p 00009000 00:34 4391636                    /usr/lib64/libnss_sss.so.2
+7f9f8484b000-7f9f8484c000 r--p 0000a000 00:34 4391636                    /usr/lib64/libnss_sss.so.2
+7f9f8484c000-7f9f8484d000 rw-p 0000b000 00:34 4391636                    /usr/lib64/libnss_sss.so.2
+7f9f84859000-7f9f8485a000 ---p 00000000 00:00 0 
+7f9f8485a000-7f9f85060000 rw-p 00000000 00:00 0 
+7f9f85060000-7f9f85064000 r--p 00000000 00:34 4391757                    /usr/lib64/libgpg-error.so.0.32.0
+7f9f85064000-7f9f8507a000 r-xp 00004000 00:34 4391757                    /usr/lib64/libgpg-error.so.0.32.0
+7f9f8507a000-7f9f85083000 r--p 0001a000 00:34 4391757                    /usr/lib64/libgpg-error.so.0.32.0
+7f9f85083000-7f9f85084000 ---p 00023000 00:34 4391757                    /usr/lib64/libgpg-error.so.0.32.0
+7f9f85084000-7f9f85085000 r--p 00023000 00:34 4391757                    /usr/lib64/libgpg-error.so.0.32.0
+7f9f85085000-7f9f85086000 rw-p 00024000 00:34 4391757                    /usr/lib64/libgpg-error.so.0.32.0
+7f9f85086000-7f9f85088000 rw-p 00000000 00:00 0 
+7f9f85088000-7f9f8508a000 r--p 00000000 00:34 4391737                    /usr/lib64/libpcre2-8.so.0.10.1
+7f9f8508a000-7f9f850f5000 r-xp 00002000 00:34 4391737                    /usr/lib64/libpcre2-8.so.0.10.1
+7f9f850f5000-7f9f8511c000 r--p 0006d000 00:34 4391737                    /usr/lib64/libpcre2-8.so.0.10.1
+7f9f8511c000-7f9f8511d000 ---p 00094000 00:34 4391737                    /usr/lib64/libpcre2-8.so.0.10.1
+7f9f8511d000-7f9f8511e000 r--p 00094000 00:34 4391737                    /usr/lib64/libpcre2-8.so.0.10.1
+7f9f8511e000-7f9f8511f000 rw-p 00095000 00:34 4391737                    /usr/lib64/libpcre2-8.so.0.10.1
+7f9f8511f000-7f9f85121000 r--p 00000000 00:34 4428405                    /usr/lib64/libkeyutils.so.1.9
+7f9f85121000-7f9f85123000 r-xp 00002000 00:34 4428405                    /usr/lib64/libkeyutils.so.1.9
+7f9f85123000-7f9f85124000 r--p 00004000 00:34 4428405                    /usr/lib64/libkeyutils.so.1.9
+7f9f85124000-7f9f85125000 r--p 00004000 00:34 4428405                    /usr/lib64/libkeyutils.so.1.9
+7f9f85125000-7f9f85126000 rw-p 00000000 00:00 0 
+7f9f85126000-7f9f8512a000 r--p 00000000 00:34 4428362                    /usr/lib64/libkrb5support.so.0.1
+7f9f8512a000-7f9f85132000 r-xp 00004000 00:34 4428362                    /usr/lib64/libkrb5support.so.0.1
+7f9f85132000-7f9f85135000 r--p 0000c000 00:34 4428362                    /usr/lib64/libkrb5support.so.0.1
+7f9f85135000-7f9f85136000 r--p 0000e000 00:34 4428362                    /usr/lib64/libkrb5support.so.0.1
+7f9f85136000-7f9f85137000 rw-p 0000f000 00:34 4428362                    /usr/lib64/libkrb5support.so.0.1
+7f9f85137000-7f9f8513a000 r--p 00000000 00:34 4391807                    /usr/lib64/libgcc_s-11-20210728.so.1
+7f9f8513a000-7f9f8514c000 r-xp 00003000 00:34 4391807                    /usr/lib64/libgcc_s-11-20210728.so.1
+7f9f8514c000-7f9f8514f000 r--p 00015000 00:34 4391807                    /usr/lib64/libgcc_s-11-20210728.so.1
+7f9f8514f000-7f9f85150000 ---p 00018000 00:34 4391807                    /usr/lib64/libgcc_s-11-20210728.so.1
+7f9f85150000-7f9f85151000 r--p 00018000 00:34 4391807                    /usr/lib64/libgcc_s-11-20210728.so.1
+7f9f85151000-7f9f85152000 rw-p 00019000 00:34 4391807                    /usr/lib64/libgcc_s-11-20210728.so.1
+7f9f85152000-7f9f85160000 r--p 00000000 00:34 4391744                    /usr/lib64/libgcrypt.so.20.3.3
+7f9f85160000-7f9f85246000 r-xp 0000e000 00:34 4391744                    /usr/lib64/libgcrypt.so.20.3.3
+7f9f85246000-7f9f85283000 r--p 000f4000 00:34 4391744                    /usr/lib64/libgcrypt.so.20.3.3
+7f9f85283000-7f9f85284000 ---p 00131000 00:34 4391744                    /usr/lib64/libgcrypt.so.20.3.3
+7f9f85284000-7f9f85287000 r--p 00131000 00:34 4391744                    /usr/lib64/libgcrypt.so.20.3.3
+7f9f85287000-7f9f8528d000 rw-p 00134000 00:34 4391744                    /usr/lib64/libgcrypt.so.20.3.3
+7f9f8528d000-7f9f85290000 rw-p 00000000 00:00 0 
+7f9f85290000-7f9f85296000 r--p 00000000 00:34 4428310                    /usr/lib64/libselinux.so.1
+7f9f85296000-7f9f852b0000 r-xp 00006000 00:34 4428310                    /usr/lib64/libselinux.so.1
+7f9f852b0000-7f9f852b7000 r--p 00020000 00:34 4428310                    /usr/lib64/libselinux.so.1
+7f9f852b7000-7f9f852b8000 ---p 00027000 00:34 4428310                    /usr/lib64/libselinux.so.1
+7f9f852b8000-7f9f852b9000 r--p 00027000 00:34 4428310                    /usr/lib64/libselinux.so.1
+7f9f852b9000-7f9f852ba000 rw-p 00028000 00:34 4428310                    /usr/lib64/libselinux.so.1
+7f9f852ba000-7f9f852bc000 rw-p 00000000 00:00 0 
+7f9f852bc000-7f9f852be000 r--p 00000000 00:34 4391820                    /usr/lib64/libcap.so.2.48
+7f9f852be000-7f9f852c2000 r-xp 00002000 00:34 4391820                    /usr/lib64/libcap.so.2.48
+7f9f852c2000-7f9f852c4000 r--p 00006000 00:34 4391820                    /usr/lib64/libcap.so.2.48
+7f9f852c4000-7f9f852c5000 r--p 00007000 00:34 4391820                    /usr/lib64/libcap.so.2.48
+7f9f852c5000-7f9f852c6000 rw-p 00008000 00:34 4391820                    /usr/lib64/libcap.so.2.48
+7f9f852c6000-7f9f852c9000 r--p 00000000 00:34 4428383                    /usr/lib64/liblz4.so.1.9.3
+7f9f852c9000-7f9f852e5000 r-xp 00003000 00:34 4428383                    /usr/lib64/liblz4.so.1.9.3
+7f9f852e5000-7f9f852e8000 r--p 0001f000 00:34 4428383                    /usr/lib64/liblz4.so.1.9.3
+7f9f852e8000-7f9f852e9000 r--p 00021000 00:34 4428383                    /usr/lib64/liblz4.so.1.9.3
+7f9f852e9000-7f9f852ea000 rw-p 00000000 00:00 0 
+7f9f852ea000-7f9f852ef000 r--p 00000000 00:34 4428390                    /usr/lib64/libzstd.so.1.5.0
+7f9f852ef000-7f9f853cf000 r-xp 00005000 00:34 4428390                    /usr/lib64/libzstd.so.1.5.0
+7f9f853cf000-7f9f853dd000 r--p 000e5000 00:34 4428390                    /usr/lib64/libzstd.so.1.5.0
+7f9f853dd000-7f9f853de000 ---p 000f3000 00:34 4428390                    /usr/lib64/libzstd.so.1.5.0
+7f9f853de000-7f9f853df000 r--p 000f3000 00:34 4428390                    /usr/lib64/libzstd.so.1.5.0
+7f9f853df000-7f9f853e0000 rw-p 000f4000 00:34 4428390                    /usr/lib64/libzstd.so.1.5.0
+7f9f853e0000-7f9f853ed000 r--p 00000000 00:34 6991181                    /usr/lib64/libdbus-1.so.3.19.13
+7f9f853ed000-7f9f8541d000 r-xp 0000d000 00:34 6991181                    /usr/lib64/libdbus-1.so.3.19.13
+7f9f8541d000-7f9f8542f000 r--p 0003d000 00:34 6991181                    /usr/lib64/libdbus-1.so.3.19.13
+7f9f8542f000-7f9f85431000 r--p 0004e000 00:34 6991181                    /usr/lib64/libdbus-1.so.3.19.13
+7f9f85431000-7f9f85432000 rw-p 00050000 00:34 6991181                    /usr/lib64/libdbus-1.so.3.19.13
+7f9f85432000-7f9f85434000 r--p 00000000 00:34 4428299                    /usr/lib64/libcom_err.so.2.1
+7f9f85434000-7f9f85436000 r-xp 00002000 00:34 4428299                    /usr/lib64/libcom_err.so.2.1
+7f9f85436000-7f9f85437000 r--p 00004000 00:34 4428299                    /usr/lib64/libcom_err.so.2.1
+7f9f85437000-7f9f85438000 r--p 00004000 00:34 4428299                    /usr/lib64/libcom_err.so.2.1
+7f9f85438000-7f9f85439000 rw-p 00005000 00:34 4428299                    /usr/lib64/libcom_err.so.2.1
+7f9f85439000-7f9f8543b000 rw-p 00000000 00:00 0 
+7f9f8543b000-7f9f85440000 r--p 00000000 00:34 4428298                    /usr/lib64/libk5crypto.so.3.1
+7f9f85440000-7f9f8544c000 r-xp 00005000 00:34 4428298                    /usr/lib64/libk5crypto.so.3.1
+7f9f8544c000-7f9f85450000 r--p 00011000 00:34 4428298                    /usr/lib64/libk5crypto.so.3.1
+7f9f85450000-7f9f85452000 r--p 00014000 00:34 4428298                    /usr/lib64/libk5crypto.so.3.1
+7f9f85452000-7f9f85453000 rw-p 00016000 00:34 4428298                    /usr/lib64/libk5crypto.so.3.1
+7f9f85453000-7f9f85476000 r--p 00000000 00:34 4391626                    /usr/lib64/libkrb5.so.3.3
+7f9f85476000-7f9f854e1000 r-xp 00023000 00:34 4391626                    /usr/lib64/libkrb5.so.3.3
+7f9f854e1000-7f9f85520000 r--p 0008e000 00:34 4391626                    /usr/lib64/libkrb5.so.3.3
+7f9f85520000-7f9f85521000 ---p 000cd000 00:34 4391626                    /usr/lib64/libkrb5.so.3.3
+7f9f85521000-7f9f8552f000 r--p 000cd000 00:34 4391626                    /usr/lib64/libkrb5.so.3.3
+7f9f8552f000-7f9f85531000 rw-p 000db000 00:34 4391626                    /usr/lib64/libkrb5.so.3.3
+7f9f85531000-7f9f8553d000 r--p 00000000 00:34 4391788                    /usr/lib64/libgssapi_krb5.so.2.2
+7f9f8553d000-7f9f85578000 r-xp 0000c000 00:34 4391788                    /usr/lib64/libgssapi_krb5.so.2.2
+7f9f85578000-7f9f85584000 r--p 00047000 00:34 4391788                    /usr/lib64/libgssapi_krb5.so.2.2
+7f9f85584000-7f9f85585000 ---p 00053000 00:34 4391788                    /usr/lib64/libgssapi_krb5.so.2.2
+7f9f85585000-7f9f85587000 r--p 00053000 00:34 4391788                    /usr/lib64/libgssapi_krb5.so.2.2
+7f9f85587000-7f9f85588000 rw-p 00055000 00:34 4391788                    /usr/lib64/libgssapi_krb5.so.2.2
+7f9f85588000-7f9f8558a000 r--p 00000000 00:34 6997910                    /usr/lib64/libcrypt.so.2.0.0
+7f9f8558a000-7f9f8559e000 r-xp 00002000 00:34 6997910                    /usr/lib64/libcrypt.so.2.0.0
+7f9f8559e000-7f9f855b7000 r--p 00016000 00:34 6997910                    /usr/lib64/libcrypt.so.2.0.0
+7f9f855b7000-7f9f855b8000 ---p 0002f000 00:34 6997910                    /usr/lib64/libcrypt.so.2.0.0
+7f9f855b8000-7f9f855b9000 r--p 0002f000 00:34 6997910                    /usr/lib64/libcrypt.so.2.0.0
+7f9f855b9000-7f9f855c2000 rw-p 00000000 00:00 0 
+7f9f855c2000-7f9f855c6000 r--p 00000000 00:34 4428396                    /usr/lib64/libresolv-2.33.so
+7f9f855c6000-7f9f855d4000 r-xp 00004000 00:34 4428396                    /usr/lib64/libresolv-2.33.so
+7f9f855d4000-7f9f855d7000 r--p 00012000 00:34 4428396                    /usr/lib64/libresolv-2.33.so
+7f9f855d7000-7f9f855d8000 ---p 00015000 00:34 4428396                    /usr/lib64/libresolv-2.33.so
+7f9f855d8000-7f9f855d9000 r--p 00015000 00:34 4428396                    /usr/lib64/libresolv-2.33.so
+7f9f855d9000-7f9f855da000 rw-p 00016000 00:34 4428396                    /usr/lib64/libresolv-2.33.so
+7f9f855da000-7f9f855dc000 rw-p 00000000 00:00 0 
+7f9f855dc000-7f9f855df000 r--p 00000000 00:34 4391879                    /usr/lib64/librt-2.33.so
+7f9f855df000-7f9f855e3000 r-xp 00003000 00:34 4391879                    /usr/lib64/librt-2.33.so
+7f9f855e3000-7f9f855e5000 r--p 00007000 00:34 4391879                    /usr/lib64/librt-2.33.so
+7f9f855e5000-7f9f855e6000 r--p 00008000 00:34 4391879                    /usr/lib64/librt-2.33.so
+7f9f855e6000-7f9f855e7000 rw-p 00009000 00:34 4391879                    /usr/lib64/librt-2.33.so
+7f9f855e7000-7f9f855e9000 rw-p 00000000 00:00 0 
+7f9f855e9000-7f9f855ea000 r--p 00000000 00:34 6990821                    /usr/lib64/libplds4.so
+7f9f855ea000-7f9f855eb000 r-xp 00001000 00:34 6990821                    /usr/lib64/libplds4.so
+7f9f855eb000-7f9f855ec000 r--p 00002000 00:34 6990821                    /usr/lib64/libplds4.so
+7f9f855ec000-7f9f855ed000 r--p 00002000 00:34 6990821                    /usr/lib64/libplds4.so
+7f9f855ed000-7f9f855ee000 rw-p 00003000 00:34 6990821                    /usr/lib64/libplds4.so
+7f9f855ee000-7f9f855f0000 r--p 00000000 00:34 6990820                    /usr/lib64/libplc4.so
+7f9f855f0000-7f9f855f2000 r-xp 00002000 00:34 6990820                    /usr/lib64/libplc4.so
+7f9f855f2000-7f9f855f3000 r--p 00004000 00:34 6990820                    /usr/lib64/libplc4.so
+7f9f855f3000-7f9f855f4000 r--p 00004000 00:34 6990820                    /usr/lib64/libplc4.so
+7f9f855f4000-7f9f855f5000 rw-p 00005000 00:34 6990820                    /usr/lib64/libplc4.so
+7f9f855f5000-7f9f85602000 r--p 00000000 00:34 6991194                    /usr/lib64/libnssutil3.so
+7f9f85602000-7f9f85614000 r-xp 0000d000 00:34 6991194                    /usr/lib64/libnssutil3.so
+7f9f85614000-7f9f85620000 r--p 0001f000 00:34 6991194                    /usr/lib64/libnssutil3.so
+7f9f85620000-7f9f85627000 r--p 0002a000 00:34 6991194                    /usr/lib64/libnssutil3.so
+7f9f85627000-7f9f85628000 rw-p 00031000 00:34 6991194                    /usr/lib64/libnssutil3.so
+7f9f85628000-7f9f8563a000 r--p 00000000 00:34 4391870                    /usr/lib64/libsystemd.so.0.31.0
+7f9f8563a000-7f9f856bb000 r-xp 00012000 00:34 4391870                    /usr/lib64/libsystemd.so.0.31.0
+7f9f856bb000-7f9f856e6000 r--p 00093000 00:34 4391870                    /usr/lib64/libsystemd.so.0.31.0
+7f9f856e6000-7f9f856ea000 r--p 000bd000 00:34 4391870                    /usr/lib64/libsystemd.so.0.31.0
+7f9f856ea000-7f9f856eb000 rw-p 000c1000 00:34 4391870                    /usr/lib64/libsystemd.so.0.31.0
+7f9f856eb000-7f9f856ec000 rw-p 00000000 00:00 0 
+7f9f856ec000-7f9f856f0000 r--p 00000000 00:34 6997630                    /usr/lib64/libavahi-client.so.3.2.9
+7f9f856f0000-7f9f856fa000 r-xp 00004000 00:34 6997630                    /usr/lib64/libavahi-client.so.3.2.9
+7f9f856fa000-7f9f856fe000 r--p 0000e000 00:34 6997630                    /usr/lib64/libavahi-client.so.3.2.9
+7f9f856fe000-7f9f856ff000 ---p 00012000 00:34 6997630                    /usr/lib64/libavahi-client.so.3.2.9
+7f9f856ff000-7f9f85700000 r--p 00012000 00:34 6997630                    /usr/lib64/libavahi-client.so.3.2.9
+7f9f85700000-7f9f85701000 rw-p 00013000 00:34 6997630                    /usr/lib64/libavahi-client.so.3.2.9
+7f9f85701000-7f9f85703000 rw-p 00000000 00:00 0 
+7f9f85703000-7f9f85706000 r--p 00000000 00:34 6997632                    /usr/lib64/libavahi-common.so.3.5.4
+7f9f85706000-7f9f8570c000 r-xp 00003000 00:34 6997632                    /usr/lib64/libavahi-common.so.3.5.4
+7f9f8570c000-7f9f8570f000 r--p 00009000 00:34 6997632                    /usr/lib64/libavahi-common.so.3.5.4
+7f9f8570f000-7f9f85710000 ---p 0000c000 00:34 6997632                    /usr/lib64/libavahi-common.so.3.5.4
+7f9f85710000-7f9f85711000 r--p 0000c000 00:34 6997632                    /usr/lib64/libavahi-common.so.3.5.4
+7f9f85711000-7f9f85712000 rw-p 0000d000 00:34 6997632                    /usr/lib64/libavahi-common.so.3.5.4
+7f9f85712000-7f9f85715000 r--p 00000000 00:34 4391854                    /usr/lib64/liblzma.so.5.2.5
+7f9f85715000-7f9f85730000 r-xp 00003000 00:34 4391854                    /usr/lib64/liblzma.so.5.2.5
+7f9f85730000-7f9f8573b000 r--p 0001e000 00:34 4391854                    /usr/lib64/liblzma.so.5.2.5
+7f9f8573b000-7f9f8573c000 ---p 00029000 00:34 4391854                    /usr/lib64/liblzma.so.5.2.5
+7f9f8573c000-7f9f8573d000 r--p 00029000 00:34 4391854                    /usr/lib64/liblzma.so.5.2.5
+7f9f8573d000-7f9f8573e000 rw-p 00000000 00:00 0 
+7f9f8573e000-7f9f85743000 r--p 00000000 00:34 4391804                    /usr/lib64/libsasl2.so.3.0.0
+7f9f85743000-7f9f85756000 r-xp 00005000 00:34 4391804                    /usr/lib64/libsasl2.so.3.0.0
+7f9f85756000-7f9f8575c000 r--p 00018000 00:34 4391804                    /usr/lib64/libsasl2.so.3.0.0
+7f9f8575c000-7f9f8575d000 r--p 0001d000 00:34 4391804                    /usr/lib64/libsasl2.so.3.0.0
+7f9f8575d000-7f9f8575e000 rw-p 0001e000 00:34 4391804                    /usr/lib64/libsasl2.so.3.0.0
+7f9f8575e000-7f9f8576a000 r--p 00000000 00:34 6990819                    /usr/lib64/libnspr4.so
+7f9f8576a000-7f9f8578f000 r-xp 0000c000 00:34 6990819                    /usr/lib64/libnspr4.so
+7f9f8578f000-7f9f8579c000 r--p 00031000 00:34 6990819                    /usr/lib64/libnspr4.so
+7f9f8579c000-7f9f8579d000 r--p 0003d000 00:34 6990819                    /usr/lib64/libnspr4.so
+7f9f8579d000-7f9f8579f000 rw-p 0003e000 00:34 6990819                    /usr/lib64/libnspr4.so
+7f9f8579f000-7f9f857a1000 rw-p 00000000 00:00 0 
+7f9f857a1000-7f9f857ba000 r--p 00000000 00:34 7002815                    /usr/lib64/libnss3.so
+7f9f857ba000-7f9f8589b000 r-xp 00019000 00:34 7002815                    /usr/lib64/libnss3.so
+7f9f8589b000-7f9f858d5000 r--p 000fa000 00:34 7002815                    /usr/lib64/libnss3.so
+7f9f858d5000-7f9f858d6000 ---p 00134000 00:34 7002815                    /usr/lib64/libnss3.so
+7f9f858d6000-7f9f858db000 r--p 00134000 00:34 7002815                    /usr/lib64/libnss3.so
+7f9f858db000-7f9f858de000 rw-p 00139000 00:34 7002815                    /usr/lib64/libnss3.so
+7f9f858de000-7f9f858df000 rw-p 00000000 00:00 0 
+7f9f858df000-7f9f858ec000 r--p 00000000 00:34 7002817                    /usr/lib64/libssl3.so
+7f9f858ec000-7f9f8592b000 r-xp 0000d000 00:34 7002817                    /usr/lib64/libssl3.so
+7f9f8592b000-7f9f8593f000 r--p 0004c000 00:34 7002817                    /usr/lib64/libssl3.so
+7f9f8593f000-7f9f85940000 ---p 00060000 00:34 7002817                    /usr/lib64/libssl3.so
+7f9f85940000-7f9f85944000 r--p 00060000 00:34 7002817                    /usr/lib64/libssl3.so
+7f9f85944000-7f9f85945000 rw-p 00064000 00:34 7002817                    /usr/lib64/libssl3.so
+7f9f85945000-7f9f85948000 rw-p 00000000 00:00 0 
+7f9f85948000-7f9f8594a000 r--p 00000000 00:34 4391797                    /usr/lib64/libdl-2.33.so
+7f9f8594a000-7f9f8594c000 r-xp 00002000 00:34 4391797                    /usr/lib64/libdl-2.33.so
+7f9f8594c000-7f9f8594d000 r--p 00004000 00:34 4391797                    /usr/lib64/libdl-2.33.so
+7f9f8594d000-7f9f8594e000 r--p 00004000 00:34 4391797                    /usr/lib64/libdl-2.33.so
+7f9f8594e000-7f9f8594f000 rw-p 00000000 00:00 0 
+7f9f8594f000-7f9f85952000 r--p 00000000 00:34 4391861                    /usr/lib64/libz.so.1.2.11
+7f9f85952000-7f9f85960000 r-xp 00003000 00:34 4391861                    /usr/lib64/libz.so.1.2.11
+7f9f85960000-7f9f85966000 r--p 00011000 00:34 4391861                    /usr/lib64/libz.so.1.2.11
+7f9f85966000-7f9f85967000 ---p 00017000 00:34 4391861                    /usr/lib64/libz.so.1.2.11
+7f9f85967000-7f9f85968000 r--p 00017000 00:34 4391861                    /usr/lib64/libz.so.1.2.11
+7f9f85968000-7f9f85969000 rw-p 00000000 00:00 0 
+7f9f85969000-7f9f85970000 r--p 00000000 00:34 4428676                    /usr/lib64/libpthread-2.33.so
+7f9f85970000-7f9f8597f000 r-xp 00007000 00:34 4428676                    /usr/lib64/libpthread-2.33.so
+7f9f8597f000-7f9f85983000 r--p 00016000 00:34 4428676                    /usr/lib64/libpthread-2.33.so
+7f9f85983000-7f9f85984000 ---p 0001a000 00:34 4428676                    /usr/lib64/libpthread-2.33.so
+7f9f85984000-7f9f85985000 r--p 0001a000 00:34 4428676                    /usr/lib64/libpthread-2.33.so
+7f9f85985000-7f9f85986000 rw-p 0001b000 00:34 4428676                    /usr/lib64/libpthread-2.33.so
+7f9f85986000-7f9f8598a000 rw-p 00000000 00:00 0 
+7f9f8598a000-7f9f85999000 r--p 00000000 00:34 4428321                    /usr/lib64/libm-2.33.so
+7f9f85999000-7f9f85a33000 r-xp 0000f000 00:34 4428321                    /usr/lib64/libm-2.33.so
+7f9f85a33000-7f9f85acb000 r--p 000a9000 00:34 4428321                    /usr/lib64/libm-2.33.so
+7f9f85acb000-7f9f85acc000 ---p 00141000 00:34 4428321                    /usr/lib64/libm-2.33.so
+7f9f85acc000-7f9f85acd000 r--p 00141000 00:34 4428321                    /usr/lib64/libm-2.33.so
+7f9f85acd000-7f9f85ace000 rw-p 00142000 00:34 4428321                    /usr/lib64/libm-2.33.so
+7f9f85ace000-7f9f85ad3000 r--p 00000000 00:34 6990556                    /usr/lib64/libpcp_pmda.so.3
+7f9f85ad3000-7f9f85ae1000 r-xp 00005000 00:34 6990556                    /usr/lib64/libpcp_pmda.so.3
+7f9f85ae1000-7f9f85ae6000 r--p 00013000 00:34 6990556                    /usr/lib64/libpcp_pmda.so.3
+7f9f85ae6000-7f9f85ae7000 ---p 00018000 00:34 6990556                    /usr/lib64/libpcp_pmda.so.3
+7f9f85ae7000-7f9f85ae8000 r--p 00018000 00:34 6990556                    /usr/lib64/libpcp_pmda.so.3
+7f9f85ae8000-7f9f85ae9000 rw-p 00019000 00:34 6990556                    /usr/lib64/libpcp_pmda.so.3
+7f9f85ae9000-7f9f85aea000 rw-p 00000000 00:00 0 
+7f9f85aea000-7f9f85b10000 r--p 00000000 00:34 4391779                    /usr/lib64/libc-2.33.so
+7f9f85b10000-7f9f85c5d000 r-xp 00026000 00:34 4391779                    /usr/lib64/libc-2.33.so
+7f9f85c5d000-7f9f85ca9000 r--p 00173000 00:34 4391779                    /usr/lib64/libc-2.33.so
+7f9f85ca9000-7f9f85caa000 ---p 001bf000 00:34 4391779                    /usr/lib64/libc-2.33.so
+7f9f85caa000-7f9f85cad000 r--p 001bf000 00:34 4391779                    /usr/lib64/libc-2.33.so
+7f9f85cad000-7f9f85cb0000 rw-p 001c2000 00:34 4391779                    /usr/lib64/libc-2.33.so
+7f9f85cb0000-7f9f85cbb000 rw-p 00000000 00:00 0 
+7f9f85cbb000-7f9f85cd0000 r--p 00000000 00:34 6990552                    /usr/lib64/libpcp.so.3
+7f9f85cd0000-7f9f85d41000 r-xp 00015000 00:34 6990552                    /usr/lib64/libpcp.so.3
+7f9f85d41000-7f9f85d66000 r--p 00086000 00:34 6990552                    /usr/lib64/libpcp.so.3
+7f9f85d66000-7f9f85d6b000 r--p 000aa000 00:34 6990552                    /usr/lib64/libpcp.so.3
+7f9f85d6b000-7f9f85d6c000 rw-p 000af000 00:34 6990552                    /usr/lib64/libpcp.so.3
+7f9f85d6c000-7f9f85d73000 rw-p 00000000 00:00 0 
+7f9f85d73000-7f9f85d7d000 r--p 00000000 00:34 6992106                    /usr/lib64/libuv.so.1.0.0
+7f9f85d7d000-7f9f85d9b000 r-xp 0000a000 00:34 6992106                    /usr/lib64/libuv.so.1.0.0
+7f9f85d9b000-7f9f85da5000 r--p 00028000 00:34 6992106                    /usr/lib64/libuv.so.1.0.0
+7f9f85da5000-7f9f85da6000 ---p 00032000 00:34 6992106                    /usr/lib64/libuv.so.1.0.0
+7f9f85da6000-7f9f85da7000 r--p 00032000 00:34 6992106                    /usr/lib64/libuv.so.1.0.0
+7f9f85da7000-7f9f85da8000 rw-p 00033000 00:34 6992106                    /usr/lib64/libuv.so.1.0.0
+7f9f85da8000-7f9f85e22000 r--p 00000000 00:34 6997562                    /usr/lib64/libcrypto.so.1.1.1l
+7f9f85e22000-7f9f85fd0000 r-xp 0007a000 00:34 6997562                    /usr/lib64/libcrypto.so.1.1.1l
+7f9f85fd0000-7f9f86062000 r--p 00228000 00:34 6997562                    /usr/lib64/libcrypto.so.1.1.1l
+7f9f86062000-7f9f8608e000 r--p 002b9000 00:34 6997562                    /usr/lib64/libcrypto.so.1.1.1l
+7f9f8608e000-7f9f86092000 rw-p 002e5000 00:34 6997562                    /usr/lib64/libcrypto.so.1.1.1l
+7f9f86092000-7f9f86096000 rw-p 00000000 00:00 0 
+7f9f86096000-7f9f860b3000 r--p 00000000 00:34 6997564                    /usr/lib64/libssl.so.1.1.1l
+7f9f860b3000-7f9f8610c000 r-xp 0001d000 00:34 6997564                    /usr/lib64/libssl.so.1.1.1l
+7f9f8610c000-7f9f86125000 r--p 00076000 00:34 6997564                    /usr/lib64/libssl.so.1.1.1l
+7f9f86125000-7f9f86126000 ---p 0008f000 00:34 6997564                    /usr/lib64/libssl.so.1.1.1l
+7f9f86126000-7f9f8612f000 r--p 0008f000 00:34 6997564                    /usr/lib64/libssl.so.1.1.1l
+7f9f8612f000-7f9f86133000 rw-p 00098000 00:34 6997564                    /usr/lib64/libssl.so.1.1.1l
+7f9f86133000-7f9f8613c000 r--p 00000000 00:34 6990558                    /usr/lib64/libpcp_web.so.1
+7f9f8613c000-7f9f8618f000 r-xp 00009000 00:34 6990558                    /usr/lib64/libpcp_web.so.1
+7f9f8618f000-7f9f861a7000 r--p 0005c000 00:34 6990558                    /usr/lib64/libpcp_web.so.1
+7f9f861a7000-7f9f861a9000 r--p 00073000 00:34 6990558                    /usr/lib64/libpcp_web.so.1
+7f9f861a9000-7f9f861aa000 rw-p 00075000 00:34 6990558                    /usr/lib64/libpcp_web.so.1
+7f9f861aa000-7f9f861ac000 r--p 00000000 00:34 6990555                    /usr/lib64/libpcp_mmv.so.1
+7f9f861ac000-7f9f861b0000 r-xp 00002000 00:34 6990555                    /usr/lib64/libpcp_mmv.so.1
+7f9f861b0000-7f9f861b1000 r--p 00006000 00:34 6990555                    /usr/lib64/libpcp_mmv.so.1
+7f9f861b1000-7f9f861b2000 r--p 00006000 00:34 6990555                    /usr/lib64/libpcp_mmv.so.1
+7f9f861b2000-7f9f861b3000 rw-p 00000000 00:00 0 
+7f9f861b8000-7f9f861ba000 rw-s 00000000 00:34 8029794                    /var/lib/pcp/tmp/pmproxy/redis
+7f9f861ba000-7f9f861bb000 rw-s 00000000 00:34 8029793                    /var/lib/pcp/tmp/pmproxy/webgroup
+7f9f861bb000-7f9f861bd000 rw-s 00000000 00:34 8029746                    /var/lib/pcp/tmp/pmproxy/series
+7f9f861bd000-7f9f861bf000 rw-s 00000000 00:34 8029744                    /var/lib/pcp/tmp/pmproxy/server
+7f9f861bf000-7f9f861c1000 rw-p 00000000 00:00 0 
+7f9f861c1000-7f9f861c2000 r--p 00000000 00:34 4391672                    /usr/lib64/ld-2.33.so
+7f9f861c2000-7f9f861e7000 r-xp 00001000 00:34 4391672                    /usr/lib64/ld-2.33.so
+7f9f861e7000-7f9f861f1000 r--p 00026000 00:34 4391672                    /usr/lib64/ld-2.33.so
+7f9f861f1000-7f9f861f3000 r--p 0002f000 00:34 4391672                    /usr/lib64/ld-2.33.so
+7f9f861f3000-7f9f861f5000 rw-p 00031000 00:34 4391672                    /usr/lib64/ld-2.33.so
+7ffdce49f000-7ffdce4c6000 rw-p 00000000 00:00 0                          [stack]
+7ffdce5b3000-7ffdce5b7000 r--p 00000000 00:00 0                          [vvar]
+7ffdce5b7000-7ffdce5b9000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+○ pmlogger.service - Performance Metrics Archive Logger
+     Loaded: loaded (/usr/lib/systemd/system/pmlogger.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Thu 2021-09-09 22:32:45 UTC; 127ms ago
+       Docs: man:pmlogger(1)
+    Process: 1273001 ExecStart=/usr/libexec/pcp/lib/pmlogger start-systemd (code=exited, status=0/SUCCESS)
+    Process: 1273257 ExecStop=/usr/libexec/pcp/lib/pmlogger stop-systemd (code=exited, status=0/SUCCESS)
+   Main PID: 1273001 (code=exited, status=0/SUCCESS)
+
+Sep 09 22:32:39 e9a5ee16573f systemd[1]: Starting Performance Metrics Archive Logger...
+Sep 09 22:32:39 e9a5ee16573f systemd[1]: Started Performance Metrics Archive Logger.
+Sep 09 22:32:45 e9a5ee16573f systemd[1]: Stopping Performance Metrics Archive Logger...
+Sep 09 22:32:45 e9a5ee16573f systemd[1]: pmlogger.service: Deactivated successfully.
+Sep 09 22:32:45 e9a5ee16573f systemd[1]: Stopped Performance Metrics Archive Logger.
+● pmcd.service - Performance Metrics Collector Daemon
+     Loaded: loaded (/usr/lib/systemd/system/pmcd.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2021-09-09 22:32:47 UTC; 896ms ago
+       Docs: man:pmcd(1)
+   Main PID: 1273866 (pmcd)
+     CGroup: /machine.slice/libpod-e9a5ee16573f23cb0517314f6f04ea3bf4b0a1b49f5859a518f21e1b3f57fc44.scope/system.slice/pmcd.service
+             ├─1273866 /usr/libexec/pcp/bin/pmcd -T 3
+             ├─1273871 /var/lib/pcp/pmdas/root/pmdaroot
+             ├─1273872 /var/lib/pcp/pmdas/proc/pmdaproc -d 3
+             ├─1273873 /var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+             ├─1273874 /var/lib/pcp/pmdas/sample/pmdasample -d 29
+             ├─1273875 /var/lib/pcp/pmdas/linux/pmdalinux
+             ├─1273876 python3 /var/lib/pcp/pmdas/nfsclient/pmdanfsclient.python
+             ├─1273880 /var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+             ├─1273881 /var/lib/pcp/pmdas/dm/pmdadm -d 129
+             ├─1273882 python3 /var/lib/pcp/pmdas/openmetrics/pmdaopenmetrics.python
+             └─1273886 /var/lib/pcp/pmdas/simple/pmdasimple -d 253
+
+Sep 09 22:32:46 e9a5ee16573f systemd[1]: Starting Performance Metrics Collector Daemon...
+Sep 09 22:32:47 e9a5ee16573f systemd[1]: Started Performance Metrics Collector Daemon.
+● pmlogger.service - Performance Metrics Archive Logger
+     Loaded: loaded (/usr/lib/systemd/system/pmlogger.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2021-09-09 22:32:47 UTC; 117ms ago
+       Docs: man:pmlogger(1)
+   Main PID: 1274238 (pmlogger)
+     CGroup: /machine.slice/libpod-e9a5ee16573f23cb0517314f6f04ea3bf4b0a1b49f5859a518f21e1b3f57fc44.scope/system.slice/pmlogger.service
+             ├─1273902 /usr/bin/sh /usr/libexec/pcp/lib/pmlogger start-systemd
+             ├─1274025 /usr/bin/sh /usr/libexec/pcp/bin/pmlogger_check --quick -V
+             ├─1274174 /usr/bin/sh /usr/libexec/pcp/bin/pmlogger_check --quick -V
+             ├─1274238 /usr/libexec/pcp/bin/pmlogger -N -P -r -T24h10m -c config.default -v 100mb -m pmlogger_check %Y%m%d.%H.%M
+             └─1274333 pmsleep 0.1
+
+Sep 09 22:32:47 e9a5ee16573f systemd[1]: Starting Performance Metrics Archive Logger...
+Sep 09 22:32:47 e9a5ee16573f systemd[1]: Started Performance Metrics Archive Logger.
+Restart pmproxy ...
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+     Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+     Active: active (running) since Thu 2021-09-09 22:32:49 UTC; 22ms ago
+       Docs: man:pmproxy(1)
+   Main PID: 1274738 (pmproxy)
+     CGroup: /machine.slice/libpod-e9a5ee16573f23cb0517314f6f04ea3bf4b0a1b49f5859a518f21e1b3f57fc44.scope/system.slice/pmproxy.service
+             └─1274738 /usr/libexec/pcp/bin/pmproxy -F
+
+Sep 09 22:32:49 e9a5ee16573f systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:32:49 e9a5ee16573f systemd[1]: Started Proxy for Performance Metrics Collector Daemon.

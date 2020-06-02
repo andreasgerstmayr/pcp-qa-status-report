@@ -1,0 +1,35 @@
+total 64
+-rw-r--r-- 1 pcpqa pcpqa    1 Sep  9 22:07 0.0
+-rw-r--r-- 1 pcpqa pcpqa    1 Sep  9 22:07 0.index
+-rw-r--r-- 1 pcpqa pcpqa    1 Sep  9 22:07 0.meta
+-rw-r--r-- 1 pcpqa pcpqa  132 Sep  9 22:07 1.0
+-rw-r--r-- 1 pcpqa pcpqa  132 Sep  9 22:07 1.index
+-rw-r--r-- 1 pcpqa pcpqa  132 Sep  9 22:07 1.meta
+-rw-r--r-- 1 pcpqa pcpqa 2180 Sep  9 22:07 2.0
+-rw-r--r-- 1 pcpqa pcpqa  192 Sep  9 22:07 2.index
+-rw-r--r-- 1 pcpqa pcpqa 4598 Sep  9 22:07 2.meta
+-rw-r--r-- 1 pcpqa pcpqa   60 Sep  9 22:07 3.0.xz
+-rw-r--r-- 1 pcpqa pcpqa    1 Sep  9 22:07 3.index
+-rw-r--r-- 1 pcpqa pcpqa   60 Sep  9 22:07 3.meta.xz
+-rw-r--r-- 1 pcpqa pcpqa  116 Sep  9 22:07 4.0.xz
+-rw-r--r-- 1 pcpqa pcpqa  132 Sep  9 22:07 4.index
+-rw-r--r-- 1 pcpqa pcpqa  116 Sep  9 22:07 4.meta.xz
+--- /var/tmp/1197-1061797.ref	2021-09-09 22:07:35.163938073 +0000
++++ /var/tmp/1197-1061797.xtract	2021-09-09 22:07:35.167938253 +0000
+@@ -61,7 +61,7 @@
+ 			Log Vol    end(meta)     end(log)
+ 20:00:42.796215000	      0          132          132
+ 20:00:42.816310000	      0          451          324
+-20:00:49.816905000	      0         4598         1988
++20:00:49.816905000	      0         4386         1988
+ 
+ [192 bytes]
+ 20:00:42.796215 5 metrics
+-rw-r--r-- 1 pcpqa pcpqa  2180 Sep  9 22:07 /var/tmp/1197-1061797.0
+-rw-r--r-- 1 pcpqa pcpqa   192 Sep  9 22:07 /var/tmp/1197-1061797.index
+-rw-r--r-- 1 pcpqa pcpqa  4386 Sep  9 22:07 /var/tmp/1197-1061797.meta
+-rw-r--r-- 1 pcpqa pcpqa 10194 Sep  9 22:07 /var/tmp/1197-1061797.ref
+-rw-r--r-- 1 pcpqa pcpqa 10194 Sep  9 22:07 /var/tmp/1197-1061797.xtract
+-rw-r--r-- 1 pcpqa pcpqa  2180 Sep  9 20:00 tmparch/foo.0
+-rw-r--r-- 3 pcpqa pcpqa   192 Sep  9 20:00 tmparch/foo.index
+-rw-r--r-- 3 pcpqa pcpqa  4598 Sep  9 20:00 tmparch/foo.meta

@@ -1,0 +1,61 @@
+{
+  "uid" : "77a48cbb201a3acd",
+  "name" : "QA 947",
+  "fullName" : "QA #947 on ubuntu1804-container",
+  "historyId" : "947@ubuntu1804-container",
+  "time" : {
+    "start" : 1631222239000,
+    "stop" : 1631222244000,
+    "duration" : 5000
+  },
+  "description" : "PCP QA Test No. 947\n\npmlogger --PID functionality\n\n\n\nCopyright (c) 2015 Red Hat Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 947</p>\n<p>pmlogger --PID functionality</p>\n<p>Copyright (c) 2015 Red Hat Inc.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu1804-container"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu1804-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogger"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/947",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/947.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77a48cbb201a3acd.json",
+  "parameterValues" : [ ]
+}

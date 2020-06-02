@@ -1,0 +1,133 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Skipped tests",
+    "children" : [ {
+      "name" : "No python interpreter configured in $PCP_PYTHON_PROG",
+      "children" : [ {
+        "name" : "QA 561",
+        "uid" : "cc52ae2385773175",
+        "parentUid" : "135206785d5ebea46c4035179bcb393d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631287047000,
+          "stop" : 1631287047000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 567",
+        "uid" : "484c725853656c0d",
+        "parentUid" : "135206785d5ebea46c4035179bcb393d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631287048000,
+          "stop" : 1631287048000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 702",
+        "uid" : "8a0052489744a6d0",
+        "parentUid" : "135206785d5ebea46c4035179bcb393d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631287050000,
+          "stop" : 1631287050000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 707",
+        "uid" : "2f6e3b2f2f9df38b",
+        "parentUid" : "135206785d5ebea46c4035179bcb393d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631287050000,
+          "stop" : 1631287050000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "QA 1098",
+        "uid" : "38da96289b20af51",
+        "parentUid" : "135206785d5ebea46c4035179bcb393d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631287051000,
+          "stop" : 1631287051000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "135206785d5ebea46c4035179bcb393d"
+    } ],
+    "uid" : "c125badd1841297a9701a15a8082ec24"
+  }, {
+    "name" : "Failed tests",
+    "children" : [ {
+      "name" : "output mismatch (see 1315.out.bad)\n2a3,5\n> \n> tmparch/sample-proc.0:\n> <mark> @ byte offset 392\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h 6c5c35f48113 -f sample.milliseconds\nPMDA probe: pminfo -h 6c5c35f48113 -f sampledso.milliseconds\nPMDA probe: pminfo -h 6c5c35f48113 -f simple.numfetch\n",
+      "children" : [ {
+        "name" : "QA 1315",
+        "uid" : "e1cbcf81845a0985",
+        "parentUid" : "8824a927365d0168757d7ab90bc88c63",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631287470000,
+          "stop" : 1631287470000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8824a927365d0168757d7ab90bc88c63"
+    }, {
+      "name" : "output mismatch (see 1098.out.bad)\n1a2,100\n> Arrgh: warnings for some metrics!\n> pminfo --fetch output:\n> \n> test_python.current_username\n> Error: Resource temporarily unavailable\n> \n> test_python.current_ctx\n> Error: Resource temporarily unavailable\n> \n> test_python.loaded_indom.some_value\n> Error: Resource temporarily unavailable\n> \n> test_python.other_indom.some_value\n> Error: Resource temporarily unavailable\n> \n> test_python.some_indom.some_value\n> Error: Resource temporarily unavailable\n> \n> test_python.some_value\n> Error: Resource temporarily unavailable\n> PMDA log file:\n> Log for pmdatest_python on f494ea3b3ba2 started Fri Sep 10 15:24:46 2021\n> \n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:46] pmdatest_python(322873) Error: endcontext: callback failed\n> Traceback (most recent call last):\n>   File \"/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python\", line 209, in test_endcontext_callback\n>     self.log(\"endcontext callback for ctx %d \" % (ctx,))\n> AttributeError: 'TestPMDA' object has no attribute 'log'\n> [Fri Sep 10 15:24:47] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:47] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:47] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:47] pmdatest_python(322873) Error: endcontext: callback failed\n> Traceback (most recent call last):\n>   File \"/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python\", line 209, in test_endcontext_callback\n>     self.log(\"endcontext callback for ctx %d \" % (ctx,))\n> AttributeError: 'TestPMDA' object has no attribute 'log'\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: refresh_all_clusters: callback failed\n> Traceback (most recent call last):\n>   File \"/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python\", line 92, in test_refresh_all\n>     self.log(\"refresh_all callback\")\n> AttributeError: 'TestPMDA' object has no attribute 'log'\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 5\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 4\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 3\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 2\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 1\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 0\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: endcontext callback for ctx 1 \n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: refresh_all_clusters: callback failed\n> Traceback (most recent call last):\n>   File \"/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python\", line 92, in test_refresh_all\n>     self.log(\"refresh_all callback\")\n> SystemError: PY_SSIZE_T_CLEAN macro must be defined for '#' formats\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 5\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 4\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 3\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 2\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 1\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 0\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: endcontext callback for ctx 1 \n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Error: refresh_all_clusters: callback failed\n> Traceback (most recent call last):\n>   File \"/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python\", line 92, in test_refresh_all\n>     self.log(\"refresh_all callback\")\n> SystemError: PY_SSIZE_T_CLEAN macro must be defined for '#' formats\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 5\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 4\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 3\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 2\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 1\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: refresh callback for cluster 0\n> [Fri Sep 10 15:24:48] pmdatest_python(322873) Info: endcontext callback for ctx 1 \n6,7c105,106\n< Check test_python metrics have appeared ... 6 metrics and N values\n< test_python.some_value old value=N new value=0\n---\n> Check test_python metrics have appeared ... 6 warnings, 6 metrics and N values\n> test_python.some_value: Error: Resource temporarily unavailable\n9,11c108,110\n< test_python.other_indom.some_value 2\n< test_python.some_value 1\n< test_python.some_indom.some_value 0\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n13,15c112,114\n< test_python.other_indom.some_value 0\n< test_python.some_value 1\n< test_python.some_indom.some_value 1\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n17,19c116,118\n< test_python.other_indom.some_value 2\n< test_python.some_value 1\n< test_python.some_indom.some_value 1\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n21,23c120,122\n< test_python.other_indom.some_value 0\n< test_python.some_value 1\n< test_python.some_indom.some_value 2\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n25,27c124,126\n< test_python.other_indom.some_value 2\n< test_python.some_value 1\n< test_python.some_indom.some_value 2\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n29,31c128,130\n< test_python.other_indom.some_value 0\n< test_python.some_value 1\n< test_python.some_indom.some_value 4\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n",
+      "children" : [ {
+        "name" : "QA 1098",
+        "uid" : "2ec703dc3ea16b36",
+        "parentUid" : "182f7d7d605def005725b20cf2582e02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631287484000,
+          "stop" : 1631287491000,
+          "duration" : 7000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "182f7d7d605def005725b20cf2582e02"
+    }, {
+      "name" : "output mismatch (see 1098.out.bad)\n1a2,100\n> Arrgh: warnings for some metrics!\n> pminfo --fetch output:\n> \n> test_python.current_username\n> Error: Resource temporarily unavailable\n> \n> test_python.current_ctx\n> Error: Resource temporarily unavailable\n> \n> test_python.loaded_indom.some_value\n> Error: Resource temporarily unavailable\n> \n> test_python.other_indom.some_value\n> Error: Resource temporarily unavailable\n> \n> test_python.some_indom.some_value\n> Error: Resource temporarily unavailable\n> \n> test_python.some_value\n> Error: Resource temporarily unavailable\n> PMDA log file:\n> Log for pmdatest_python on 49f127c08b6a started Fri Sep 10 15:30:36 2021\n> \n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:36] pmdatest_python(324824) Error: endcontext: callback failed\n> Traceback (most recent call last):\n>   File \"/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python\", line 209, in test_endcontext_callback\n>     self.log(\"endcontext callback for ctx %d \" % (ctx,))\n> AttributeError: 'TestPMDA' object has no attribute 'log'\n> [Fri Sep 10 15:30:37] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:37] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:37] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:37] pmdatest_python(324824) Error: endcontext: callback failed\n> Traceback (most recent call last):\n>   File \"/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python\", line 209, in test_endcontext_callback\n>     self.log(\"endcontext callback for ctx %d \" % (ctx,))\n> AttributeError: 'TestPMDA' object has no attribute 'log'\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: refresh_all_clusters: callback failed\n> Traceback (most recent call last):\n>   File \"/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python\", line 92, in test_refresh_all\n>     self.log(\"refresh_all callback\")\n> AttributeError: 'TestPMDA' object has no attribute 'log'\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 5\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 4\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 3\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 2\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 1\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 0\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: endcontext callback for ctx 5 \n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: refresh_all_clusters: callback failed\n> Traceback (most recent call last):\n>   File \"/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python\", line 92, in test_refresh_all\n>     self.log(\"refresh_all callback\")\n> SystemError: PY_SSIZE_T_CLEAN macro must be defined for '#' formats\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 5\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 4\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 3\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 2\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 1\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 0\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: endcontext callback for ctx 5 \n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: pmdatest_python: Failed to set attribute: Cannot allocate memory\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Error: refresh_all_clusters: callback failed\n> Traceback (most recent call last):\n>   File \"/var/lib/pcp/testsuite/pmdas/test_python/pmdatest_python.python\", line 92, in test_refresh_all\n>     self.log(\"refresh_all callback\")\n> SystemError: PY_SSIZE_T_CLEAN macro must be defined for '#' formats\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 5\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 4\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 3\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 2\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 1\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: refresh callback for cluster 0\n> [Fri Sep 10 15:30:38] pmdatest_python(324824) Info: endcontext callback for ctx 5 \n6,7c105,106\n< Check test_python metrics have appeared ... 6 metrics and N values\n< test_python.some_value old value=N new value=0\n---\n> Check test_python metrics have appeared ... 6 warnings, 6 metrics and N values\n> test_python.some_value: Error: Resource temporarily unavailable\n9,11c108,110\n< test_python.other_indom.some_value 2\n< test_python.some_value 1\n< test_python.some_indom.some_value 0\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n13,15c112,114\n< test_python.other_indom.some_value 0\n< test_python.some_value 1\n< test_python.some_indom.some_value 1\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n17,19c116,118\n< test_python.other_indom.some_value 2\n< test_python.some_value 1\n< test_python.some_indom.some_value 1\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n21,23c120,122\n< test_python.other_indom.some_value 0\n< test_python.some_value 1\n< test_python.some_indom.some_value 2\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n25,27c124,126\n< test_python.other_indom.some_value 2\n< test_python.some_value 1\n< test_python.some_indom.some_value 2\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n29,31c128,130\n< test_python.other_indom.some_value 0\n< test_python.some_value 1\n< test_python.some_indom.some_value 4\n---\n> test_python.other_indom.some_value -11 Resource temporarily unavailable\n> test_python.some_value -11 Resource temporarily unavailable\n> test_python.some_indom.some_value -11 Resource temporarily unavailable\n",
+      "children" : [ {
+        "name" : "QA 1098",
+        "uid" : "cd3effa22d3df94e",
+        "parentUid" : "aa50cd1d90380836af14e98adceb81b2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631287834000,
+          "stop" : 1631287841000,
+          "duration" : 7000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa50cd1d90380836af14e98adceb81b2"
+    } ],
+    "uid" : "40f16b7589a18610ab68a6632973ea15"
+  } ],
+  "name" : "categories"
+}

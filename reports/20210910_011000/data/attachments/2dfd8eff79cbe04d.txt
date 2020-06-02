@@ -1,0 +1,7 @@
+valgrind pid: 1316362
+pmproxy port: 54321
+Startup took 16 secs
+Thu Sep  9 22:37:39 UTC 2021
+=== pmproxy load test ===
+=== valgrind stdout ===
+=== valgrind stderr ===

@@ -1,0 +1,195 @@
+
+=== really_fubar ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (1) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pminfo ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (1) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pminfo ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (1) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pmconfirm ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (1) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pmmessage ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (1) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pmquery ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (1) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== KERNEL_PMDAS ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (1) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== PCPIntro ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (1) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== PCPIntro ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (3) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pmNewContext ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (3) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pmRecord ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (3) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pmRecordSetup ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (3) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pmRecordControl ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (3) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pcp.env ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (5) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== pmdajson ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+--- (1) ---
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.

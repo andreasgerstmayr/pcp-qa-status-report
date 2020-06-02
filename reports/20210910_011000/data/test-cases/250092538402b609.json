@@ -1,0 +1,55 @@
+{
+  "uid" : "250092538402b609",
+  "name" : "QA 1197",
+  "fullName" : "QA #1197 on ubuntu2004-container",
+  "historyId" : "1197@ubuntu2004-container",
+  "time" : {
+    "start" : 1631223465000,
+    "stop" : 1631223465000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1197\n\npmlogextract handling of empty archives\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1197</p>\n<p>pmlogextract handling of empty archives</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu2004-container"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu2004-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogextract"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1197",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1197.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "250092538402b609.json",
+  "parameterValues" : [ ]
+}

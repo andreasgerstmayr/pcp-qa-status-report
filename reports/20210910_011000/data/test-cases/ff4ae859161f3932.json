@@ -1,0 +1,62 @@
+{
+  "uid" : "ff4ae859161f3932",
+  "name" : "QA 361",
+  "fullName" : "QA #361 on fedora35-container",
+  "historyId" : "361@fedora35-container",
+  "time" : {
+    "start" : 1631220053000,
+    "stop" : 1631220053000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 361\n\nExercise cgroup metrics in the Linux PMDA\n\n\n\nCopyright (c) 2010 Aconex.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 361</p>\n<p>Exercise cgroup metrics in the Linux PMDA</p>\n<p>Copyright (c) 2010 Aconex.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "One or more cgroups already in use",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.linux"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "cgroups"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/361",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/361.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ff4ae859161f3932.json",
+  "parameterValues" : [ ]
+}

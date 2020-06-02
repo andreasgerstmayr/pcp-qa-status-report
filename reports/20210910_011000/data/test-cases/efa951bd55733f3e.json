@@ -1,0 +1,86 @@
+{
+  "uid" : "efa951bd55733f3e",
+  "name" : "QA 1626",
+  "fullName" : "QA #1626 on fedora35-container",
+  "historyId" : "1626@fedora35-container",
+  "time" : {
+    "start" : 1631226857000,
+    "stop" : 1631226873000,
+    "duration" : 16000
+  },
+  "description" : "PCP QA Test No. 1626\n\npmproxy metrics\n\n\n\nCopyright (c) 2021 Red Hat.\n\n\n\n**To reproduce this test in a container, please run:**\n\n    build/ci/ci-run.py fedora35-container reproduce",
+  "descriptionHtml" : "<p>PCP QA Test No. 1626</p>\n<p>pmproxy metrics</p>\n<p>Copyright (c) 2021 Red Hat.</p>\n<p><strong>To reproduce this test in a container, please run:</strong></p>\n<pre><code>build/ci/ci-run.py fedora35-container reproduce\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "output mismatch (see 1626.out.bad)\n12c12,13\n< maxrss growth after 100 /metrics calls is in range\n---\n> maxrss growth after 100 /metrics calls has value of 44748\n> maxrss growth after 100 /metrics calls is NOT in range 41927.28 .. 44520.72\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h a4b6d40c0190 -f sample.milliseconds\nPMDA probe: pminfo -h a4b6d40c0190 -f sampledso.milliseconds\nPMDA probe: pminfo -h a4b6d40c0190 -f simple.numfetch\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "PCP QA Test No. 1626\n\npmproxy metrics\n\n\n\nCopyright (c) 2021 Red Hat.\n\n\n\n**To reproduce this test in a container, please run:**\n\n    build/ci/ci-run.py fedora35-container reproduce",
+    "status" : "failed",
+    "statusMessage" : "output mismatch (see 1626.out.bad)\n12c12,13\n< maxrss growth after 100 /metrics calls is in range\n---\n> maxrss growth after 100 /metrics calls has value of 44748\n> maxrss growth after 100 /metrics calls is NOT in range 41927.28 .. 44520.72\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h a4b6d40c0190 -f sample.milliseconds\nPMDA probe: pminfo -h a4b6d40c0190 -f sampledso.milliseconds\nPMDA probe: pminfo -h a4b6d40c0190 -f simple.numfetch\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b819bcca662d4905",
+      "name" : "1626.out.bad",
+      "source" : "b819bcca662d4905.txt",
+      "type" : "text/plain",
+      "size" : 588
+    }, {
+      "uid" : "db460b18ab71cac0",
+      "name" : "1626.full",
+      "source" : "db460b18ab71cac0.txt",
+      "type" : "text/plain",
+      "size" : 2607
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmproxy"
+  }, {
+    "name" : "epic",
+    "value" : "libpcp_web"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1626",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1626.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Failed tests",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "efa951bd55733f3e.json",
+  "parameterValues" : [ ]
+}

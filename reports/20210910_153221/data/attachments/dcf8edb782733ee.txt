@@ -1,0 +1,39 @@
+Updating the Performance Metrics Name Space (PMNS) ...
+Terminate PMDA if already installed ...
+[...install files, make output...]
+Updating the PMCD control file, and notifying PMCD ...
+Check test_python metrics have appeared ... 6 warnings, 6 metrics and 0 values
+
+test_python.current_username
+Error: Resource temporarily unavailable
+
+test_python.current_ctx
+Error: Resource temporarily unavailable
+
+test_python.loaded_indom.some_value
+Error: Resource temporarily unavailable
+
+test_python.other_indom.some_value
+Error: Resource temporarily unavailable
+
+test_python.some_indom.some_value
+Error: Resource temporarily unavailable
+
+test_python.some_value
+Error: Resource temporarily unavailable
+=== Round 1 ===
+=== Round 2 ===
+=== Round 3 ===
+=== Round 4 ===
+=== Round 5 ===
+=== Round 6 ===
+=== Round 7 ===
+=== Round 8 ===
+=== Bonus Round ===
+test_python.loaded_indom.some_value: Error: Resource temporarily unavailable
+=== Round Two ===
+Culling the Performance Metrics Name Space ...
+test_python ... done
+Updating the PMCD control file, and notifying PMCD ...
+Removing files ...
+Check test_python metrics have gone away ... OK

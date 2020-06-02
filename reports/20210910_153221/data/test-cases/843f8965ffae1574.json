@@ -1,0 +1,58 @@
+{
+  "uid" : "843f8965ffae1574",
+  "name" : "QA 1204",
+  "fullName" : "QA #1204 on centos7-container",
+  "historyId" : "1204@centos7-container",
+  "time" : {
+    "start" : 1631287260000,
+    "stop" : 1631287269000,
+    "duration" : 9000
+  },
+  "description" : "PCP QA Test No. 1204\n\npmlogctl - basic functionality\n\n\n\nsee qa/1226 for the pmiectl variant of this test\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1204</p>\n<p>pmlogctl - basic functionality</p>\n<p>see qa/1226 for the pmiectl variant of this test</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "centos7-container"
+  }, {
+    "name" : "host",
+    "value" : "centos7-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogctl"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "sanity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/df78e0ca0739f347483d68853ea84b8ed34ef188/qa/1204",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/df78e0ca0739f347483d68853ea84b8ed34ef188/qa/1204.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "843f8965ffae1574.json",
+  "parameterValues" : [ ]
+}

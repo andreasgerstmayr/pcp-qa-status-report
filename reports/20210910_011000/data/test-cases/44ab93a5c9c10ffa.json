@@ -1,0 +1,58 @@
+{
+  "uid" : "44ab93a5c9c10ffa",
+  "name" : "QA 1273",
+  "fullName" : "QA #1273 on ubuntu2004-btf",
+  "historyId" : "1273@ubuntu2004-btf",
+  "time" : {
+    "start" : 1631224982000,
+    "stop" : 1631224985000,
+    "duration" : 3000
+  },
+  "description" : "PCP QA Test No. 1273\n\noptFetch and pmlogger interraction for repeated metric in a logging\n\ngroup\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1273</p>\n<p>optFetch and pmlogger interraction for repeated metric in a logging</p>\n<p>group</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu2004-btf"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu2004-btf"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogger"
+  }, {
+    "name" : "epic",
+    "value" : "fetch"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1273",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1273.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44ab93a5c9c10ffa.json",
+  "parameterValues" : [ ]
+}

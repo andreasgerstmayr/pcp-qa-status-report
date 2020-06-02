@@ -1,0 +1,55 @@
+{
+  "uid" : "b1ab5bbc47fe9f3a",
+  "name" : "QA 1213",
+  "fullName" : "QA #1213 on ubuntu2004-btf",
+  "historyId" : "1213@ubuntu2004-btf",
+  "time" : {
+    "start" : 1631224751000,
+    "stop" : 1631224783000,
+    "duration" : 32000
+  },
+  "description" : "PCP QA Test No. 1213\n\npmlogctl - _Error code paths\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1213</p>\n<p>pmlogctl - _Error code paths</p>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu2004-btf"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu2004-btf"
+  }, {
+    "name" : "epic",
+    "value" : "pmlogctl"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1213",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1213.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1ab5bbc47fe9f3a.json",
+  "parameterValues" : [ ]
+}

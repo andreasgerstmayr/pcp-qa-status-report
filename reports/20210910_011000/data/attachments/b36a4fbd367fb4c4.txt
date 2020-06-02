@@ -1,0 +1,14 @@
+QA output created by 662
+Traceback (most recent call last):
+  File "/var/lib/pcp/testsuite/src/test_webapi.py", line 111, in <module>
+    test_metric_enumeration(ctx_host,'')
+  File "/var/lib/pcp/testsuite/src/test_webapi.py", line 68, in test_metric_enumeration
+    line = proc.stdout.readline()
+  File "/usr/lib/python3.6/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2319: ordinal not in range(128)
+Received PM_CONTEXT_HOST ####
+command NOSUCHAPI response code 400
+context NOSUCHCONTEXT response code 400
+context 0 response code 400
+non-pmwebapi response code 400

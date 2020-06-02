@@ -1,0 +1,65 @@
+{
+  "uid" : "f257bf84d3191b9b",
+  "name" : "QA 1052",
+  "fullName" : "QA #1052 on centos6-container",
+  "historyId" : "1052@centos6-container",
+  "time" : {
+    "start" : 1631222031000,
+    "stop" : 1631222031000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 1052\n\nExercise the JSON PMDA.\n\n\n\nCopyright (c) 2015 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1052</p>\n<p>Exercise the JSON PMDA.</p>\n<p>Copyright (c) 2015 Red Hat.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "No python interpreter configured in $PCP_PYTHON_PROG",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "centos6-container"
+  }, {
+    "name" : "host",
+    "value" : "centos6-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.json"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "python"
+  }, {
+    "name" : "epic",
+    "value" : "dbpmda"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1052",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1052.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f257bf84d3191b9b.json",
+  "parameterValues" : [ ]
+}

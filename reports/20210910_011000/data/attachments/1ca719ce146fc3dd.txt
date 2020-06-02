@@ -1,0 +1,75 @@
+pmproxy_was_running=true
+○ pmproxy.service - Proxy for Performance Metrics Collector Daemon
+     Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+     Active: inactive (dead)
+       Docs: man:pmproxy(1)
+
+Sep 09 22:18:50 b0da29560208 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:18:50 b0da29560208 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+Sep 09 22:18:54 b0da29560208 systemd[1]: Stopping Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:18:54 b0da29560208 systemd[1]: pmproxy.service: Deactivated successfully.
+Sep 09 22:18:54 b0da29560208 systemd[1]: Stopped Proxy for Performance Metrics Collector Daemon.
+Sep 09 22:18:54 b0da29560208 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:18:54 b0da29560208 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+Sep 09 22:18:54 b0da29560208 systemd[1]: Stopping Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:18:54 b0da29560208 systemd[1]: pmproxy.service: Deactivated successfully.
+Sep 09 22:18:54 b0da29560208 systemd[1]: Stopped Proxy for Performance Metrics Collector Daemon.
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+     Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+     Active: active (running) since Thu 2021-09-09 22:18:55 UTC; 23ms ago
+       Docs: man:pmproxy(1)
+   Main PID: 1311506 (pmproxy)
+     CGroup: /machine.slice/libpod-b0da295602085e9079ae8a4410f92ca2f6f8cc4d3692026e8251db374c7e8fbc.scope/system.slice/pmproxy.service
+             └─1311506 /usr/libexec/pcp/bin/pmproxy -F
+
+Sep 09 22:18:55 b0da29560208 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:18:55 b0da29560208 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+                    "value": "ctx 2 val None"
+                    "value": "ctx 3 val None"
+                    "value": "ctx 4 val None"
+{
+    "context": 1478207257,
+    "success": true
+}
+{
+    "context": 471533292,
+    "success": true
+}
+{
+    "context": 1342529791,
+    "success": true
+}
+{
+    "context": 1940437029,
+    "success": true
+}
+{
+    "context": 1389024764,
+    "success": true
+}
+{
+    "context": 1267831078,
+    "success": true
+}
+                    "value": "ctx 2 val 1"
+                    "value": "ctx 3 val 2"
+                    "value": "ctx 4 val 3"
+                    "value": "ctx 5 val 4"
+                    "value": "ctx 6 val 5"
+                    "value": "ctx 7 val 6"
+Culling the Performance Metrics Name Space ...
+test_python ... done
+Updating the PMCD control file, and notifying PMCD ...
+Removing files ...
+Check test_python metrics have gone away ... OK
+Restart pmproxy ...
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+     Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+     Active: active (running) since Thu 2021-09-09 22:19:01 UTC; 22ms ago
+       Docs: man:pmproxy(1)
+   Main PID: 1312066 (pmproxy)
+     CGroup: /machine.slice/libpod-b0da295602085e9079ae8a4410f92ca2f6f8cc4d3692026e8251db374c7e8fbc.scope/system.slice/pmproxy.service
+             └─1312066 /usr/libexec/pcp/bin/pmproxy -F
+
+Sep 09 22:19:01 b0da29560208 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:19:01 b0da29560208 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.

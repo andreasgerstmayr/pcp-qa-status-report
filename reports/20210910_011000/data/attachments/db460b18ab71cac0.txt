@@ -1,0 +1,37 @@
+pmproxy_was_running=true
+○ pmproxy.service - Proxy for Performance Metrics Collector Daemon
+     Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+     Active: inactive (dead)
+       Docs: man:pmproxy(1)
+
+Sep 09 22:34:14 a4b6d40c0190 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:34:14 a4b6d40c0190 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+Sep 09 22:34:14 a4b6d40c0190 systemd[1]: Stopping Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:34:14 a4b6d40c0190 systemd[1]: pmproxy.service: Deactivated successfully.
+Sep 09 22:34:14 a4b6d40c0190 systemd[1]: Stopped Proxy for Performance Metrics Collector Daemon.
+Sep 09 22:34:14 a4b6d40c0190 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:34:14 a4b6d40c0190 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+Sep 09 22:34:17 a4b6d40c0190 systemd[1]: Stopping Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:34:17 a4b6d40c0190 systemd[1]: pmproxy.service: Deactivated successfully.
+Sep 09 22:34:17 a4b6d40c0190 systemd[1]: Stopped Proxy for Performance Metrics Collector Daemon.
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+     Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+     Active: active (running) since Thu 2021-09-09 22:34:17 UTC; 26ms ago
+       Docs: man:pmproxy(1)
+   Main PID: 1306190 (pmproxy)
+     CGroup: /machine.slice/libpod-a4b6d40c01907b191fdfadf538e571704518955bd534405a47aa831eb8ef0ce0.scope/system.slice/pmproxy.service
+             └─1306190 /usr/libexec/pcp/bin/pmproxy -F
+
+Sep 09 22:34:17 a4b6d40c0190 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:34:17 a4b6d40c0190 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+Restart pmproxy ...
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+     Loaded: loaded (/usr/lib/systemd/system/pmproxy.service; disabled; vendor preset: disabled)
+     Active: active (running) since Thu 2021-09-09 22:34:32 UTC; 26ms ago
+       Docs: man:pmproxy(1)
+   Main PID: 1306488 (pmproxy)
+     CGroup: /machine.slice/libpod-a4b6d40c01907b191fdfadf538e571704518955bd534405a47aa831eb8ef0ce0.scope/system.slice/pmproxy.service
+             └─1306488 /usr/libexec/pcp/bin/pmproxy -F
+
+Sep 09 22:34:32 a4b6d40c0190 systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 22:34:32 a4b6d40c0190 systemd[1]: Started Proxy for Performance Metrics Collector Daemon.

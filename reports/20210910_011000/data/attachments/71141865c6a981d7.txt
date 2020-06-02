@@ -1,0 +1,5 @@
+src/indom -h unix: -i 1 proc.psinfo.pid
+proc.psinfo.pid:
+pm*InDom: inst=[1] iname=<000001 /usr/bin/systemd> reverse lookup: inst=[1]
+pmGetInDom:
+   [1] <000001 /usr/bin/systemd>

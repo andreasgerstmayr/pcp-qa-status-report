@@ -1,0 +1,59 @@
+{
+  "uid" : "90ced934b3187fdc",
+  "name" : "QA 130",
+  "fullName" : "QA #130 on ubuntu1804-i386-container",
+  "historyId" : "130@ubuntu1804-i386-container",
+  "time" : {
+    "start" : 1631217850000,
+    "stop" : 1631217850000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 130\n\nCompare rpc.server metrics with what nfsstat reports\n\n\n\nCopyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 130</p>\n<p>Compare rpc.server metrics with what nfsstat reports</p>\n<p>Copyright (c) 1995-2002 Silicon Graphics, Inc.  All Rights Reserved.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "TODO: Need to reconcile rpc.server metrics for PCP_PLATFORM linux",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu1804-i386-container"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu1804-i386-container"
+  }, {
+    "name" : "epic",
+    "value" : "kernel"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/130",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/130.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "90ced934b3187fdc.json",
+  "parameterValues" : [ ]
+}

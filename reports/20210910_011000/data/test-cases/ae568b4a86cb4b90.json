@@ -1,0 +1,61 @@
+{
+  "uid" : "ae568b4a86cb4b90",
+  "name" : "QA 1221",
+  "fullName" : "QA #1221 on fedora-rawhide-container",
+  "historyId" : "1221@fedora-rawhide-container",
+  "time" : {
+    "start" : 1631224808000,
+    "stop" : 1631224840000,
+    "duration" : 32000
+  },
+  "description" : "PCP QA Test No. 1221\n\ntest pmda openmetrics labels\n\n\n\nNote: if anything gets added or changed in qa/openmetrics/samples directory,\n\nthen this test (and all tests in group pmda.openmetrics) will need to be remade.\n\n\n\nCopyright (c) 2017 Red Hat.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1221</p>\n<p>test pmda openmetrics labels</p>\n<p>Note: if anything gets added or changed in qa/openmetrics/samples directory,</p>\n<p>then this test (and all tests in group pmda.openmetrics) will need to be remade.</p>\n<p>Copyright (c) 2017 Red Hat.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora-rawhide-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora-rawhide-container"
+  }, {
+    "name" : "epic",
+    "value" : "labels"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.openmetrics"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "python"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1221",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1221.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae568b4a86cb4b90.json",
+  "parameterValues" : [ ]
+}

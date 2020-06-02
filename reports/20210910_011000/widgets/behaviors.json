@@ -1,0 +1,114 @@
+{
+  "total" : 232,
+  "items" : [ {
+    "uid" : "5a28ff24753a3a2fae74f89ef3f1cd8e",
+    "name" : "local",
+    "statistic" : {
+      "failed" : 22,
+      "broken" : 0,
+      "skipped" : 2274,
+      "passed" : 16856,
+      "unknown" : 0,
+      "total" : 19152
+    }
+  }, {
+    "uid" : "b32daa2b81b0a1d10895fb7f78052d97",
+    "name" : "pmproxy",
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 162,
+      "passed" : 348,
+      "unknown" : 0,
+      "total" : 518
+    }
+  }, {
+    "uid" : "817d2dda6a5d27390d5d4ca371ecfe05",
+    "name" : "python",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 785,
+      "passed" : 1828,
+      "unknown" : 0,
+      "total" : 2618
+    }
+  }, {
+    "uid" : "1a42c7e51e4fad2068ffb5c96fa6ea52",
+    "name" : "pmda.sample",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 20,
+      "passed" : 1403,
+      "unknown" : 0,
+      "total" : 1428
+    }
+  }, {
+    "uid" : "e8ebae4dce1cfd14a5aeebc116659810",
+    "name" : "kernel",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 126,
+      "passed" : 2348,
+      "unknown" : 0,
+      "total" : 2478
+    }
+  }, {
+    "uid" : "e6e002a8210bff4f1628acabbbef5e27",
+    "name" : "ostest",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 29,
+      "passed" : 1045,
+      "unknown" : 0,
+      "total" : 1078
+    }
+  }, {
+    "uid" : "d3d9ff8cbe08306f1e266702a88dfa54",
+    "name" : "pmcd",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 85,
+      "passed" : 919,
+      "unknown" : 0,
+      "total" : 1008
+    }
+  }, {
+    "uid" : "c353c741f705904e0fc0acb06d1fd09f",
+    "name" : "mem_leak",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 207,
+      "unknown" : 0,
+      "total" : 210
+    }
+  }, {
+    "uid" : "82c5a21aed5c0a342b0f0cb8213de021",
+    "name" : "pdu",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 14,
+      "passed" : 179,
+      "unknown" : 0,
+      "total" : 196
+    }
+  }, {
+    "uid" : "6207270e46ef8a4418ee238ae51933e4",
+    "name" : "valgrind",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 114,
+      "passed" : 1214,
+      "unknown" : 0,
+      "total" : 1330
+    }
+  } ]
+}

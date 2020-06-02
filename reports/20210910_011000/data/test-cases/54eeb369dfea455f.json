@@ -1,0 +1,58 @@
+{
+  "uid" : "54eeb369dfea455f",
+  "name" : "QA 1815",
+  "fullName" : "QA #1815 on centos6-container",
+  "historyId" : "1815@centos6-container",
+  "time" : {
+    "start" : 1631222901000,
+    "stop" : 1631222908000,
+    "duration" : 7000
+  },
+  "description" : "PCP QA Test No. 1815\n\nEnsure pmie can use default pmieconf config with archives.\n\n\n\nCopyright (c) 2021 Red Hat.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1815</p>\n<p>Ensure pmie can use default pmieconf config with archives.</p>\n<p>Copyright (c) 2021 Red Hat.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "centos6-container"
+  }, {
+    "name" : "host",
+    "value" : "centos6-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmieconf"
+  }, {
+    "name" : "epic",
+    "value" : "pmie"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1815",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1815.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54eeb369dfea455f.json",
+  "parameterValues" : [ ]
+}

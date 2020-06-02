@@ -1,0 +1,42 @@
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+   Loaded: loaded (/lib/systemd/system/pmproxy.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2021-09-09 20:53:26 UTC; 9ms ago
+     Docs: man:pmproxy(1)
+ Main PID: 840557 (pmproxy)
+    Tasks: 1 (limit: 8335)
+   CGroup: /machine.slice/libpod-009eb78fc2cfce7ccbfe055998d7d8a8393007be80f6b34118750b12ab05a812.scope/system.slice/pmproxy.service
+           └─840557 /usr/lib/pcp/bin/pmproxy -F
+
+Sep 09 20:53:26 009eb78fc2cf systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 20:53:26 009eb78fc2cf systemd[1]: Started Proxy for Performance Metrics Collector Daemon.
+Received PM_CONTEXT_HOST #186385050
+command NOSUCHAPI response code 400
+context NOSUCHCONTEXT response code 400
+context 0 response code 400
+non-pmwebapi response code 400
+
+=== pmproxy log ===
+Log for pmproxy on 009eb78fc2cf started Thu Sep  9 20:53:26 2021
+
+pmproxy: PID = 840557, PDU version = 2, user = pcp (999)
+pmproxy request port(s):
+  sts fd   port  family address
+  === ==== ===== ====== =======
+  ok    10       unix   /run/pcp/pmproxy.socket
+  ok    11 44322 inet   INADDR_ANY
+  ok    12 44322 ipv6   INADDR_ANY
+  ok    13 44323 inet   INADDR_ANY
+  ok    14 44323 ipv6   INADDR_ANY
+[Thu Sep  9 20:53:26] pmproxy(840557) Info: OpenSSL 1.1.1  11 Sep 2018 - no certificates found
+[Thu Sep  9 20:53:26] pmproxy(840557) Error: unsupported redis server (got v4, expected v5 or above)
+● pmproxy.service - Proxy for Performance Metrics Collector Daemon
+   Loaded: loaded (/lib/systemd/system/pmproxy.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2021-09-09 20:53:26 UTC; 8ms ago
+     Docs: man:pmproxy(1)
+ Main PID: 840669 (pmproxy)
+    Tasks: 1 (limit: 8335)
+   CGroup: /machine.slice/libpod-009eb78fc2cfce7ccbfe055998d7d8a8393007be80f6b34118750b12ab05a812.scope/system.slice/pmproxy.service
+           └─840669 /usr/lib/pcp/bin/pmproxy -F
+
+Sep 09 20:53:26 009eb78fc2cf systemd[1]: Starting Proxy for Performance Metrics Collector Daemon...
+Sep 09 20:53:26 009eb78fc2cf systemd[1]: Started Proxy for Performance Metrics Collector Daemon.

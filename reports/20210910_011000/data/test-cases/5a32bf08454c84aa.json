@@ -1,0 +1,86 @@
+{
+  "uid" : "5a32bf08454c84aa",
+  "name" : "QA 1090",
+  "fullName" : "QA #1090 on centos8-container",
+  "historyId" : "1090@centos8-container",
+  "time" : {
+    "start" : 1631223313000,
+    "stop" : 1631223316000,
+    "duration" : 3000
+  },
+  "description" : "PCP QA Test No. 1090\n\nReproduce https://github.com/performancecopilot/pcp/issues/14\n\noriginally, but since then exercises context re-connection in\n\nthe PMWEBAPI.\n\n\n\nCopyright (c) 2015 Ken McDonell.  All Rights Reserved.\n\nCopyright (c) 2019 Red Hat.\n\n\n\n**To reproduce this test in a container, please run:**\n\n    build/ci/ci-run.py centos8-container reproduce",
+  "descriptionHtml" : "<p>PCP QA Test No. 1090</p>\n<p>Reproduce https://github.com/performancecopilot/pcp/issues/14</p>\n<p>originally, but since then exercises context re-connection in</p>\n<p>the PMWEBAPI.</p>\n<p>Copyright (c) 2015 Ken McDonell.  All Rights Reserved.</p>\n<p>Copyright (c) 2019 Red Hat.</p>\n<p><strong>To reproduce this test in a container, please run:</strong></p>\n<pre><code>build/ci/ci-run.py centos8-container reproduce\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "output mismatch (see 1090.out.bad)\n11a12\n> Job for pmcd.service canceled.\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h 1c4b759d3f03 -f sample.milliseconds\nPMDA probe: pminfo -h 1c4b759d3f03 -f sampledso.milliseconds\nPMDA probe: pminfo -h 1c4b759d3f03 -f simple.numfetch\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "PCP QA Test No. 1090\n\nReproduce https://github.com/performancecopilot/pcp/issues/14\n\noriginally, but since then exercises context re-connection in\n\nthe PMWEBAPI.\n\n\n\nCopyright (c) 2015 Ken McDonell.  All Rights Reserved.\n\nCopyright (c) 2019 Red Hat.\n\n\n\n**To reproduce this test in a container, please run:**\n\n    build/ci/ci-run.py centos8-container reproduce",
+    "status" : "failed",
+    "statusMessage" : "output mismatch (see 1090.out.bad)\n11a12\n> Job for pmcd.service canceled.\nCheck local PMCD is still alive ...\nPMDA probe: pminfo -h 1c4b759d3f03 -f sample.milliseconds\nPMDA probe: pminfo -h 1c4b759d3f03 -f sampledso.milliseconds\nPMDA probe: pminfo -h 1c4b759d3f03 -f simple.numfetch\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3827dbc4d6d4bbe7",
+      "name" : "1090.out.bad",
+      "source" : "3827dbc4d6d4bbe7.txt",
+      "type" : "text/plain",
+      "size" : 1020
+    }, {
+      "uid" : "d157c6120060dfeb",
+      "name" : "1090.full",
+      "source" : "d157c6120060dfeb.txt",
+      "type" : "text/plain",
+      "size" : 16054
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "centos8-container"
+  }, {
+    "name" : "host",
+    "value" : "centos8-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmproxy"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "context"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1090",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1090.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Failed tests",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5a32bf08454c84aa.json",
+  "parameterValues" : [ ]
+}

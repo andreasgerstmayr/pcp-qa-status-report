@@ -1,0 +1,137 @@
+1+0 records in
+1+0 records out
+20971520 bytes (21 MB, 20 MiB) copied, 0.10753 s, 195 MB/s
+Error: bpf.disk.all.latency: Unknown metric name
+Error: bpf.disk.all.latency: Unknown metric name
+Log for pmdabpf on fv-az91-599 started Thu Sep  9 22:25:44 2021
+
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: loading configuration: /var/lib/pcp/pmdas/bpf/bpf.conf
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: loaded configuration: /var/lib/pcp/pmdas/bpf/bpf.conf
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: setrlimit ok
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: loading modules
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: loading modules
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: loading biolatency.so
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: loading: biolatency.so from /var/lib/pcp/pmdas/bpf/modules/biolatency.so
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: initialising biolatency.so
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: loading /var/lib/pcp/pmdas/bpf/modules/biolatency.bpf.o
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(2) tp_btf/block_rq_insert, size 176, link 0, flags 6, type=1
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec 'tp_btf/block_rq_insert': found program 'block_rq_insert' at insn offset 0 (0 bytes), code size 22 insns (176 bytes)
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(3) tp_btf/block_rq_issue, size 176, link 0, flags 6, type=1
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec 'tp_btf/block_rq_issue': found program 'block_rq_issue' at insn offset 0 (0 bytes), code size 22 insns (176 bytes)
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(4) tp_btf/block_rq_complete, size 824, link 0, flags 6, type=1
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec 'tp_btf/block_rq_complete': found program 'block_rq_complete' at insn offset 0 (0 bytes), code size 103 insns (824 bytes)
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(5) version, size 4, link 0, flags 3, type=1
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: kernel version of /var/lib/pcp/pmdas/bpf/modules/biolatency.bpf.o is 1
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(6) license, size 4, link 0, flags 3, type=1
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: license of /var/lib/pcp/pmdas/bpf/modules/biolatency.bpf.o is GPL
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(7) .maps, size 80, link 0, flags 3, type=1
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(8) .BTF, size 2292, link 0, flags 0, type=1
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(9) .BTF.ext, size 1152, link 0, flags 0, type=1
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(10) .symtab, size 744, link 17, flags 0, type=2
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(11) .reltp_btf/block_rq_insert, size 32, link 10, flags 0, type=9
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(12) .reltp_btf/block_rq_issue, size 32, link 10, flags 0, type=9
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: elf: section(13) .reltp_btf/block_rq_complete, size 64, link 10, flags 0, type=9
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: looking for externs among 31 symbols...
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: collected 1 externs total
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: extern (kcfg) #0: symbol 24, off 0, name LINUX_KERNEL_VERSION
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'start': at sec_idx 7, offset 0.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'start': found type = 1.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'start': found key [9], sz = 8.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'start': found value [12], sz = 8.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'start': found max_entries = 10240.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'start': found map_flags = 1.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'hist': at sec_idx 7, offset 40.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'hist': found type = 1.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'hist': found key [12], sz = 8.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'hist': found value [12], sz = 8.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'hist': found max_entries = 10240.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'hist': found map_flags = 1.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'biolate.kconfig' (global data): at sec_idx 10, offset 0, flags 480.
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 2 is "biolate.kconfig"
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_insert': collecting relocation for section(2) 'tp_btf/block_rq_insert'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_insert': relo #0: insn #0 against 'LINUX_KERNEL_VERSION'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: prog 'block_rq_insert': found extern #0 'LINUX_KERNEL_VERSION' (sym 24) for insn #0
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_insert': relo #1: insn #16 against 'start'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: prog 'block_rq_insert': found map 0 (start, sec 7, off 0) for insn #16
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_issue': collecting relocation for section(3) 'tp_btf/block_rq_issue'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_issue': relo #0: insn #0 against 'LINUX_KERNEL_VERSION'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: prog 'block_rq_issue': found extern #0 'LINUX_KERNEL_VERSION' (sym 24) for insn #0
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_issue': relo #1: insn #16 against 'start'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: prog 'block_rq_issue': found map 0 (start, sec 7, off 0) for insn #16
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_complete': collecting relocation for section(4) 'tp_btf/block_rq_complete'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_complete': relo #0: insn #6 against 'start'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: prog 'block_rq_complete': found map 0 (start, sec 7, off 0) for insn #6
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_complete': relo #1: insn #82 against 'hist'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: prog 'block_rq_complete': found map 1 (hist, sec 7, off 40) for insn #82
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_complete': relo #2: insn #92 against 'hist'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: prog 'block_rq_complete': found map 1 (hist, sec 7, off 40) for insn #92
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: sec '.reltp_btf/block_rq_complete': relo #3: insn #98 against 'start'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: prog 'block_rq_complete': found map 0 (start, sec 7, off 0) for insn #98
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: booting: biolatency
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: loading kernel BTF '/boot/vmlinux-5.8.0-1040-azure': 0
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: extern (kcfg) LINUX_KERNEL_VERSION=0x50800
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'start': created successfully, fd=4
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'hist': created successfully, fd=5
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Debug: libbpf: map 'biolate.kconfig': created successfully, fd=6
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Warning: libbpf: load bpf program failed: Invalid argument
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Warning: libbpf: -- BEGIN DUMP LOG ---
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Warning: libbpf: 
+FENTRY/FEXIT program can only be attached to another program annotated with BTF
+processed 0 insns (limit 1000000) max_states_per_insn 0 total_states 0 peak_states 0 mark_read 0
+
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Warning: libbpf: -- END LOG --
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Warning: libbpf: failed to load program 'block_rq_insert'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Warning: libbpf: failed to load object '/var/lib/pcp/pmdas/bpf/modules/biolatency.bpf.o'
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Error: bpf load failed: -4007, Kernel verifier blocks program loading
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Error: module initialisation failed: biolatency.so, -4007, Kernel verifier blocks program loading
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: loaded modules (0)
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: registering metrics
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Critical: pmdaInit: PMDA pmdabpf: metrics (0x5561f424b540) not consistent with nmetrics (0)
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: setting up namespace
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: bpf pmda init complete
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Error: PMDA Initialisation Failed
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: shutting down
+[Thu Sep  9 22:25:44] pmdabpf(1505883) Info: shutdown complete
+
+Log finished Thu Sep  9 22:25:44 2021
+● pmcd.service - Performance Metrics Collector Daemon
+     Loaded: loaded (/lib/systemd/system/pmcd.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2021-09-09 22:25:48 UTC; 716ms ago
+       Docs: man:pmcd(1)
+   Main PID: 1506504 (pmcd)
+      Tasks: 11 (limit: 8335)
+     Memory: 33.8M
+     CGroup: /system.slice/pmcd.service
+             ├─1506504 /usr/lib/pcp/bin/pmcd -T 3
+             ├─1506507 /var/lib/pcp/pmdas/root/pmdaroot
+             ├─1506508 /var/lib/pcp/pmdas/proc/pmdaproc -d 3
+             ├─1506509 /var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+             ├─1506510 /var/lib/pcp/pmdas/sample/pmdasample -d 29
+             ├─1506511 /var/lib/pcp/pmdas/linux/pmdalinux
+             ├─1506512 python3 /var/lib/pcp/pmdas/nfsclient/pmdanfsclient.python
+             ├─1506516 /var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+             ├─1506517 /var/lib/pcp/pmdas/dm/pmdadm -d 129
+             ├─1506518 python3 /var/lib/pcp/pmdas/openmetrics/pmdaopenmetrics.python
+             ├─1506522 /var/lib/pcp/pmdas/simple/pmdasimple -d 253
+             ├─1507255 sh -c /sbin/mdadm --detail --test /dev/md0 2>&1 >/dev/null
+             └─1507256 /sbin/mdadm --detail --test /dev/md0
+
+Sep 09 22:25:47 fv-az91-599 systemd[1]: Starting Performance Metrics Collector Daemon...
+Sep 09 22:25:48 fv-az91-599 systemd[1]: Started Performance Metrics Collector Daemon.
+● pmlogger.service - Performance Metrics Archive Logger
+     Loaded: loaded (/lib/systemd/system/pmlogger.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2021-09-09 22:25:49 UTC; 27ms ago
+       Docs: man:pmlogger(1)
+   Main PID: 1507166 (pmlogger)
+      Tasks: 5 (limit: 8335)
+     Memory: 3.8M
+     CGroup: /system.slice/pmlogger.service
+             ├─1506535 /bin/sh /etc/init.d/pmlogger start-systemd
+             ├─1506716 /bin/sh /usr/lib/pcp/bin/pmlogger_check --quick -V
+             ├─1506982 /bin/sh /usr/lib/pcp/bin/pmlogger_check --quick -V
+             ├─1507166 /usr/lib/pcp/bin/pmlogger -N -P -r -T24h10m -c config.default -v 100mb -m pmlogger_check %Y%m%d.%H.%M
+             └─1507248 pmsleep 0.1
+
+Sep 09 22:25:48 fv-az91-599 systemd[1]: Starting Performance Metrics Archive Logger...
+Sep 09 22:25:49 fv-az91-599 systemd[1]: Started Performance Metrics Archive Logger.
+_cleanup_pmda(bpf,) remove PMDA

@@ -1,0 +1,59 @@
+{
+  "uid" : "72e99e8e6dfc838c",
+  "name" : "QA 960",
+  "fullName" : "QA #960 on ubuntu2004-container",
+  "historyId" : "960@ubuntu2004-container",
+  "time" : {
+    "start" : 1631222619000,
+    "stop" : 1631222619000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 960\n\nExercise ds389 log parsing PMDA.\n\n\n\nCopyright (c) 2014 Red Hat.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 960</p>\n<p>Exercise ds389 log parsing PMDA.</p>\n<p>Copyright (c) 2014 Red Hat.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "No logconv.pl script installed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu2004-container"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu2004-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmda.ds389"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/960",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/960.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "72e99e8e6dfc838c.json",
+  "parameterValues" : [ ]
+}

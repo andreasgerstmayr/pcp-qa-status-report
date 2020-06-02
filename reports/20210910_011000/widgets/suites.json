@@ -1,0 +1,114 @@
+{
+  "total" : 14,
+  "items" : [ {
+    "uid" : "4768cfa637bff7780abecb7514a3e0f7",
+    "name" : "fedora35-container",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 133,
+      "passed" : 1237,
+      "unknown" : 0,
+      "total" : 1375
+    }
+  }, {
+    "uid" : "ecb0421a734111168ab82c985b518010",
+    "name" : "fedora34-container",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 139,
+      "passed" : 1231,
+      "unknown" : 0,
+      "total" : 1375
+    }
+  }, {
+    "uid" : "cd32eab69d14b47129e2e4fd6ccae55e",
+    "name" : "ubuntu2004-btf",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 110,
+      "passed" : 1262,
+      "unknown" : 0,
+      "total" : 1375
+    }
+  }, {
+    "uid" : "3d55d380e43a65924702ab7b74fce31b",
+    "name" : "fedora-rawhide-container",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 133,
+      "passed" : 1239,
+      "unknown" : 0,
+      "total" : 1375
+    }
+  }, {
+    "uid" : "7a6ecdf1b70f52aa4bab109ae30841af",
+    "name" : "ubuntu2004-container",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 149,
+      "passed" : 1223,
+      "unknown" : 0,
+      "total" : 1375
+    }
+  }, {
+    "uid" : "66271f58009329d0cbc0b36e3896feb7",
+    "name" : "centos8-container",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 156,
+      "passed" : 1218,
+      "unknown" : 0,
+      "total" : 1375
+    }
+  }, {
+    "uid" : "d08098c73947eda673a97b7eb2a1c3ba",
+    "name" : "ubuntu1804-container",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 170,
+      "passed" : 1204,
+      "unknown" : 0,
+      "total" : 1375
+    }
+  }, {
+    "uid" : "5ce9495db1618a8a81854585eea862b7",
+    "name" : "centos6-container",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 342,
+      "passed" : 1032,
+      "unknown" : 0,
+      "total" : 1375
+    }
+  }, {
+    "uid" : "06ffa67133bc1049881adcd88f58dc5b",
+    "name" : "fedora33-container",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 138,
+      "passed" : 1237,
+      "unknown" : 0,
+      "total" : 1375
+    }
+  }, {
+    "uid" : "620aee47cbfda5e79b495b88aadaac25",
+    "name" : "debian10-container",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 146,
+      "passed" : 1229,
+      "unknown" : 0,
+      "total" : 1375
+    }
+  } ]
+}

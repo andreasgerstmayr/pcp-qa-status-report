@@ -1,0 +1,76 @@
+QA output created by 1251
+
+=== really_fubar ===
+No matching man entry for section 1
+--- (1) ---
+No match for pattern beyond all recognition
+
+=== pminfo ===
+No matching man entry for section 1
+--- (1) ---
+No match for pattern fubar
+
+=== pminfo ===
+No matching man entry for section 1
+--- (1) ---
+No match for pattern .-T, *--helptext
+
+=== pmconfirm ===
+No matching man entry for section 1
+--- (1) ---
+No match for pattern button-name
+
+=== pmmessage ===
+No matching man entry for section 1
+--- (1) ---
+No match for pattern button-name
+
+=== pmquery ===
+No matching man entry for section 1
+--- (1) ---
+No match for pattern button-name
+
+=== KERNEL_PMDAS ===
+No matching man entry for section 1
+--- (1) ---
+No match for pattern usually running as shared libraries
+
+=== PCPIntro ===
+No matching man entry for section 1
+--- (1) ---
+No match for pattern Co-Pilot
+
+=== PCPIntro ===
+No matching man entry for section 3
+--- (3) ---
+No match for pattern Co-Pilot
+
+=== pmNewContext ===
+No matching man entry for section 3
+--- (3) ---
+No match for pattern PM_CTXFLAG_SECURE
+
+=== pmRecord ===
+No matching man entry for section 3
+--- (3) ---
+No match for pattern pmRecordHost
+
+=== pmRecordSetup ===
+No matching man entry for section 3
+--- (3) ---
+No match for pattern pmRecordHost
+
+=== pmRecordControl ===
+No matching man entry for section 3
+--- (3) ---
+No match for pattern pmRecordHost
+
+=== pcp.env ===
+No matching man entry for section 5
+--- (5) ---
+No match for pattern .pcp/pcp.conf
+
+=== pmdajson ===
+No matching man entry for section 1
+--- (1) ---
+No match for pattern rating  *JavaScript

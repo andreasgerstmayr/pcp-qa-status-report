@@ -1,0 +1,5 @@
+QA output created by 1315
+Silence is golden ...
+
+tmparch/sample-proc.0:
+<mark> @ byte offset 392

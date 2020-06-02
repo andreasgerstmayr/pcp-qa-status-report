@@ -1,0 +1,58 @@
+{
+  "uid" : "5ef4cf7fba5404e7",
+  "name" : "QA 1256",
+  "fullName" : "QA #1256 on fedora35-container",
+  "historyId" : "1256@fedora35-container",
+  "time" : {
+    "start" : 1631225635000,
+    "stop" : 1631225640000,
+    "duration" : 5000
+  },
+  "description" : "PCP QA Test No. 1256\n\nper-context derived metrics with pmDupContext() in the mix\n\n- valgrind version of qa/1254\n\n\n\nCopyright (c) 2020 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 1256</p>\n<p>per-context derived metrics with pmDupContext() in the mix</p>\n<ul>\n<li>valgrind version of qa/1254</li>\n</ul>\n<p>Copyright (c) 2020 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "host",
+    "value" : "fedora35-container"
+  }, {
+    "name" : "epic",
+    "value" : "derive"
+  }, {
+    "name" : "epic",
+    "value" : "valgrind"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1256",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/1256.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ef4cf7fba5404e7.json",
+  "parameterValues" : [ ]
+}

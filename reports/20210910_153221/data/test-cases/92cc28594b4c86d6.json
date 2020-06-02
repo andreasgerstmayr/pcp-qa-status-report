@@ -1,0 +1,58 @@
+{
+  "uid" : "92cc28594b4c86d6",
+  "name" : "QA 263",
+  "fullName" : "QA #263 on centos7-container",
+  "historyId" : "263@centos7-container",
+  "time" : {
+    "start" : 1631287196000,
+    "stop" : 1631287196000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 263\n\n\n\nExercise aggregate functions for derived metrics\n\n\n\nCopyright (c) 2009 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 263</p>\n<p>Exercise aggregate functions for derived metrics</p>\n<p>Copyright (c) 2009 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "centos7-container"
+  }, {
+    "name" : "host",
+    "value" : "centos7-container"
+  }, {
+    "name" : "epic",
+    "value" : "derive"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "sanity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/df78e0ca0739f347483d68853ea84b8ed34ef188/qa/263",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/df78e0ca0739f347483d68853ea84b8ed34ef188/qa/263.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92cc28594b4c86d6.json",
+  "parameterValues" : [ ]
+}

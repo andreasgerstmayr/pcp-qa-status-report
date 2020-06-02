@@ -1,0 +1,58 @@
+{
+  "uid" : "f4dbcff18d381944",
+  "name" : "QA 673",
+  "fullName" : "QA #673 on ubuntu2004-container",
+  "historyId" : "673@ubuntu2004-container",
+  "time" : {
+    "start" : 1631221126000,
+    "stop" : 1631221126000,
+    "duration" : 0
+  },
+  "description" : "PCP QA Test No. 673\n\npmdumplog -t with compressed archives\n\n\n\nCopyright (c) 2018 Ken McDonell.  All Rights Reserved.\n\n\n\n",
+  "descriptionHtml" : "<p>PCP QA Test No. 673</p>\n<p>pmdumplog -t with compressed archives</p>\n<p>Copyright (c) 2018 Ken McDonell.  All Rights Reserved.</p>\n",
+  "status" : "passed",
+  "statusMessage" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ubuntu2004-container"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu2004-container"
+  }, {
+    "name" : "epic",
+    "value" : "pmdumplog"
+  }, {
+    "name" : "epic",
+    "value" : "local"
+  }, {
+    "name" : "epic",
+    "value" : "decompress-xz"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Source",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/673",
+    "type" : "test_case"
+  }, {
+    "name" : "Expected output",
+    "url" : "https://github.com/performancecopilot/pcp/blob/03bfff1830289fe135c2558602a5bd02012d1f7a/qa/673.out",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4dbcff18d381944.json",
+  "parameterValues" : [ ]
+}
